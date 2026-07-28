@@ -55,7 +55,7 @@
 				"[+10]% [Gold] from Trade Routes"
 			]
 		},
-	
+
 		// Wild Walkers
 		// Broken Lords
 		// Vaulters
@@ -210,7 +210,7 @@
 			],
 		"requiredTech": "Mathematics"
     },
-		// Forgotten	
+		// Forgotten
 	{
 		"name": "Caudata Sanctuary",
 		"uniqueTo": "Forgotten",
@@ -261,7 +261,7 @@
 			"Only available <when above [4] [Aurigan Pearls]>",
 			"Remove [Shift to Dark Season] [in all cities] <when below [1] [Aurigan Pearls]><upon turn end>"
 			]
-		
+
 	},
 	{
 		"name": "Shift to Light Season",
@@ -292,20 +292,59 @@
 		"requiredTech": "Metal Casting"
 	},
 
-		// Mykara	
+		// Mykara
 	{
         "name": "Kernel of Plentitude",
 		"uniqueTo": "Mykara",
 		"replaces": "Courthouse",
 		"hurryCostModifier": 50,
 		"uniques": [
-			"[+2 Food] <in [in capital] cities>",
-			"[+2 Gold] <in [in capital] cities>",
-			"[+2 Science] <in [in capital] cities>",
+			"[+5 Food] <in [in capital] cities>",
+			"[+5 Gold] <in [in capital] cities>",
+			"[+5 Science] <in [in capital] cities>",
+			"[+5 Culture] <in [in capital] cities>",
+			"[-3 Food]",
+			"[-3 Gold]",
+			"[-3 Science]",
+			"[-3 Culture]",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Mathematics"
     },
+
+	{
+	    "name": "Overgrowth",
+	    "uniqueTo": "Mykara",
+	    "cost": 10,
+	    "uniques": [
+	        "Only available <if [Wide Focus] is not constructed>",
+			"Only available <in [Capital] cities>",
+	        "Destroyed when the city is captured",
+	    ],
+	    "specialistSlots": {
+	        "Scientist": 10,
+	        "Artist": 10,
+	        "Merchant": 3,
+	        "Engineer": 3
+	    },
+	    "requiredTech": "Mathematics"
+	},
+
+	{
+	    "name": "Mycelial Network",
+	    "uniqueTo": "Mykara",
+	    "cost": 10,
+	    "uniques": [
+	        "Only available <if [Specialist Focus] is not constructed>",
+	        "Only available <in [Capital] cities>",
+	        "Destroyed when the city is captured",
+			"Upon capturing a city, receive [3] times its [Culture] production as [Culture] immediately",
+			"Upon capturing a city, receive [3] times its [Science] production as [Science] immediately",
+			"[+25]% [Culture] [in puppeted cities]",
+			"[+25]% [Science] [in puppeted cities]"
+	    ],
+	    "requiredTech": "Mathematics"
+	}
 
 	//
 	//
@@ -841,8 +880,8 @@
 	//
 	// Forgotten Tech buy mechanic
 	//
-	//	
-	
+	//
+
 	{
 		"name": "Buy Pottery",
 		"uniqueTo": "Forgotten",
@@ -907,7 +946,7 @@
 			],
         "requiredTech": "Agriculture"
     },
-	
+
 	{
 		"name": "Buy Sailing",
 		"uniqueTo": "Forgotten",
@@ -1511,7 +1550,7 @@
 			],
         "requiredTech": "Gunpowder"
     },
-	
+
 	{
 		"name": "Buy Archaeology",
 		"uniqueTo": "Forgotten",
@@ -2176,5 +2215,5 @@
         "requiredTech": "Globalization",
 		"civilopediaText": [{"text": "When you are bored and want to flex your money"}]
     }
-	
+
 ]
