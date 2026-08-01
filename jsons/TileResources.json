@@ -7,7 +7,7 @@
                     "Doesn't generate naturally",
                     "Cannot be traded",
                     "Excluded from map editor",
-                    "Not shown on world screen <for [non-[Necrophages]]>"
+                    "Not shown on world screen <for [non-[Necrophages]] Civilizations>"
                     ]
 	},
   {
@@ -18,7 +18,7 @@
                     "Doesn't generate naturally",
                     "Cannot be traded",
                     "Excluded from map editor",
-                    "Not shown on world screen <for [non-[Allayi]]>"
+                    "Not shown on world screen <for [non-[Allayi]] Civilizations>"
                     ]
 	},
 

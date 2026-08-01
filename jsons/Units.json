@@ -119,7 +119,7 @@
 			"cost": 0,
 			"obsoleteTech": "Metal Casting",
 			"upgradesTo": "Cadaver Swordsman",
-			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","This Unit upgrades for free<after discovering [Metal Casting]>","Will not be displayed in Civilopedia"],
+			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","[This Unit] upgrades for free <after discovering [Metal Casting]>","Will not be displayed in Civilopedia"],
 			"attackSound": "nonmetalhit"
 		},
 		{
@@ -133,7 +133,7 @@
 			"upgradesTo": "Cadaver Longswordsman",
 			"obsoleteTech": "Steel",
 			"hurryCostModifier": 20,
-			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","This Unit upgrades for free<after discovering [Steel]>","Will not be displayed in Civilopedia"],
+			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","[This Unit] upgrades for free <after discovering [Steel]>","Will not be displayed in Civilopedia"],
 			"attackSound": "metalhit"
 		},
 		{
@@ -146,7 +146,7 @@
 			"requiredTech": "Steel",
 			"upgradesTo": "Cadaver Musketman",
 			"obsoleteTech": "Gunpowder",
-			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","This Unit upgrades for free<after discovering [Gunpowder]>","Will not be displayed in Civilopedia"],
+			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","[This Unit] upgrades for free <after discovering [Gunpowder]>","Will not be displayed in Civilopedia"],
 			"attackSound": "metalhit"
 		},
 		{
@@ -159,7 +159,7 @@
 			"requiredTech": "Gunpowder",
 			"upgradesTo": "Cadaver Rifleman",
 			"obsoleteTech": "Rifling",
-			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","This Unit upgrades for free<after discovering [Rifling]>","Will not be displayed in Civilopedia"],
+			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","[This Unit] upgrades for free <after discovering [Rifling]>","Will not be displayed in Civilopedia"],
 			"attackSound": "shot"
 		},
 		{
@@ -172,7 +172,7 @@
 			"requiredTech": "Rifling",
 			"obsoleteTech": "Replaceable Parts",
 			"upgradesTo": "Cadaver Great War Infantry",
-			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","This Unit upgrades for free<after discovering [Replaceable Parts]>","Will not be displayed in Civilopedia"],
+			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","[This Unit] upgrades for free <after discovering [Replaceable Parts]>","Will not be displayed in Civilopedia"],
 			"attackSound": "shot"
 		},
 		{
@@ -185,7 +185,7 @@
 			"requiredTech": "Replaceable Parts",
 			"upgradesTo": "Cadaver Infantry",
 			"obsoleteTech": "Plastics",
-			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","This Unit upgrades for free<after discovering [Plastics]>","Will not be displayed in Civilopedia"],
+			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","[This Unit] upgrades for free <after discovering [Plastics]>","Will not be displayed in Civilopedia"],
 			"attackSound": "shot"
 		},
 		{
@@ -198,7 +198,7 @@
 			"requiredTech": "Plastics",
 			"upgradesTo": "Cadaver Mechanized Infantry",
 			"obsoleteTech": "Mobile Tactics",
-			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","This Unit upgrades for free<after discovering [Mobile Tactics]>","Will not be displayed in Civilopedia"],
+			"uniques" : ["Instantly consumes [4] [Cadavers]","Only available <with [Cadavers]>","Unbuildable <when below [4] [Cadavers]>","[-50]% maintenance costs","[This Unit] upgrades for free <after discovering [Mobile Tactics]>","Will not be displayed in Civilopedia"],
 			"attackSound": "shot"
 		},
 		{
@@ -302,7 +302,7 @@
             "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
             "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
-			"Unbuildable", "Religious Unit", "Hidden when religion is disabled",
+			"Unbuildable", "Religious Unit", "Only available <when religion is enabled>",
 			"Takes your religion over the one in their birth city"],
 		"movement": 2,
 		"religiousStrength": 1000
@@ -368,7 +368,7 @@
             "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
             "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
-			"[-1] Sight", "Unbuildable", "Religious Unit", "Hidden when religion is disabled"],
+			"[-1] Sight", "Unbuildable", "Religious Unit", "Only available <when religion is enabled>"],
 		"movement": 4,
 		"religiousStrength": 1000
 	},
