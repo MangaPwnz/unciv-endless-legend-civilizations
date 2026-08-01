@@ -317,9 +317,9 @@
 	    "uniqueTo": "Mykara",
 	    "cost": 10,
 	    "uniques": [
-	        "Only available <if [Wide Focus] is not constructed>",
+	        "Only available <if [Mycelial Network] is not constructed>",
 			"Only available <in [Capital] cities>",
-	        "Destroyed when the city is captured",
+	        "Destroyed when the city is captured"
 	    ],
 	    "specialistSlots": {
 	        "Scientist": 10,
@@ -335,7 +335,7 @@
 	    "uniqueTo": "Mykara",
 	    "cost": 10,
 	    "uniques": [
-	        "Only available <if [Specialist Focus] is not constructed>",
+	        "Only available <if [Overgrowth] is not constructed>",
 	        "Only available <in [Capital] cities>",
 	        "Destroyed when the city is captured",
 			"Upon capturing a city, receive [3] times its [Culture] production as [Culture] immediately",
