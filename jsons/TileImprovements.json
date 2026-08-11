@@ -246,12 +246,9 @@
 			"Gain control over [all] tiles in a [0]-tile radius <hidden from users>",
 			"Can be built outside your borders <hidden from users>",
 			"Comment [Can be built outside your borders, gaining control of the tile and increasing the stats gained from Mykara2 Palace]",
-			//"Tile provides yield without assigned population",
-			"Unavailable <for [Worker] units>",
+			"Unavailable <for [Worker] units> <hidden from users>",
 			"Improves [all] resource in this tile",
-			"Does not need removal of [Forest] <after discovering [Bronze Working]>",
-			"Does not need removal of [Jungle] <after discovering [Iron Working]>",
-			"[-5 Food, -5 Production]"
+			"[-5 Food, -5 Production, -5 Science, -5 Culture, -5 Faith]",
 		],
 		"shortcutKey": "T"
 	}

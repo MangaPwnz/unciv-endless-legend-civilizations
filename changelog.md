@@ -13,3 +13,12 @@ fix various bugs coming from misspellings
 
 ## v1.0.2
 Add a separate Mykara2 nation which implements the original Creeping Presence mechanic.
+
+## V1.0.3
+Rebalance Mykara2.
+- Removed luxury penalty for luxuries in the capital
+- Add extra bonuses on adopting policies in the Liberty tree
+- Slightly increase cost of their Settlers
+- Creeping growth now scales with techs instead of granting all their bonuses in the early game
+- Added a penalty to wonder construction
+- Less consumption of food by Unemployed pops after discovering Biology

@@ -475,17 +475,30 @@
 	        //"Destroyed when the city is captured",
 			//"Unsellable",
 			"Indicates the capital city",
-			"[+1 Food, +1 Production] <for every [Owned [{Creeping growth} {Forest}] Tiles]>",
-			"[+2 Production] <for every [Owned [{Creeping growth} {Hill}] Tiles]>",
-			"[+1 Food, +1 Production] <for every [Owned [{Creeping growth} {Plains}] Tiles]>",
-			"[+2 Food] <for every [Owned [{Creeping growth} {Jungle}] Tiles]>",
-			"[+2 Faith] <for every [Owned [{Creeping growth} {Grassland}] Tiles]>",
+
+			"Provides 1 extra copy of each improved luxury resource near this City <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
+			"[+1 Food] <for every [Owned [{Creeping growth} {Forest}] Tiles]>",
+			"[+1 Production] <for every [Owned [{Creeping growth} {Forest}] Tiles]> <after discovering [Construction]>",
+			"[+1 Production] <for every [Owned [{Creeping growth} {Hill}] Tiles]>",
+			"[+1 Production] <for every [Owned [{Creeping growth} {Hill}] Tiles]> <after discovering [Chemistry]>",
+			"[+1 Food] <for every [Owned [{Creeping growth} {Plains}] Tiles]>",
+			"[+1 Production] <for every [Owned [{Creeping growth} {Plains}] Tiles]> <after discovering [Metal Casting]>",
+			"[+1 Food] <for every [Owned [{Creeping growth} {Jungle}] Tiles]>",
+			"[+1 Food] <for every [Owned [{Creeping growth} {Jungle}] Tiles]> <after discovering [Civil Service]>",
+			"[+1 Science] <for every [Owned [{Creeping growth} {Jungle}] Tiles]> <if [University] is constructed>",
+			"[+1 Food] <for every [Owned [{Creeping growth} {Grassland}] Tiles]>",
+			"[+1 Food] <for every [Owned [{Creeping growth} {Grassland}] Tiles]> <after discovering [Civil Service]>",
+			"[+1 Gold, +1 Culture] <for every [Owned [{Creeping growth} {Desert}] Tiles]> <if [Petra] is constructed>",
 
 			"[+1 Food] <for every [Owned [{Creeping growth} {Bonus resource}] Tiles]>",
-			"[+1 Food] <for every [Owned [{Creeping growth} {Bonus resource}] Tiles]> <after discovering [Biology]>",
+			"[+1 Food] <for every [Owned [{Creeping growth} {Bonus resource}] Tiles]> <after discovering [Civil Service]>",
 			"[+2 Science] <for every [Owned [{Creeping growth} {Strategic resource}] Tiles]>",
-			"[+2 Culture] <for every [Owned [{Creeping growth} {Luxury resource}] Tiles]>"
-	    ],
+			"[+1 Culture] <for every [Owned [{Creeping growth} {Luxury resource}] Tiles]>",
+			"[+1 Culture] <for every [Owned [{Creeping growth} {Luxury resource}] Tiles]> <after discovering [Drama and Poetry]>",
+			"[+1 Culture] <for every [Owned [{Creeping growth} {Luxury resource}] Tiles]> <after adopting [Meritocracy]>",
+			"[+1 Culture] per [2] population [in capital] <after adopting [Representation]>"
+	    ],//tile checkFilter Strategic
 	    "requiredTech": "Agriculture"
 	},
 

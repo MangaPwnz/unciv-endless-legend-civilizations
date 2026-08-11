@@ -843,12 +843,14 @@
 		"uniques": [
 			"Comment [May only found one city. Therafter Settlers can only be used to build Creeping growth]",
 			"May not annex cities",
+			"[-75]% Food consumption by [Unemployed] [in capital] <after discovering [Biology]>",
 			//"[+20]% Strength decreasing with distance from the capital",
 			"[10] Unit Supply",
 			"[-50]% [Strategic] resource production",
-			"[-50]% [Luxury] resource production",
+			"[-50]% [Luxury] resource production <hidden from users>",
+			"Comment [-50% Luxury resource production, except in Capital]",
 			"[+15]% [Food] [in capital]",
-			"[+2 Production] from all [Food] buildings",
+			"[-10]% Production when constructing [All] wonders [in all cities]",
 			],
 		"cities": ["Manita Gari", "Agai", "Mulladien", "Yerurnqua", "Radalta", "Marebond", "Yiggodra", "Madirod", "Omgar", "Ver'kal", "Anm", "Utharan", "Inelle", "Naquakic", "Dutharad", "Tyd", "Byldwan", "Marreyn", "Indorand", "Goulji", "Lodera", "Amund", "Ishimlor", "Edyno"]
 	}

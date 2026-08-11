@@ -481,15 +481,18 @@
 		"uniqueTo": "Mykara2",
 		"replaces": "Settler",
 		"movement": 2,
-		"cost": 80,
+		"cost": 90,
 		"requiredTech": "Agriculture",
 		"hurryCostModifier": 20,
 		"uniques": [
-			"Founds a new city <by consuming this unit> <if [Mykara2 Palace] is not constructed>",
+			"Founds a new city <by consuming this unit> <if [Mykara2 Palace] is not constructed> <hidden from users>",
 			"Excess Food converted to Production when under construction",
 			"Can instantly construct a [Creeping growth] improvement <for [2] movement> <[3] times> <after which this unit is consumed> <if [Mykara2 Palace] is constructed>",
-			"Can instantly construct a [Creeping growth] improvement <[1] additional time(s)> <after discovering [Civil Service]>",
-			"Cost increases by [5] when built",
+			"Requires at least [2] population",
+			"Can instantly construct a [Creeping growth] improvement <[1] additional time(s)> <after adopting [Citizenship]>",
+			"Cost increases by [10] when built",
+			"Cannot be purchased",
+
 			"Suppress warning [Spreader can place improvement Creeping growth which has no stats, preventing unit automation!]"
 		]
 
