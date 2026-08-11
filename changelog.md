@@ -13,3 +13,14 @@ fix various bugs coming from misspellings
 
 ## v1.0.2
 Add a separate Mykara2 nation which implements the original Creeping Presence mechanic.
+
+## V1.0.3
+Rebalance Mykara2.
+- Add extra bonuses on adopting policies in the Liberty tree
+- Spore bearers (Settlers) now gain extra charges and cost more per era
+- Less consumption of food by Unemployed pops after discovering Biology
+- +4 faith from ANY natural wonder in their territory.
+- Fungal bloom:
+    - now scales with techs instead of granting all its bonuses in the early game
+    - every 3 Fungal blooms produce 1 unhappiness
+    - now only gains control of unowned tiles

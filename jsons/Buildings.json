@@ -475,17 +475,45 @@
 	        //"Destroyed when the city is captured",
 			//"Unsellable",
 			"Indicates the capital city",
-			"[+1 Food, +1 Production] <for every [Owned [{Creeping growth} {Forest}] Tiles]>",
-			"[+2 Production] <for every [Owned [{Creeping growth} {Hill}] Tiles]>",
-			"[+1 Food, +1 Production] <for every [Owned [{Creeping growth} {Plains}] Tiles]>",
-			"[+2 Food] <for every [Owned [{Creeping growth} {Jungle}] Tiles]>",
-			"[+2 Faith] <for every [Owned [{Creeping growth} {Grassland}] Tiles]>",
+			"Destroyed when the city is captured <hidden from users>",
+		// Forest
+			"[+1 Production] <for every [Owned [{Fungal bloom} {Forest} {non-[Hill]}] Tiles]> <after discovering [Construction]>",
+		//Hills
+			"[-1 Food, +1 Production] <for every [Owned [{Fungal bloom} {Hill}] Tiles]>",
+			"[+1 Production] <for every [Owned [{Fungal bloom} {Hill}] Tiles]> <after discovering [Chemistry]>",
+		// Plains
+			"[+1 Food] <for every [Owned [{Fungal bloom} {Plains}] Tiles]>",
+			"[+1 Production] <for every [Owned [{Fungal bloom} {Plains}] Tiles]> <after discovering [Metal Casting]>",
+		// Jungle
+			"[+2 Science] <for every [Owned [{Fungal bloom} {Jungle}] Tiles]> <if [University] is constructed>",
+		// Grassland
+			"[+1 Food] <for every [Owned [{Fungal bloom} {Grassland}] Tiles]>",
+		// Desert
+			"[+1 Gold, +1 Culture] <for every [Owned [{Fungal bloom} {Desert}] Tiles]> <if [Petra] is constructed>",
+		// Techs
+			"[+1 Food] <for every [Owned [{Fungal bloom} {Fresh Water}] Tiles]> <after discovering [Civil Service]>",
+			"[+1 Food] <for every [Owned [{Fungal bloom} {non-fresh water}] Tiles]> <after discovering [Fertilizer]>",
 
-			"[+1 Food] <for every [Owned [{Creeping growth} {Bonus resource}] Tiles]>",
-			"[+1 Food] <for every [Owned [{Creeping growth} {Bonus resource}] Tiles]> <after discovering [Biology]>",
-			"[+2 Science] <for every [Owned [{Creeping growth} {Strategic resource}] Tiles]>",
-			"[+2 Culture] <for every [Owned [{Creeping growth} {Luxury resource}] Tiles]>"
-	    ],
+		// Bonus resource
+			"[+1 Food] <for every [Owned [{Fungal bloom} {Bonus resource}] Tiles]>",
+			"[+1 Food] <for every [Owned [{Fungal bloom} {Bonus resource}] Tiles]> <after discovering [Civil Service]>",
+		// Strategic Resource
+			"[+2 Science] <for every [Owned [{Fungal bloom} {Strategic resource}] Tiles]>",
+
+		// Luxury
+			"[+1 Culture] <for every [Owned [{Fungal bloom} {Luxury resource}] Tiles]>",
+			"[+1 Culture] <for every [Owned [{Fungal bloom} {Luxury resource}] Tiles]> <after discovering [Drama and Poetry]>",
+			"[+2 Culture] <for every [Owned [{Fungal bloom} {Luxury resource}] Tiles]> <after adopting [Meritocracy]>",
+		// Other
+			"[+1 Culture] per [3] population [in capital] <after adopting [Representation]>",
+			"[+4 Faith] <for every [Owned [Natural Wonder] Tiles]>",
+			"[-1 Happiness] <for every [3] [Owned [Fungal bloom] Tiles]>",
+
+			//"[+1 Food] <for every [Owned [{Fungal bloom} {Grassland}] Tiles]> <after discovering [Civil Service]>",
+			//"[-1 Food, +1 Production] <for every [Owned [{Fungal bloom} {Forest}] Tiles]>",
+			//"[+1 Food] <for every [Owned [{Fungal bloom} {Jungle}] Tiles]>",
+			//"[+1 Food] <for every [Owned [{Fungal bloom} {Jungle}] Tiles]> <after discovering [Civil Service]>",
+	    ],//tile checkFilter Strategic
 	    "requiredTech": "Agriculture"
 	},
 
