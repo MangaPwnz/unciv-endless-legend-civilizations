@@ -183,6 +183,152 @@
 	},
 		// Ardent Mages
 		// Roving clans
+
+
+		// Roving Clans (wide)
+//   {
+//     "name": "Make Trade - Not War",
+//     "cost": 1,
+//     "uniques": [
+
+// 		"Only available <in [Capital] cities>",
+// 		//"Instantly gain [1] [bool_maketrade]",
+// 		"Instantly gain [12] [Trade Embargo] <(modified by game speed)> <upon declaring war on [all] Civilizations>",
+// 		"Instantly consumes [1] [Trade Embargo] <when above [0] [Trade Embargo]> <upon turn end>",
+
+// 	  //unique building
+// 		"Only available <in [Capital] cities>",
+// 		"Destroyed when the city is captured",
+// 		"Unsellable"
+//     ]
+//   },
+	// {
+	// 	"name": "Highways",
+	// 	"replaces": "Market",
+	// 	"uniqueTo": "Roving Clans (wide)",
+	// 	//"cost": 1,
+	// 	"gold": 1,
+	// 	"uniques": [
+	// 		"[+1 Gold] from each Trade Route <when below [1] [Trade Embargo]>",
+	// 		//"[+1 Gold] from each Trade Route <when below [1] [Trade Embargo]> <if [Make Trade - Not War] is constructed>",
+	// 	]
+	// },
+
+    {
+        "name": "Caravanserai",
+        "replaces": "Market",
+        "uniqueTo": "Roving Clans (wide)",
+        "requiredTech": "Currency",
+        // "cost": 11,
+        "gold": 0,
+        "uniques": [
+            "[+1 Gold] from each Trade Route <in this city>",
+            "[+1 Gold] from each Trade Route"
+        ]
+    },
+    {
+        "name": "Grand Exchange",
+        "replaces": "Bank",
+        "uniqueTo": "Roving Clans (wide)",
+        "requiredTech": "Banking",
+        // "cost": 11,
+        "uniques": [
+            "[+1 Gold] from each Trade Route <in this city>",
+            "[+25]% [Gold] from Trade Routes"
+        ]
+    },
+    {
+        "name": "Oral Tradition Hall",
+        "replaces": "Amphitheater",
+        "uniqueTo": "Roving Clans (wide)",
+        "requiredTech": "Drama and Poetry",
+        // "cost": 11,
+        "maintenance": 2,
+        "culture": 1,
+        "uniques": [
+            "[+2 Culture] from each Trade Route <in this city>"
+        ]
+    },
+	{
+        "name": "Opera replacement", //TODO change name
+        "replaces": "Opera House",
+        "uniqueTo": "Roving Clans (wide)",
+        "requiredTech": "Acoustics",
+        // "cost": 11,
+        "maintenance": 6,
+        "culture": 0,
+        "uniques": [
+            "[+2 Culture] from each Trade Route"
+        ]
+    },
+    {
+        "name": "Caravan School",
+        "replaces": "Library",
+        "uniqueTo": "Roving Clans (wide)",
+        "requiredTech": "Writing",
+        "maintenance": 1,
+        // "cost": 11,
+        "uniques": [
+			"Unavailable <in [Capital] cities>",
+            "[+2 Science] from each Trade Route <in this city>",
+            "[+1 Science] from each Trade Route <in this city> <starting from the [Renaissance era]>",
+        ]
+    },
+    {
+        "name": "Network Academy",
+        "replaces": "University",
+        "uniqueTo": "Roving Clans (wide)",
+        "requiredTech": "Education",
+        // "cost": 11,
+        "uniques": [
+            "[+10]% [Science] from Trade Routes",
+            "[+1 Science] from each Trade Route"
+        ]
+    },
+
+// Guilds
+	{
+		"name": "Innovators' Guild",
+		"uniqueTo": "Roving Clans (wide)",
+		"isNationalWonder": true,
+		"requiredTech": "Guilds",
+		"replaces": "National Treasury",
+		// "cost": 11,
+		"uniques": [
+			"Guild",
+			"[+15]% [Science] from Trade Routes <for every [1] [Remaining [{Major} {Friendly}] Civilizations]>",
+			"Only available <if [Guild] is not constructed>"
+		]
+	},
+	{
+		"name": "The Merchants' Guild",
+		"uniqueTo": "Roving Clans (wide)",
+		"isNationalWonder": true,
+		"requiredTech": "Guilds",
+		"replaces": "National Treasury",
+		// "cost": 11,
+		"uniques": [
+			"Guild",
+			"[+15]% [Gold] from Trade Routes <for every [1] [Remaining [{Major} {Friendly}] Civilizations]>",
+			"Only available <if [Guild] is not constructed>"
+		]
+	},
+	{
+		"name": "The Artisans' Guild",
+		"uniqueTo": "Roving Clans (wide)",
+		"isNationalWonder": true,
+		"replaces": "National Treasury",
+		"requiredTech": "Guilds",
+		// "cost": 11,
+		"uniques": [
+			"Guild",
+			"[+15]% [Culture] from Trade Routes <for every [1] [Remaining [{Major} {Friendly}] Civilizations]>",
+			"Only available <if [Guild] is not constructed>"
+			//"Unavailable <in cities with a [Guild]>"
+		]
+	},
+
+
 		// Drakken
 	{
 		"name": "Oologic Nursery",
@@ -312,14 +458,47 @@
 		"requiredTech": "Mathematics"
     },
 
+
+		{
+	    "name": "Mykara2 Palace",
+	    "uniqueTo": "Mykara2",
+		"replaces": "Palace",
+	    "cost": 0,
+		"production": 3,
+		"gold": 3,
+		"science": 3,
+		"culture": 1,
+		"cityStrength": 2.5,
+	    "uniques": [
+			//Unique building
+			//"Only available <in [Capital] cities>",
+	        //"Destroyed when the city is captured",
+			//"Unsellable",
+			"Indicates the capital city",
+			"[+1 Food, +1 Production] <for every [Owned [{Creeping growth} {Forest}] Tiles]>",
+			"[+2 Production] <for every [Owned [{Creeping growth} {Hill}] Tiles]>",
+			"[+1 Food, +1 Production] <for every [Owned [{Creeping growth} {Plains}] Tiles]>",
+			"[+2 Food] <for every [Owned [{Creeping growth} {Jungle}] Tiles]>",
+			"[+2 Faith] <for every [Owned [{Creeping growth} {Grassland}] Tiles]>",
+
+			"[+1 Food] <for every [Owned [{Creeping growth} {Bonus resource}] Tiles]>",
+			"[+1 Food] <for every [Owned [{Creeping growth} {Bonus resource}] Tiles]> <after discovering [Biology]>",
+			"[+2 Science] <for every [Owned [{Creeping growth} {Strategic resource}] Tiles]>",
+			"[+2 Culture] <for every [Owned [{Creeping growth} {Luxury resource}] Tiles]>"
+	    ],
+	    "requiredTech": "Agriculture"
+	},
+
 	{
 	    "name": "Overgrowth",
 	    "uniqueTo": "Mykara",
 	    "cost": 10,
 	    "uniques": [
 	        "Only available <if [Mycelial Network] is not constructed>",
+			//Unique building
 			"Only available <in [Capital] cities>",
-	        "Destroyed when the city is captured"
+	        "Destroyed when the city is captured",
+			"Unsellable",
 	    ],
 	    "specialistSlots": {
 	        "Scientist": 10,
@@ -327,7 +506,7 @@
 	        "Merchant": 3,
 	        "Engineer": 3
 	    },
-	    "requiredTech": "Mathematics"
+	    "requiredTech": "Agriculture"
 	},
 
 	{
@@ -338,13 +517,14 @@
 	        "Only available <if [Overgrowth] is not constructed>",
 	        "Only available <in [Capital] cities>",
 	        "Destroyed when the city is captured",
+			"Unsellable",
 			"Upon capturing a city, receive [3] times its [Culture] production as [Culture] immediately",
 			"Upon capturing a city, receive [3] times its [Science] production as [Science] immediately",
 			"[+25]% [Culture] [in puppeted cities]",
 			"[+25]% [Science] [in puppeted cities]"
 	    ],
 	    "requiredTech": "Mathematics"
-	}
+	},
 
 	//
 	//

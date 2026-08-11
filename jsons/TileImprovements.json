@@ -8,8 +8,8 @@
 		"production": 4,
 		"uniques": [
 			"Great Improvement", "Arcana Pillar",
-			"[+1 Production] <after discovering [Chemistry]>", 
-			"Removes removable features when built", 
+			"[+1 Production] <after discovering [Chemistry]>",
+			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"[+1 Food] for each adjacent [Farm]",
 			"[+1 Food] for each adjacent [Pasture]",
@@ -36,8 +36,8 @@
 		"gold": 4,
 		"uniques": [
 			"Great Improvement", "Arcana Pillar",
-			"[+1 Gold] <after discovering [Economics]>", 
-			"Removes removable features when built", 
+			"[+1 Gold] <after discovering [Economics]>",
+			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"[+1 Food] for each adjacent [Farm]",
 			"[+1 Food] for each adjacent [Pasture]",
@@ -64,9 +64,9 @@
 		"science": 8,
 		"uniques": [
 			"Great Improvement", "Arcana Pillar",
-			"[+2 Science] <after discovering [Scientific Theory]>", 
-			"[+2 Science] <after discovering [Atomic Theory]>", 
-			"Removes removable features when built", 
+			"[+2 Science] <after discovering [Scientific Theory]>",
+			"[+2 Science] <after discovering [Atomic Theory]>",
+			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"[+1 Food] for each adjacent [Farm]",
 			"[+1 Food] for each adjacent [Pasture]",
@@ -93,7 +93,7 @@
 		"culture": 6,
 		"uniques": [
 			"Great Improvement", "Arcana Pillar",
-			"Removes removable features when built", 
+			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"[+1 Food] for each adjacent [Farm]",
 			"[+1 Food] for each adjacent [Pasture]",
@@ -149,7 +149,7 @@
 		"faith": 6,
 		"uniques": [
 			"Great Improvement", "Arcana Pillar",
-			"Removes removable features when built", 
+			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"[+1 Food] for each adjacent [Farm]",
 			"[+1 Food] for each adjacent [Pasture]",
@@ -181,7 +181,7 @@
 			"Turn this tile into a [Ash Drifts] tile <in [Plains] tiles>",
 			"Turn this tile into a [Ash Drifts] tile <in [Tundra] tiles>",
 			"Turn this tile into a [Basalt Plains] tile <in [Desert] tiles>",
-			"Turn this tile into a [Basalt Plains] tile <in [Snow] tiles>",	
+			"Turn this tile into a [Basalt Plains] tile <in [Snow] tiles>",
 			"Turn this tile into a [Lava Swirl] tile <in [River] tiles>",
 			"Turn this tile into a [Lava Swirl] tile <in tiles adjacent to [Oasis]>",
 			"Turn this tile into a [Lava Swirl] tile <in tiles adjacent to [Lakes]>",
@@ -234,6 +234,25 @@
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
 		"uniques": ["[+1 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "T"
+	},
+	{
+		"name": "Creeping growth",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Hill","Forest","Jungle"], //, "Tundra", "Flood plains","Barren Soil","Ash Drifts","Basalt Plains","Lava Swirl","Badlands","Scorched Wilds"],
+		"uniqueTo": "Mykara2",
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": [
+			"Gain control over [all] tiles in a [0]-tile radius <hidden from users>",
+			"Can be built outside your borders <hidden from users>",
+			"Comment [Can be built outside your borders, gaining control of the tile and increasing the stats gained from Mykara2 Palace]",
+			//"Tile provides yield without assigned population",
+			"Unavailable <for [Worker] units>",
+			"Improves [all] resource in this tile",
+			"Does not need removal of [Forest] <after discovering [Bronze Working]>",
+			"Does not need removal of [Jungle] <after discovering [Iron Working]>",
+			"[-5 Food, -5 Production]"
+		],
 		"shortcutKey": "T"
 	}
 

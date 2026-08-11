@@ -10,3 +10,6 @@ Split Mykara's unique into two: you can now construct a building in your capital
 ## v1.0.1
 
 fix various bugs coming from misspellings
+
+## v1.0.2
+Add a separate Mykara2 nation which implements the original Creeping Presence mechanic.

@@ -16,7 +16,7 @@
 		"promotions": ["Extended Range"],
 		"attackSound": "arrow"
 	},
-	
+
 	{
 		"name": "Tenei Walker",
 		"unitType": "Gunpowder",
@@ -65,7 +65,7 @@
 	},
 	// Vaulters
 	{
-		"name": "Vaulter Marine", 
+		"name": "Vaulter Marine",
 		"replaces": "Crossbowman",
 		"uniqueTo": "Vaulters",
 		"unitType": "Ranged",
@@ -78,7 +78,7 @@
 		"obsoleteTech": "Industrialization",
 		"attackSound": "arrow"
 	},
-	
+
 	{
 		"name": "Dawn Officer",
 		"unitType": "Sword",
@@ -325,7 +325,7 @@
 		],
 		"hurryCostModifier": 20
 	},
-	
+
 	{
 		"name": "Yirmak",
 		"unitType": "Mounted",
@@ -424,7 +424,7 @@
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
 	},
-	
+
 	{
 		"name": "Leviathan",
 		"unitType": "Submarine",
@@ -456,7 +456,7 @@
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
-	
+
 	// Mykara
 	{
 		"name": "Ipotane",
@@ -472,5 +472,26 @@
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
 		"attackSound": "crossbow"
+	},
+
+		// Mykara2
+	{
+		"name": "Spreader",
+		"unitType": "Civilian",
+		"uniqueTo": "Mykara2",
+		"replaces": "Settler",
+		"movement": 2,
+		"cost": 80,
+		"requiredTech": "Agriculture",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Founds a new city <by consuming this unit> <if [Mykara2 Palace] is not constructed>",
+			"Excess Food converted to Production when under construction",
+			"Can instantly construct a [Creeping growth] improvement <for [2] movement> <[3] times> <after which this unit is consumed> <if [Mykara2 Palace] is constructed>",
+			"Can instantly construct a [Creeping growth] improvement <[1] additional time(s)> <after discovering [Civil Service]>",
+			"Cost increases by [5] when built",
+			"Suppress warning [Spreader can place improvement Creeping growth which has no stats, preventing unit automation!]"
+		]
+
 	},
 ]

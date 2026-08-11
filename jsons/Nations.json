@@ -2,13 +2,13 @@
 	// Wild Walkers
 		// The Sharind: detect enemy in nearby regions (extra sight)
 		// Living towns: production on forest
-		
+
 		// visions of glory: culture whenever a building is built
 		// survival instinct: movement when enemy in sight
 		// Ogmakwan: happiness to one city
 		// way of the woodlands: +25% unit defense on forest
 		// Growing Buildings 25% building production cost reduction
-		
+
 		// Forest Rage: attack on forest tiles
 		// Dekari Ranger: ranged with extra range
 		// Agache Shaman: support with defense buff
@@ -23,7 +23,7 @@
 
 		"startIntroPart1": "The Wild Walkers were simple elves living as hunter-gathers in the forests. Their gift was to shape rocks and trees into great buildings; cities rose as green towers in the deep woods. This act, called The Sharing, let an elf experience the wild, untamed energy of their totem animal. Elves who Shared often, however risked having the spirit of the beast burst out like a violent flame and take control during moments of stress. In spite of that, some sought increasingly savage beasts in order to experience Sharings of greater intensity.",
 		"startIntroPart2": "With individuals embracing the savagery of the animals and vanishing forever into the woods, the nation had to choose between the wild spirits of nature and the civilization of their towers. Troubled but determined, they forswore the Sharing, renamed themselves the Wild Walkers, and set out to build their towers away from their dark past. Only time will tell if the Sharing still has its hold on their souls.",
-		
+
 		"introduction": "How fare you, fellow traveler upon this world blessed by Gaia?",
 		"neutralHello": "Your peaceful demeanor gives all Auriga hope for a brighter destiny.",
 		"hateHello": "Sadly we do not see monuments being raised in your honor; we would not even raise a cup to you.",
@@ -57,7 +57,7 @@
 		// Stalwarts: infantry (image has spear, weapons are swords) soul leech: recover 20% life when enemy dies
 		// Ryder: Cavalry. Life drain: heals when attacking
 		// Dust Bishop: support. heals adjacent units when attacking
-	
+
 	{
 		"name": "Broken Lords",
 		"leaderName": "Baron Joslyn Deyval",
@@ -67,7 +67,7 @@
 
 		"startIntroPart1": "The Broken Lords are a faction of knights and town-builders; an aristocratic society that believes in honor, virtue and justice. To succor the weak, to champion what is just, to root out evil wherever it may lurk - those are the ideals by which these noble warriors would live. And yet, the Broken Lords are a crippled people that exist only as spirits wrapped in their great suits of Dust-enhanced armor. Other nations view them as monsters, for their race was fading when it discovered a deadly secret - that by consuming the life forces of a sentient being they could extend their own life span. This rite of consumption is, obviously, a betrayal of their principles and their history. The greatest hope of the Broken Lords, therefore is develop magic that will break this curse and allow them to live without destroying others.",
 		"startIntroPart2": "Though the question remains, and haunts their thoughts: Even if they did find a cure, would they want to give up this powerful gift? Their codes and morality insist 'yes', but in their hearts it is much less clear...",
-		
+
 		"introduction": "Hail to your grace! Let us hope that we become honorable acquaintances.",
 		"neutralHello": "We will all prosper if you continue this peaceful behavior.",
 		"hateHello": "You merely make your poor taste obvious to all.",
@@ -180,7 +180,7 @@
 		"attacked": "We are unafraid to drop the tools of peace and hone the weapons of war",
 		"defeated": "Lives, material, and valuables have been lost or destroyed.",
 		"tradeRequest": "What do you say to our offer - it's fair for us both.",
-		
+
 		"outerColor": [25,25,51],
 		"innerColor": [255,128,0],
 		"uniqueName": "Holy Resource",
@@ -222,7 +222,7 @@
 
 		"startIntroPart1": "The Necrophages are a scuttling monstrosity polluting the surface of Auriga; an insectoid menace that should be crushed under one's heel like the mutated cockroaches that they are. Or so the Vaulters, the Wild Walkers, the Broken Lords and every other nation on the planet would have one believe. Naturally, the Necrophages themselves don't share this view - in fact, they hold very few views other than fight, feed and propagate. The Necrophages have found a niche in the environment that suits them very well: They will win by numbers; by elevating the colony over the individual; by constant war-fare. Something between a hive insect and an undead horde, they reproduce by laying eggs in the bodies of fallen enemies.",
 		"startIntroPart2": "Occasionally the offspring even inherits elements of the host's DNA accelerating their process of change and adaptation. Emotionless, relentless, and driven by their biology, the Necrophages do not waste time with diplomacy and commerce.",
-		
+
 		"introduction": "Your presence is welcome. May you grow prosperous and fat.",
 		"neutralHello": "You seem to be a champion of peaceful behavior. Is this necessarily a good thing?",
 		"hateHello": "There are other nations besides the Endless that are worthy of our contempt; we are curious why you try so hard to be added to the list.",
@@ -249,10 +249,10 @@
 
 		// power through pain: can use spells and arcana pillars at lower trait cost
 		// whole bunch of arcana techs
-		
+
 		// verda's temple: science on terrain with science
 		// altar of transcendence: happiness, culture. culture pop. one in empire
-		
+
 		// ardent fire: lost life percentage into attack bonus
 		// Telsem warlock: standard infantry
 		// Ateshi Zealot: ranged with AoE splash
@@ -268,7 +268,7 @@
 
 		"startIntroPart1": "The Ardent Mages are a people who were born in struggle and pain, and these conditions dominate their day to day lives. Though they control great powers, they pay a great price to do so. To manipulate the powers of Dust, an Ardent Mage must dissociate their mind from their body. For this they have developed elaborate pain rituals, for the more they are able to withstand the agony and ignore their physical discomfort, the deeper their relationship with Dust becomes. Pain has become a fundamental element of their society, to the point where children are taught from a young age to withstand it.",
 		"startIntroPart2": "Stoicism is therefore as important as intelligence, and indifference to physical discomfort is the way in which an individual's worth is measured - be they an Ardent Mage or a stranger. After falling out with the rest of the Inner Circle in dark circumstances, Zor Abaz has annexed her clan from the greater Ardent Mage nation and struck out for new territory. The suffering must be great, even magnificent, if she is to prepare the Ardent Mages for the endtimes.",
-		
+
 		"introduction": "Good day, fellow sufferer. May the agony make us all stronger.",
 		"neutralHello": "We are content that our relations are peaveful. We trust you don't plan to change this.",
 		"hateHello": "When the time comes for agony and mortification, we will see that you are at the top of the list.",
@@ -308,7 +308,7 @@
 		// Setseke: settler, fast movement, super unit at dust eclipse
 		// dervish: cavalry
 		// kassai: ranged. on horse. has city breaker so siege?
-		// yirmak: infantry. on rhino 
+		// yirmak: infantry. on rhino
 
 	{
 		"name": "Roving Clans",
@@ -319,7 +319,7 @@
 
 		"startIntroPart1": "Plying roads and sea lanes with skill and courage, they are ever on the lookout for new resources, new products, new markets, and new customers. Wherever the Clans pass, markets spring up, commerce blossoms, and the strange and wondrous goods from the many strange and wondrous peoples of Auriga are traded. The Roving Clans are so entwined in the business dealings of Auriga, that a tiny piece of every transaction somehow makes it into their coffers.",
 		"startIntroPart2": "While their preference is for peace and trade, the Roving Clans should not be underestimated in war. With rapid, mounted units giving them an advantage in speed, they make difficult targets and frustrating enemies. Even their great cities can move, perched on the backs of giant Setseke scarabs -- an exploit unmatched by another nation. Patient, clever, and wily, the Roving Clans bring sophistication -- and manipulation -- to the peoples of Auriga.",
-		
+
 		"introduction": "Well met! A fine day it is for commerce and conversation. In that order.",
 		"neutralHello": "Your peaceful behavior pleases us greatly. Trade, markets, and travel thrive; what's good for business is good for us all!",
 		"hateHello": "We once felt you were worth your weight in gold; lately we compare you to much baser metals. Do keep that in mind.",
@@ -337,6 +337,44 @@
 			"[+1 Happiness] from each Trade Route",
 			"[-50]% maintenance on road & railroads",
 			"[+100]% [Horses] resource production"
+			],
+		"cities": ["Al-Quereshi", "Karrandar", "Almed", "Samunttia", "Zhagorak", "Sipuan", "Mapaa", "Adikin", "Zhivor", "Eraadh", "Rualle", "Grodej", "Strard", "Yulin", "Golcwin", "Wervalyn", "Aberian", "Rexos", "Juilarn", "Sam-risum", "O'irenth", "Gadinak", "Nakaini", "Moires", "Nylerea", "Uardan", "Umalna", "Adikin", "Relye", "Avrone", "Querat"]
+	},
+
+		{
+		"name": "Roving Clans (wide)",
+		"leaderName": "Bazi Safar Bahas",
+		"adjective": ["Clan"],
+		"startBias": ["Oasis"],
+		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": "Plying roads and sea lanes with skill and courage, they are ever on the lookout for new resources, new products, new markets, and new customers. Wherever the Clans pass, markets spring up, commerce blossoms, and the strange and wondrous goods from the many strange and wondrous peoples of Auriga are traded. The Roving Clans are so entwined in the business dealings of Auriga, that a tiny piece of every transaction somehow makes it into their coffers.",
+		"startIntroPart2": "While their preference is for peace and trade, the Roving Clans should not be underestimated in war. With rapid, mounted units giving them an advantage in speed, they make difficult targets and frustrating enemies. Even their great cities can move, perched on the backs of giant Setseke scarabs -- an exploit unmatched by another nation. Patient, clever, and wily, the Roving Clans bring sophistication -- and manipulation -- to the peoples of Auriga.",
+
+		"introduction": "Well met! A fine day it is for commerce and conversation. In that order.",
+		"neutralHello": "Your peaceful behavior pleases us greatly. Trade, markets, and travel thrive; what's good for business is good for us all!",
+		"hateHello": "We once felt you were worth your weight in gold; lately we compare you to much baser metals. Do keep that in mind.",
+		"declaringWar": "We find this boring peace lacks volatility. Let us seek new markets in a state of war!",
+		"attacked": "Peace is over? Very well. We too are ready to mint coins in the heat of war.",
+		"defeated": "We are tired, and our savings all but spent.",
+		"tradeRequest": "Will you take advantage of our almost irresponsible generosity?",
+
+		"outerColor": [255,255,166],
+		"innerColor": [200,100,0],
+		"uniqueName": "Make Trade - Not War",
+		"uniques": [
+			"[+25]% [Culture] from Trade Routes <for every [1] [[Remaining [{Major} {Friendly}] Civilizations] - 1]>",
+			"[+20]% [Science] from Trade Routes <for every [1] [[Remaining [{Major} {Friendly}] Civilizations] - 1]>",
+
+			"[+1 Gold, +1 Culture] from each Trade Route",
+			"[+1 Happiness] <for every [1] [min([Remaining [Open Borders] Civilizations], 4)]> <hidden from users>",
+			"Comment [+1 Happiness for every Open Borders agreement, up to 4]",
+			"[-50]% maintenance on road & railroads",
+			"[+100]% unhappiness from the number of cities <in [Annexed] cities>", //TODO Rewrite this using a comment?
+			"[+50]% unhappiness from the number of cities <in [Puppeted] cities>",
+
+			// "Instantly gain [12] [Trade Embargo] <(modified by game speed)> <upon declaring war on [all] Civilizations>",
+			// "Instantly consumes [1] [Trade Embargo] <when above [0] [Trade Embargo]> <upon turn end>",
 			],
 		"cities": ["Al-Quereshi", "Karrandar", "Almed", "Samunttia", "Zhagorak", "Sipuan", "Mapaa", "Adikin", "Zhivor", "Eraadh", "Rualle", "Grodej", "Strard", "Yulin", "Golcwin", "Wervalyn", "Aberian", "Rexos", "Juilarn", "Sam-risum", "O'irenth", "Gadinak", "Nakaini", "Moires", "Nylerea", "Uardan", "Umalna", "Adikin", "Relye", "Avrone", "Querat"]
 	},
@@ -368,7 +406,7 @@
 
 		"startIntroPart1": "Few in number but exceedingly powerful, they do not seek war but rather relationships, information, and knowledge. Faction histories, artifacts, and ruins are highly prized by the Drakken while wealth, military power, and advanced technology are viewed as insignificant. Militarily they have limited numbers, and bring to battle very few but very powerful units. The gradual onset of longer winters has not escaped the notice of this race who are more attuned to Auriga's rhythms than all the rest.",
 		"startIntroPart2": " Already they have struck out across the vast planet forging ties with all who share Auriga's lands. They understand well that even if the cataclysm comes again, their first duty is to preserve what the Endless left behind, so that one day, maybe in a hundred years, maybe in a hundred thousand, their great teachers' creations will still endure.",
-		
+
 		"introduction": "Peace be to Auriga, and to you. May our conversations be both civil and frequent.",
 		"neutralHello": "Your wisdom in facing adversity with calm strength is admirable. We rejoice that you are counted among the peaceful empires.",
 		"hateHello": "It is our duty to find the good and the beautiful within all things. You make this task particularly difficult.",
@@ -382,7 +420,7 @@
 		"uniqueName": "Diplomatic Pressures",
 		"uniques": [
 			"City-State territory always counts as friendly territory",
-			"[-25]% City-State Influence degradation", 
+			"[-25]% City-State Influence degradation",
 			"Gifts of Gold to City-States generate [+25]% more Influence",
 			"[+25]% [Food] from City-States",
 			"[+25]% [Culture] from City-States",
@@ -402,7 +440,7 @@
 		// we are legion: +exp on converted unit
 		// shrine of whispers: %science per covnerted village
 		// all beings are siblings: exp when recruiting units
-		// hands of the unspoken: +3 converted unit 
+		// hands of the unspoken: +3 converted unit
 
 		// preacher: support. buffs ally stats
 		// fanatic: cavalry
@@ -436,7 +474,7 @@
 			"May buy items in puppet cities",
 			"[+20]% Strength decreasing with distance from the capital",
 			"[10] Unit Supply",
-			
+
 			"[Military] units gain the [Convert] promotion",
 			"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit",
 			"Cities are razed [3] times as fast",
@@ -453,7 +491,7 @@
 		// knowledge seekers: can steal tech
 		// expert forager: gain loot when destroying nutral village
 		// practiced pillage: fortification damage, less upkeep
-		
+
 		// dust sense: +100 gold from pillage
 		// caudata sanctuary: season predictability, infiltration cost reduction
 		// tower of the consecrate:  +1 resource on extraction
@@ -463,7 +501,7 @@
 		// master deceivers: no forgotten hero upkeep
 		// commercial espionage: +1 trade route, 50% gold from trade route
 		// remotuscope factory: health regen, sight, detection on watchtower
-		
+
 		// units auto stealth
 		// Assassin: melee dual wield
 		// predatore: ranged dual wield
@@ -477,7 +515,7 @@
 
 		"startIntroPart1": "A nightmare out of history, the Forgotten are a faction that all others thought to be lost or dead. Against their will they were forged into a tight society of violent and distrustful survivors, having spent the final years of the cataclysm alone on the surface of Auriga.",
 		"startIntroPart2": "Now, as rifts in their society have led a splinter faction to declare its independence, the Forgotten are risking everything in the hopes that the other factions will accept them - or kneel before them.",
-		
+
 		"introduction": "We are prepared to speak with you. Your envoys will be returned unharmed.",
 		"neutralHello": "A Forgotten likes the fight - but occasionally likes peace more. Let us try this path.",
 		"hateHello": "Your attitude is akin to a ten-day old corpse: it stinks!",
@@ -499,12 +537,12 @@
 			"Gain an extra spy <upon discovering [Agriculture] technology>",
 			"All newly-trained [Scout] units [in all cities] receive the [From the Shadows] promotion",
 			"[+1 Gold] per [1] population [in all cities]<hidden from users>",
-			
+
 			"Nullifies [Science] [in all cities] <for [Human player] Civilizations><hidden from users>",
 			"[-100]% [Science] from every [All] <for [Human player] Civilizations><hidden from users>",
 			"[-100]% [Science] from every [Improvement] <for [Human player] Civilizations><hidden from users>",
 			"May buy [Technology Building] buildings with [Gold] [in all cities] <for [Human player] Civilizations><hidden from users>",
-			
+
 			"[+1 Gold] per [2] population [in all cities] <in cities with a [Library]> <for [Human player] Civilizations><hidden from users>",
 			"[+2 Gold] from every [Jungle]<in cities with a [University]> <for [Human player] Civilizations><hidden from users>",
 			"[+33]% [Gold] <in cities with a [University]> <for [Human player] Civilizations><hidden from users>",
@@ -567,7 +605,7 @@
 
 		"startIntroPart1": "When the Endless first came to Auriga they did not find an empty planet, but one teeming with life - some of it intelligent. The Guardians, caretakers of the planet, were one sentient species; another were their helpers and comrades, the Allayi. The Allayi were broken and scattered by the Endless, and for centuries they have survived on the fringes of existence. Handing their traditions and stories down in the form of a religious text, the Epistles, and a book of prayer, the Euchologion, they have been waiting in the snows and the shadows until Auriga once again needs them. And it seems that this time has come...",
 		"startIntroPart2": "The Allayi are a people so closely aligned to Auriga that their very nature changes as the Dark Seasons occur. While they are friendly and defensive in summer, when the harsh winters arrive they become aggressive and dangerous, reflecting the madness of the planet. They are tied so closely to Auriga's fate that even their bodies alter to match the evolution of these extreme seasons. Growing strong once again the Allayi have returned, prepared to defend and preserve Mother Auriga with all their grim strength.",
-		
+
 		"introduction": "Accept our greetings, stranger. We are the Allayi, loyal children and defenders of Mother Auriga.",
 		"neutralHello": "We find the peaceful behavior of your empire acceptable to Mother Auriga",
 		"hateHello": "Be careful of your words and actions, lest change come in a manner that does not suit you.",
@@ -614,7 +652,7 @@
 		// sea traders: cargo docs early unlock
 		// seeds of dissent: make pacified villages hostile
 		// black spot: curse empire
-		
+
 		// breaching wave: influence on citadel and facility
 		// main maritime academy: xp on naval units
 		// dust-mind decoupling: unlocks totem accessories
@@ -633,7 +671,7 @@
 
 		"startIntroPart1": "While much is known of the surface of Auriga, its oceans still guard many mysteries. While the nations of the planet learned to meet, trade, and war on the seas, another force arose from beneath them. They are - or is? - the Morgawr, a twisted and possessed people that seem to be symbiotic creations of sea life and other, unimaginable species. Constructed creatures that broke out of their prisons in the abysses of Auriga, the Morgawr are driven to seek the surface by forces they do not understand.",
 		"startIntroPart2": "Only trusting the waters, the Morgawr can disembark and embark everywhere and their troop transports are faster and stronger than anyone else. Masters of mind control and suggestion, they can control roaming Minor Faction armies for their own nefarious purposes. Once the planet is theirs, however, their ambition may not be sated...",
-		
+
 		"introduction": "I, the Morgawr, are noting your presence. Speak.",
 		"neutralHello": "I, the Morgawr, note your peaceful behavior. Continue it.",
 		"hateHello": "I, the Morgawr, find your attitude unpleasant. Change it",
@@ -654,9 +692,9 @@
 			"[-1 Production] from every [Water resource] <in cities with a [Harbor]> <hidden from users>",
 			"[+1 Production, +1 Gold] from every [Water] <in cities with a [Seaport]> <hidden from users>",
 			"[-1 Production, -1 Gold] from every [Water resource] <in cities with a [Seaport]> <hidden from users>",
-			
+
 			"Enables embarkation for land units <starting from the [Ancient era]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
-			"Enables [Land] units to enter ocean tiles <starting from the [Ancient era]> <hidden from users>", 
+			"Enables [Land] units to enter ocean tiles <starting from the [Ancient era]> <hidden from users>",
 			"[+1] Sight <for [Embarked] units>",
 			"[+100]% Strength <when defending> <when [Embarked]>",
 			"[Land] units gain the [Amphibious] promotion"
@@ -669,7 +707,7 @@
 		// stargazers, predict dust eclipses
 		// endless fascination: science on ruins, ruin search
 		// volcanoformation: terraform tiles
-		
+
 		// golem camp: +1 pop, seperate district
 		// shamans insight: no upkeep for stone sentilens
 		// siege engineerng: rubble stockpile from siege damage
@@ -678,7 +716,7 @@
 		// inner peace: influence on ruins
 
 		// inner fire: no dmg from lava flows, volcanic tile dmg bonus
-		// stone sentinel: infantry 
+		// stone sentinel: infantry
 		// geomancer" support, buff depending on terraing
 		// golem rider: cavalry
 
@@ -691,7 +729,7 @@
 
 		"startIntroPart1": "Rescued from the brink of extinction after the invasion of their home world, the Kapaku were evacuated by the Concrete Endless and sent to Auriga. They were promised a new beginning on a new planet, but discovering the true intentions of their saviors will pit them against both Auriga’s current denizens and the dark remnants of the Dust Wars.",
 		"startIntroPart2": "The Kapaku are tinkers and inventors, a race of craftsmen with powerful bonds to earthen energies. Small in size, their resourcefulness and skill led them to create powerful stone golems to use as labors and soldiers. The Kapaku are a new race uniquely suited to the Volcanic Terrain, able to thrive off it where other races would struggle, and their symbiotic relationships with their golems allows them to exploit more resources more efficiently, fueling their machinery to turn Auriga into a new Volcanic Paradise.",
-		
+
 		"introduction": "Hail Otherskin! We are the Kapaku, Auriga's rightful heirs.",
 		"neutralHello": "We are a peaceful race, forced into violence. We hope your pacifism isn't misjudged.",
 		"hateHello": "We have the power to transform this world into basalt plains and mighty volcanoes. Tread carefully.",
@@ -747,7 +785,7 @@
 
 		"startIntroPart1": "The Mykara are a race of sentient plant matter and fungi, a single organism spanning thousands of semi-autonomous agents and time immemorial, ever adapting to survive and thrive. They spread all over Auriga as a massive underground root system, sprouting on the edges of the map, clinging to the regions other factions leave unattended.",
 		"startIntroPart2": "The Mykara are a single, vast organism that has spread beneath the surface of Auriga, covering most of the planet. Yet all roots lead to home, their capital serving as a hub for their physical spread and their consciousness. Consequently, the Mykara are focused on a single city and have to exert their control over the world by different means, much like the Cultists of the Eternal End. Unlike their more religious rivals, who have to pacify villages and convert them with Influence, the Mykara do not have to be present near the areas they want to claim. As long as you have had vision on a point of interest before and it is located in a neutral region, you can begin growing a Fungal Bloom on it.",
-		
+
 		"introduction": "Greetings. We are Mykara, the Custodians of Auriga.",
 		"neutralHello": "With empires like ours, the future of Auriga seems better than it might have been.",
 		"hateHello": "You are growing thorns, not crops. Be careful.",
@@ -765,7 +803,8 @@
 			"May buy items in puppet cities",
 			//"[+20]% Strength decreasing with distance from the capital",
 			"[10] Unit Supply",
-			
+			//"Will not be chosen for new games <for [AI player] Civilizations>",
+
 			"When declaring friendship, both parties gain a [+10]% boost to great person generation",
 			"Retain [+25]% of the happiness from a luxury after the last copy has been traded away",
 			"Science gained from research agreements [+25]%",
@@ -776,8 +815,44 @@
 			"[+2 Production] from all [Food] buildings",
 			],
 		"cities": ["Manita Gari", "Agai", "Mulladien", "Yerurnqua", "Radalta", "Marebond", "Yiggodra", "Madirod", "Omgar", "Ver'kal", "Anm", "Utharan", "Inelle", "Naquakic", "Dutharad", "Tyd", "Byldwan", "Marreyn", "Indorand", "Goulji", "Lodera", "Amund", "Ishimlor", "Edyno"]
+	},
+
+	{
+		"name": "Mykara2",
+		"leaderName": "Toth Agnes",
+		"adjective": ["Mykara"],
+		"startBias":["Jungle"],
+		"preferredVictoryType": "Scientific",
+		"personality": "Mykara",
+
+
+		"startIntroPart1": "The Mykara are a race of sentient plant matter and fungi, a single organism spanning thousands of semi-autonomous agents and time immemorial, ever adapting to survive and thrive. They spread all over Auriga as a massive underground root system, sprouting on the edges of the map, clinging to the regions other factions leave unattended.",
+		"startIntroPart2": "The Mykara are a single, vast organism that has spread beneath the surface of Auriga, covering most of the planet. Yet all roots lead to home, their capital serving as a hub for their physical spread and their consciousness. Consequently, the Mykara are focused on a single city and have to exert their control over the world by different means, much like the Cultists of the Eternal End. Unlike their more religious rivals, who have to pacify villages and convert them with Influence, the Mykara do not have to be present near the areas they want to claim. As long as you have had vision on a point of interest before and it is located in a neutral region, you can begin growing a Fungal Bloom on it.",
+
+		"introduction": "Greetings. We are Mykara, the Custodians of Auriga.",
+		"neutralHello": "With empires like ours, the future of Auriga seems better than it might have been.",
+		"hateHello": "You are growing thorns, not crops. Be careful.",
+		"declaringWar": "Peace constrains our growth. It is time for war",
+		"attacked": "Though we have seen ages of war, we will not shy from it.",
+		"defeated": "The rage of war saps our force and exhausts our strength. We tire of conflict.",
+		"tradeRequest": "Do you find our offer promising?",
+
+		"outerColor": [102,51,0],
+		"innerColor": [255,152,255],
+		"uniqueName": "Creeping Presence",
+		"uniques": [
+			"Comment [May only found one city. Therafter Settlers can only be used to build Creeping growth]",
+			"May not annex cities",
+			//"[+20]% Strength decreasing with distance from the capital",
+			"[10] Unit Supply",
+			"[-50]% [Strategic] resource production",
+			"[-50]% [Luxury] resource production",
+			"[+15]% [Food] [in capital]",
+			"[+2 Production] from all [Food] buildings",
+			],
+		"cities": ["Manita Gari", "Agai", "Mulladien", "Yerurnqua", "Radalta", "Marebond", "Yiggodra", "Madirod", "Omgar", "Ver'kal", "Anm", "Utharan", "Inelle", "Naquakic", "Dutharad", "Tyd", "Byldwan", "Marreyn", "Indorand", "Goulji", "Lodera", "Amund", "Ishimlor", "Edyno"]
 	}
-	
+
 	/*
 	Single City uniques:
 		"Cannot build [Settler] units",
