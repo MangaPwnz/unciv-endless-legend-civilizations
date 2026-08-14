@@ -1,1 +1,7 @@
-{"modUrl":"https://github.com/LittlePuny/Endless-Legend-Civilizations","defaultBranch":"main","author":"LittlePuny","lastUpdated":"2024-06-16T14:59:40Z","modSize":709,"topics":["unciv-mod","unciv-mod-expansions"]}
+{"modUrl":"https://github.com/MangaPwnz/unciv-endless-legend-civilizations/","defaultBranch":"main","author":"MangaPwnz","lastUpdated":"2024-06-16T14:59:40Z","modSize":709,"topics":["unciv-mod","unciv-mod-expansions"],
+
+    "uniques": [
+        "Mod requires [Civ V - Gods & Kings]"
+    ]
+
+}

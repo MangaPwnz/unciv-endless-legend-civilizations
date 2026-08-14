@@ -1,0 +1,41 @@
+[
+    {
+    "columnNumber": 0,
+    "era": "Ancient era",
+    "techCost": 1,
+    "buildingCost": 99,
+    "wonderCost": 99,
+    "techs": [
+            // {
+            // "name": "Make Trade - Not War",
+            // "cost": 999999,
+            // "row": 9,
+            // "uniques":
+            // [
+            //     "Will not be displayed in Civilopedia",
+            //     "Unavailable"
+            // ]
+            // },
+            // {
+            // "name": "Expansionism",
+            // "cost": 999999,
+            // "row": 9,
+            // "uniques": [
+            //     "hidden from users",
+            //     "Only available <after adopting [Liberty]>"
+            // ]
+            // },
+
+            // {
+            // "name": "Expansionism",
+            // "cost": 999999,
+            // "row": 9,
+            // "uniques": [
+            //     "hidden from users",
+            //     "Only available <after discovering [techFilter]>",
+
+            // ]
+            // }
+        ]
+	}
+]
