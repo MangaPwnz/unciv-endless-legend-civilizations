@@ -476,7 +476,7 @@
 
 		// Mykara2
 	{
-		"name": "Fungal bloom",
+		"name": "Spore bearer",
 		"unitType": "Civilian",
 		"uniqueTo": "Mykara2",
 		"replaces": "Settler",
@@ -494,20 +494,23 @@
 			"Cost increases by [10] when built",
 
 			"Comment [Can instantly construct a Fungal bloom improvement for all movement 2 times, after which this unit is consumed]",
-				"Can instantly construct a [Fungal bloom] improvement <for all movement> <[2] times> <after which this unit is consumed> <if [Mykara2 Palace] is constructed>",
+				"Can instantly construct a [Fungal bloom] improvement <for all movement> <[3] times> <after which this unit is consumed> <if [Mykara2 Palace] is constructed>",
 
-			"Comment [Each new era reached increases the number of spreads by 1 and the construction cost by 33%]", //Hidden
-				"Can instantly construct a [Fungal bloom] improvement <[1] additional time(s)> <for every [Era number]> <hidden from users>",
-				"[+33]% production cost <during the [Classical era]> <hidden from users>",
-				"[+67]% production cost <during the [Medieval era]> <hidden from users>",
-				"[+100]% production cost <during the [Renaissance era]> <hidden from users>",
-				"[+133]% production cost <during the [Industrial era]> <hidden from users>",
-				"[+167]% production cost <during the [Modern era]> <hidden from users>",
-				"[+200]% production cost <during the [Atomic era]> <hidden from users>",
-				"[+233]% production cost <during the [Information era]> <hidden from users>",
-				"[+237]% production cost <during the [Future era]> <hidden from users>",
+			"Comment [Costs 167% more production and gain 5 more spreads starting from the Industrial era]",
+				"All newly-trained [Spore bearer] units [in capital] receive the [Spore bearersBuff] promotion <starting from the [Industrial era]> <hidden from users>",
+				"[+167]% production cost <starting from the [Industrial era]> <hidden from users>",
+			//"Comment [Each new era reached increases the number of spreads by 1 and the construction cost by 33%]", //Hidden
+			//	"Can instantly construct a [Fungal bloom] improvement <[1] additional time(s)> <for every [Era number]> <hidden from users>",
+			//	"[+33]% production cost <during the [Classical era]> <hidden from users>",
+			//	"[+67]% production cost <during the [Medieval era]> <hidden from users>",
+			//	"[+100]% production cost <during the [Renaissance era]> <hidden from users>",
+			//	"[+133]% production cost <during the [Industrial era]> <hidden from users>",
+			//	"[+167]% production cost <during the [Modern era]> <hidden from users>",
+			//	"[+200]% production cost <during the [Atomic era]> <hidden from users>",
+			//	"[+233]% production cost <during the [Information era]> <hidden from users>",
+			//	"[+237]% production cost <during the [Future era]> <hidden from users>",
 
-			"Suppress warning [Fungal bloom can place improvement Fungal bloom which has no stats, preventing unit automation!]",
+			"Suppress warning [Spore bearer can place improvement Fungal bloom which has no stats, preventing unit automation!]",
 			"Suppress warning [Due to performance considerations, this unique is cached on the unit, and the conditional may not always limit the unique correctly.]"
 		]
 

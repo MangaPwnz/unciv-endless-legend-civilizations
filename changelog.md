@@ -24,3 +24,10 @@ Rebalance Mykara2.
     - now scales with techs instead of granting all its bonuses in the early game
     - every 3 Fungal blooms produce 1 unhappiness
     - now only gains control of unowned tiles
+
+## V1.0.4
+- Add Mycelial network (sub unique)
+    - Mykara roads on Fungal blooms cost more.
+    - Mykara units gain increase movement speed from Fungal bloom, and can research teleport (paradrop).
+- Spore bearers now gain 5 charges and extra cost starting from Industrial era
+-
