@@ -471,7 +471,7 @@
 		"cityStrength": 2.5,
 	    "uniques": [
 			//Unique building
-			//"Only available <in [Capital] cities>",
+			"Only available <in [Capital] cities>",
 	        //"Destroyed when the city is captured",
 			//"Unsellable",
 			"Indicates the capital city",
@@ -518,6 +518,21 @@
 			//"[+1 Food] <for every [Owned [{Fungal bloom} {Jungle}] Tiles]> <after discovering [Civil Service]>",
 	    ],//tile checkFilter Strategic
 	    "requiredTech": "Agriculture"
+	},
+
+		{
+	    "name": "Research mycelial network",
+	    "uniqueTo": "Mykara2",
+	    "cost": 100,
+	    "uniques": [
+	        "Only available <in [Capital] cities>",
+	        "Destroyed when the city is captured",
+			"Unbuildable",
+			"Can be purchased for [1500] [Science] [in capital]",
+			//"All newly-trained [non-[Air]] units [in this city] receive the [Mycelial network] promotion",
+			//"[all] units gain the [Mycelial network] promotion",
+	    ],
+	    "requiredTech": "Astronomy"
 	},
 
 		{
