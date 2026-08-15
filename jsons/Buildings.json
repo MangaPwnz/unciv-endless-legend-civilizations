@@ -477,33 +477,36 @@
 			"Indicates the capital city",
 			"Destroyed when the city is captured <hidden from users>",
 		// Forest
-			"[+1 Production] <for every [Owned [{Fungal bloom} {Forest} {non-[Hill]}] Tiles]> <after discovering [Construction]>",
+			"[+1 Production] <for every [Owned [{Fungal bloom} {Forest} {non-[Hill]}] Tiles]> <after discovering [Construction]> <hidden from users>",
 		//Hills
-			"[-1 Food, +1 Production] <for every [Owned [{Fungal bloom} {Hill}] Tiles]>",
-			"[+1 Production] <for every [Owned [{Fungal bloom} {Hill}] Tiles]> <after discovering [Chemistry]>",
+			"[-1 Food, +1 Production] <for every [Owned [{Fungal bloom} {Hill}] Tiles]> <hidden from users>",
+			"[+1 Production] <for every [Owned [{Fungal bloom} {Hill}] Tiles]> <after discovering [Chemistry]> <hidden from users>",
 		// Plains
-			"[+1 Food] <for every [Owned [{Fungal bloom} {Plains}] Tiles]>",
-			"[+1 Production] <for every [Owned [{Fungal bloom} {Plains}] Tiles]> <after discovering [Metal Casting]>",
+			"[+1 Food] <for every [Owned [{Fungal bloom} {Plains}] Tiles]> <hidden from users>",
+			"[+1 Production] <for every [Owned [{Fungal bloom} {Plains}] Tiles]> <after discovering [Metal Casting]> <hidden from users>",
 		// Jungle
-			"[+2 Science] <for every [Owned [{Fungal bloom} {Jungle}] Tiles]> <if [University] is constructed>",
+			"[+2 Science] <for every [Owned [{Fungal bloom} {Jungle}] Tiles]> <if [University] is constructed> <hidden from users>",
 		// Grassland
-			"[+1 Food] <for every [Owned [{Fungal bloom} {Grassland}] Tiles]>",
+			"[+1 Food] <for every [Owned [{Fungal bloom} {Grassland}] Tiles]> <hidden from users>",
 		// Desert
-			"[+1 Gold, +1 Culture] <for every [Owned [{Fungal bloom} {Desert}] Tiles]> <if [Petra] is constructed>",
+			"[+1 Gold, +1 Culture] <for every [Owned [{Fungal bloom} {Desert}] Tiles]> <if [Petra] is constructed> <hidden from users>",
+		// Tundra
+			"[+1 Science] <for every [Owned [{Fungal bloom} {Tundra}] Tiles]> <hidden from users>",
+			"[+2 Science] <for every [Owned [{Fungal bloom} {Tundra}] Tiles]> <after discovering [Scientific Theory]> <hidden from users>",
 		// Techs
-			"[+1 Food] <for every [Owned [{Fungal bloom} {Fresh Water}] Tiles]> <after discovering [Civil Service]>",
-			"[+1 Food] <for every [Owned [{Fungal bloom} {non-fresh water}] Tiles]> <after discovering [Fertilizer]>",
+			"[+1 Food] <for every [Owned [{Fungal bloom} {Fresh Water}] Tiles]> <after discovering [Civil Service]> <hidden from users>",
+			"[+1 Food] <for every [Owned [{Fungal bloom} {non-fresh water}] Tiles]> <after discovering [Fertilizer]> <hidden from users>",
 
 		// Bonus resource
-			"[+1 Food] <for every [Owned [{Fungal bloom} {Bonus resource}] Tiles]>",
-			"[+1 Food] <for every [Owned [{Fungal bloom} {Bonus resource}] Tiles]> <after discovering [Civil Service]>",
+			"[+1 Food] <for every [Owned [{Fungal bloom} {Bonus resource}] Tiles]> <hidden from users>",
+			"[+1 Food] <for every [Owned [{Fungal bloom} {Bonus resource}] Tiles]> <after discovering [Civil Service]> <hidden from users>",
 		// Strategic Resource
-			"[+2 Science] <for every [Owned [{Fungal bloom} {Strategic resource}] Tiles]>",
+			"[+2 Science] <for every [Owned [{Fungal bloom} {Strategic resource}] Tiles]> <hidden from users>",
 
 		// Luxury
-			"[+1 Culture] <for every [Owned [{Fungal bloom} {Luxury resource}] Tiles]>",
-			"[+1 Culture] <for every [Owned [{Fungal bloom} {Luxury resource}] Tiles]> <after discovering [Drama and Poetry]>",
-			"[+2 Culture] <for every [Owned [{Fungal bloom} {Luxury resource}] Tiles]> <after adopting [Meritocracy]>",
+			"[+1 Culture] <for every [Owned [{Fungal bloom} {Luxury resource}] Tiles]> <hidden from users>",
+			"[+1 Culture] <for every [Owned [{Fungal bloom} {Luxury resource}] Tiles]> <after discovering [Drama and Poetry]> <hidden from users>",
+			"[+2 Culture] <for every [Owned [{Fungal bloom} {Luxury resource}] Tiles]> <after adopting [Meritocracy]> <hidden from users>",
 		// Other
 			"[+1 Culture] per [3] population [in capital] <after adopting [Representation]>",
 			"[+4 Faith] <for every [Owned [Natural Wonder] Tiles]>",

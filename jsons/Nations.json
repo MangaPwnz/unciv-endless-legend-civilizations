@@ -841,17 +841,21 @@
 		"innerColor": [255,152,255],
 		"uniqueName": "Creeping Presence",
 		"uniques": [
+
+			"Comment [May only found one city. Therafter Settlers can only be used to build Fungal bloom]",
+			"All newly-trained [Spore bearer] units [in capital] receive the [Spore bearersBuff] promotion <starting from the [Industrial era]> <hidden from users>", // Comment explains this on the Spreader unit
+			"Comment [-50% Luxury and Strategic resource production]",
+				"[-50]% [Strategic] resource production",
+				"[-50]% [Luxury] resource production <hidden from users>",
 			"May not annex cities",
+
+			"Comment [--- Thriving Capital --- ]",
 			"[10] Unit Supply",
 			"[-75]% Food consumption by [Unemployed] [in capital] <after discovering [Biology]>",
 			"[+15]% [Food] [in capital]",
 			//"[+20]% Strength decreasing with distance from the capital",
 
-			"Comment [--- Creeping Presence --- ]",
-			"Comment [May only found one city. Therafter Settlers can only be used to build Fungal bloom]",
-			"Comment [-50% Luxury and Strategic resource production]",
-				"[-50]% [Strategic] resource production",
-				"[-50]% [Luxury] resource production <hidden from users>",
+
 
 			//"[-10]% Production when constructing [All] wonders [in all cities]",
 			"Comment [--- Mycelial Network --- Specializes in blooms in favor of traditional transportation networks]",

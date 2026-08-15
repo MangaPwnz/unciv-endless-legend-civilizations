@@ -490,15 +490,15 @@
 			"Requires at least [2] population",
 			"Excess Food converted to Production when under construction",
 		// Unique
-			"Ignores terrain cost <after adopting [Citizenship]>",
-			"Cost increases by [10] when built",
+		"Cost increases by [10] when built",
 
-			"Comment [Can instantly construct a Fungal bloom improvement for all movement 2 times, after which this unit is consumed]",
-				"Can instantly construct a [Fungal bloom] improvement <for all movement> <[3] times> <after which this unit is consumed> <if [Mykara2 Palace] is constructed>",
+		"Comment [Can instantly construct a Fungal bloom improvement for all movement 3 times, after which this unit is consumed]",
+		"Can instantly construct a [Fungal bloom] improvement <for all movement> <[3] times> <after which this unit is consumed> <if [Mykara2 Palace] is constructed> <hidden from users>",
 
-			"Comment [Costs 167% more production and gain 5 more spreads starting from the Industrial era]",
-				"All newly-trained [Spore bearer] units [in capital] receive the [Spore bearersBuff] promotion <starting from the [Industrial era]> <hidden from users>",
-				"[+167]% production cost <starting from the [Industrial era]> <hidden from users>",
+		"Comment [Costs 167% more production and gain 5 more spreads starting from the Industrial era]",
+			"[+167]% production cost <starting from the [Industrial era]> <hidden from users>",
+
+		"Ignores terrain cost <after adopting [Citizenship]>",
 			//"Comment [Each new era reached increases the number of spreads by 1 and the construction cost by 33%]", //Hidden
 			//	"Can instantly construct a [Fungal bloom] improvement <[1] additional time(s)> <for every [Era number]> <hidden from users>",
 			//	"[+33]% production cost <during the [Classical era]> <hidden from users>",
