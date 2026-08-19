@@ -94,7 +94,7 @@
 					"Generated on every [15] tiles <in [{Featureless} {Tundra}] tiles>",
 					"Generated on every [19] tiles <in [{Featureless} {Desert}] tiles>"]
 	},
-	
+
 	{
 		"name": "Horses",
 		"resourceType": "Strategic",
@@ -433,6 +433,18 @@
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [{Forest} {Hill}] tiles>",
 					"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"]
-	}
+	},
+	{
+		"name": "Trade Embargo",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Cannot be traded",
+			"Doesn't generate naturally",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia",
+			"Not shown on world screen <for [non-[Roving Clans (wide)]] Civilizations>",
+		]
+	},
 
 ]
