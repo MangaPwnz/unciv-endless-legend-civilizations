@@ -229,6 +229,7 @@
     {
         "name": "Grand Exchange",
         "replaces": "Bank",
+		"requiredBuilding": "Market",
         "uniqueTo": "Roving Clans (wide)",
         "requiredTech": "Banking",
         // "cost": 11,
@@ -247,7 +248,7 @@
         "culture": 0,
         "uniques": [
             "[+2 Culture] from each Trade Route <in this city>",
-			"Unbuildable",
+			//"Unbuildable",
 			"Unavailable <in [Capital] cities>",
         ]
     },
@@ -255,6 +256,7 @@
         "name": "Bardic Schools", //TODO change name
         "replaces": "Opera House",
         "uniqueTo": "Roving Clans (wide)",
+		"requiredBuilding": "Amphitheater",
         "requiredTech": "Acoustics",
         // "cost": 11,
         "maintenance": 6,
@@ -273,7 +275,7 @@
         "uniques": [
 			"Unavailable <in [Capital] cities>",
             "[+2 Science] from each Trade Route <in this city>",
-            "[+1 Science] from each Trade Route <in this city> <starting from the [Renaissance era]> <when number of [Trade Embargo] is less than [1]>",
+            "[+1 Science] from each Trade Route <in this city> <starting from the [Medieval era]> <when number of [Trade Embargo] is less than [1]>",
         ]
     },
     {
@@ -281,6 +283,7 @@
         "replaces": "University",
         "uniqueTo": "Roving Clans (wide)",
         "requiredTech": "Education",
+		"maintenance": 4,
         // "cost": 11,
         "uniques": [
             "[+10]% [Science] from Trade Routes <when number of [Trade Embargo] is less than [1]>",
