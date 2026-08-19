@@ -223,7 +223,7 @@
         "gold": 0,
         "uniques": [
             "[+1 Gold] from each Trade Route <in this city>",
-            "[+1 Gold] from each Trade Route"
+            "[+1 Gold] from each Trade Route <when number of [Trade Embargo] is less than [1]>"
         ]
     },
     {
@@ -233,24 +233,26 @@
         "requiredTech": "Banking",
         // "cost": 11,
         "uniques": [
-            "[+1 Gold] from each Trade Route <in this city>",
-            "[+25]% [Gold] from Trade Routes"
+            "[+2 Gold] from each Trade Route <in this city>",
+            "[+15]% [Gold] from Trade Routes <when number of [Trade Embargo] is less than [1]>"
         ]
     },
     {
-        "name": "Oral Tradition Hall",
+        "name": "Sponsor Troubadours",
         "replaces": "Amphitheater",
         "uniqueTo": "Roving Clans (wide)",
         "requiredTech": "Drama and Poetry",
-        // "cost": 11,
+        "cost": 75,
         "maintenance": 2,
-        "culture": 1,
+        "culture": 0,
         "uniques": [
-            "[+2 Culture] from each Trade Route <in this city>"
+            "[+2 Culture] from each Trade Route <in this city>",
+			"Unbuildable",
+			"Unavailable <in [Capital] cities>",
         ]
     },
 	{
-        "name": "Opera replacement", //TODO change name
+        "name": "Bardic Schools", //TODO change name
         "replaces": "Opera House",
         "uniqueTo": "Roving Clans (wide)",
         "requiredTech": "Acoustics",
@@ -258,7 +260,7 @@
         "maintenance": 6,
         "culture": 0,
         "uniques": [
-            "[+2 Culture] from each Trade Route"
+            "[+2 Culture] from each Trade Route <when number of [Trade Embargo] is less than [1]>",
         ]
     },
     {
@@ -271,7 +273,7 @@
         "uniques": [
 			"Unavailable <in [Capital] cities>",
             "[+2 Science] from each Trade Route <in this city>",
-            "[+1 Science] from each Trade Route <in this city> <starting from the [Renaissance era]>",
+            "[+1 Science] from each Trade Route <in this city> <starting from the [Renaissance era]> <when number of [Trade Embargo] is less than [1]>",
         ]
     },
     {
@@ -281,14 +283,14 @@
         "requiredTech": "Education",
         // "cost": 11,
         "uniques": [
-            "[+10]% [Science] from Trade Routes",
-            "[+1 Science] from each Trade Route"
+            "[+10]% [Science] from Trade Routes <when number of [Trade Embargo] is less than [1]>",
+            "[+1 Science] from each Trade Route <when number of [Trade Embargo] is less than [1]>"
         ]
     },
 
 // Guilds
 	{
-		"name": "Innovators' Guild",
+		"name": "The Innovators' Guild",
 		"uniqueTo": "Roving Clans (wide)",
 		"isNationalWonder": true,
 		"requiredTech": "Guilds",
@@ -322,7 +324,7 @@
 		// "cost": 11,
 		"uniques": [
 			"Guild",
-			"[+15]% [Culture] from Trade Routes <for every [1] [Remaining [{Major} {Friendly}] Civilizations]>",
+			"[+25]% [Culture] from Trade Routes <for every [1] [Remaining [{Major} {Friendly}] Civilizations]>",
 			"Only available <if [Guild] is not constructed>"
 			//"Unavailable <in cities with a [Guild]>"
 		]

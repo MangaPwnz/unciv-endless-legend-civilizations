@@ -363,18 +363,23 @@
 		"innerColor": [200,100,0],
 		"uniqueName": "Make Trade - Not War",
 		"uniques": [
-			"[+25]% [Culture] from Trade Routes <for every [1] [[Remaining [{Major} {Friendly}] Civilizations] - 1]>",
-			"[+20]% [Science] from Trade Routes <for every [1] [[Remaining [{Major} {Friendly}] Civilizations] - 1]>",
-
+			"Enables Open Borders agreements",
 			"[+1 Gold, +1 Culture] from each Trade Route",
-			"[+1 Happiness] <for every [1] [min([Remaining [Open Borders] Civilizations], 4)]> <hidden from users>",
-			"Comment [+1 Happiness for every Open Borders agreement, up to 4]",
-			"[-50]% maintenance on road & railroads",
-			"[+100]% unhappiness from the number of cities <in [Annexed] cities>", //TODO Rewrite this using a comment?
-			"[+50]% unhappiness from the number of cities <in [Puppeted] cities>",
 
-			// "Instantly gain [12] [Trade Embargo] <(modified by game speed)> <upon declaring war on [all] Civilizations>",
-			// "Instantly consumes [1] [Trade Embargo] <when above [0] [Trade Embargo]> <upon turn end>",
+			"Comment [+12% [Culture] and +6% [Science] from Trade Routes for every friendly major civilization, plus +5% [Culture] and +3% [Science] for every Open Borders agreement or friendly city-state, up to +120% [Culture] and +60% [Science]]",
+				"[+6]% [Culture] from Trade Routes <for every [1] [min([ 2*[[Remaining [{Major} {Friendly}] Civilizations] - 1] + [Remaining [Open Borders] Civilizations] + [Remaining [{City-State} {Friendly}] Civilizations]], 20)]> <hidden from users>",
+				"[+3]% [Science] from Trade Routes <for every [1] [min([ 2*[[Remaining [{Major} {Friendly}] Civilizations] - 1] + [Remaining [Open Borders] Civilizations] + [Remaining [{City-State} {Friendly}] Civilizations]], 20)]> <hidden from users>",
+				//"[+15]% [Science] from Trade Routes <for every [1] [min([[Remaining [{Major} {Friendly}] Civilizations] - 1], 4)]> <hidden from users>",
+			"[+2 Happiness] <upon declaring friendship> <for [30] turns>",
+			//"Comment [+1 Happiness for every Open Borders agreement, up to 4]",
+			//	"[+1 Happiness] <for every [1] [min([Remaining [Open Borders] Civilizations], 4)]> <hidden from users>",
+			// "[+2 Happiness] <upon entering a new era> <for [5] turns> <(modified by game speed)>",
+			"[-50]% maintenance on road & railroads",
+			"[+66]% unhappiness from the number of cities <in [Annexed] cities>", //TODO Rewrite this using a comment?
+			"[+33]% unhappiness from the number of cities <in [Puppeted] cities>",
+
+			"Instantly gain [12] [Trade Embargo] <(modified by game speed)> <upon declaring war on [all] Civilizations>",
+			"Instantly consumes [1] [Trade Embargo] <when above [0] [Trade Embargo]> <upon turn end>",
 			],
 		"cities": ["Al-Quereshi", "Karrandar", "Almed", "Samunttia", "Zhagorak", "Sipuan", "Mapaa", "Adikin", "Zhivor", "Eraadh", "Rualle", "Grodej", "Strard", "Yulin", "Golcwin", "Wervalyn", "Aberian", "Rexos", "Juilarn", "Sam-risum", "O'irenth", "Gadinak", "Nakaini", "Moires", "Nylerea", "Uardan", "Umalna", "Adikin", "Relye", "Avrone", "Querat"]
 	},
