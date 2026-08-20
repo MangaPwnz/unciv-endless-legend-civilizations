@@ -476,23 +476,30 @@
 		"innerColor": [64,64,64],
 		"uniqueName": "High Seat of the Queen",
 		"uniques": [
-			"Cannot build [Settler] units",
-			"May not annex cities",
-			"May buy items in puppet cities",
-			"[+20]% Strength decreasing with distance from the capital",
-			"[10] Unit Supply",
+			// One city stuff
+				"Cannot build [Settler] units",
+				"May not annex cities",
+				"May buy items in puppet cities",
+				"[+20]% Strength decreasing with distance from the capital",
+				"[10] Unit Supply",
+
 			"Instantly gain [2] [Resource Stockpile] <upon turn end> <for every [[in cities being razed] Cities]>", // Added by me
 			"Cities are razed [2] times as fast",
-			"[15]% Strength <in cities following our religion>",
-			"[Military] units gain the [Convert] promotion",
+
+			// Religion stuff
+				"[15]% Strength <in cities following our religion>",
+				"[+8]% [Faith] <for every [Owned [Shrine of the Eternal End] Tiles]> <hidden from users>",
+				"[+1 Faith] per [2] population [in capital]",
+				"May buy [{Military} {Land}] units with [Faith] for [3] times their normal Production cost",
+				"May choose [1] additional [Founder] beliefs when [enhancing] a religion",
+			//	"May choose [1] additional [Follower] beliefs when [enhancing] a religion"
+
+			//"[Military] units gain the [Convert] promotion",
 			//"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit",
 			//"May buy [Building] buildings with [Faith] [in all cities]",
 			//"May buy [Building] buildings with [Faith] for [3] times their normal Production cost",
 			//"May buy [Building] buildings with [Gold] for [3] times their normal Production cost",
-			"[+1 Faith] per [2] population [in capital]",
-			//"[+1 Food] per [2] population [in capital] <for every adjacent [tileFilter]>",
-			"May choose [1] additional [Founder] beliefs when [founding] a religion",
-			"May choose [1] additional [Follower] beliefs when [enhancing] a religion"
+			//"[+1 Food] per [2] population [in capital] <for every adjacent [Shrine of the Eternal End]>",
 		],
 		"cities": ["Queen's Tomb", "Amenvar", "Undand", "Endigir", "Whiechsul", "Dallan", "Aldineche", "Vareis", "Ganli", "Herkuf", "Yaeg", "Yerow", "Jurgador", "Taim", "Manyur", "Gildrin", "Worimer", "Ashrusk", "Ndortara", "Doreis", "Tin'en", "Achq", "Jalastil", "Almed", "Danin", "Salimar"]
 	},
