@@ -380,7 +380,7 @@
 			"[-3 Happiness] [in annexed cities]", //TODO Rewrite this using a comment?
 			//"[+33]% unhappiness from the number of cities <in [Puppeted] cities>",
 
-			"Instantly gain [12] [Trade Embargo] <(modified by game speed)> <upon declaring war on [all] Civilizations>",
+			"Instantly gain [18] [Trade Embargo] <(modified by game speed)> <upon declaring war on [all] Civilizations>",
 			"Instantly consumes [1] [Trade Embargo] <when above [0] [Trade Embargo]> <upon turn end>",
 			],
 		"cities": ["Al-Quereshi", "Karrandar", "Almed", "Samunttia", "Zhagorak", "Sipuan", "Mapaa", "Adikin", "Zhivor", "Eraadh", "Rualle", "Grodej", "Strard", "Yulin", "Golcwin", "Wervalyn", "Aberian", "Rexos", "Juilarn", "Sam-risum", "O'irenth", "Gadinak", "Nakaini", "Moires", "Nylerea", "Uardan", "Umalna", "Adikin", "Relye", "Avrone", "Querat"]
