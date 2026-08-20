@@ -347,20 +347,20 @@
 		"requiredTech": "Biology"
 	},
 		// Cultists
-	{
-        "name": "Shrine of Whispers",
-		"uniqueTo": "Cult of the Eternal End",
-		"replaces": "Courthouse",
-		"faith": 2,
-		"hurryCostModifier": 50,
-		"uniques": [
-			"[+33]% Natural religion spread [in this city]",
-			"[+10]% Great Person generation [in capital]",
-			"[+10]% Yield from every [Great Improvement]<in [Capital] cities>",
-			"Destroyed when the city is captured"
-			],
-		"requiredTech": "Mathematics"
-    },
+	// {
+    //     "name": "Shrine of Whispers",
+	// 	"uniqueTo": "Cult of the Eternal End",
+	// 	"replaces": "Courthouse",
+	// 	"faith": 2,
+	// 	"hurryCostModifier": 50,
+	// 	"uniques": [
+	// 		"[+33]% Natural religion spread [in this city]",
+	// 		"[+10]% Great Person generation [in capital]",
+	// 		"[+10]% Yield from every [Great Improvement]<in [Capital] cities>",
+	// 		"Destroyed when the city is captured"
+	// 		],
+	// 	"requiredTech": "Mathematics"
+    // },
 
 	{
         "name": "Industry Stockpiles",
