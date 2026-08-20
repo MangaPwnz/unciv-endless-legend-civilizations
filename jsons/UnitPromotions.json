@@ -55,15 +55,17 @@
 	{
 		"name": "Mycelial network",
 		"uniques": [
-			"[1] Movement <in [Fungal bloom] tiles>",
-			"[1] Movement <in [Fungal bloom] tiles> <after discovering [Machinery]>",
-			"May Paradrop to [Fungal bloom] tiles up to [7] tiles away <in [Fungal bloom] tiles> <if [Research mycelial network] is constructed>",
+			"[+1] Movement <in [Fungal bloom] tiles>",
+			"[+1] Movement <in [Fungal bloom] tiles> <after discovering [Machinery]>",
+			"[+1] Movement <in [Fungal bloom] tiles> <if [Research mycelial network] is constructed>",
+			"May Paradrop to [Fungal bloom] tiles up to [10] tiles away <in [Fungal bloom] tiles> <if [Research mycelial network] is constructed>",
 		]
 	},
 	{
-		"name": "Spore bearersBuff",
+		"name": "Accelerated Growth",
 		"uniques": [
 			"Can instantly construct a [Fungal bloom] improvement <[5] additional time(s)>",
+			"[+2] Movement",
 		]
 	},
 

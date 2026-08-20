@@ -492,10 +492,10 @@
 		// Unique
 		"Cost increases by [10] when built",
 
-		"Comment [Can instantly construct a Fungal bloom improvement for all movement 3 times, after which this unit is consumed]",
-		"Can instantly construct a [Fungal bloom] improvement <for all movement> <[3] times> <after which this unit is consumed> <if [Mykara2 Palace] is constructed> <hidden from users>",
+		"Comment [Can instantly construct a Fungal bloom improvement for 2 movement 3 times, after which this unit is consumed]",
+		"Can instantly construct a [Fungal bloom] improvement <for [2] movement> <[3] times> <after which this unit is consumed> <if [Mykara2 Palace] is constructed> <hidden from users>",
 
-		"Comment [Costs 167% more production and gain 5 more spreads starting from the Industrial era]",
+		"Comment [Costs 167% more production but gains +2 movement and +5 spreads starting from the Industrial era]",
 			"[+167]% production cost <starting from the [Industrial era]> <hidden from users>",
 
 		"Ignores terrain cost <after adopting [Citizenship]>",
