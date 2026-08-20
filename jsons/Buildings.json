@@ -361,6 +361,47 @@
 			],
 		"requiredTech": "Mathematics"
     },
+
+	{
+        "name": "Industry Stockpiles",
+		"uniqueTo": "Cult of the Eternal End",
+		"cost": 0,
+		"uniques": [
+			"Instantly consumes [1] [Resource Stockpile] <when above [0] [Resource Stockpile]> <upon turn start>",
+			"[+15 Production] <(modified by game speed)> <when above [0] [Resource Stockpile]> <for every [Era number]>",
+			"Destroyed when the city is captured",
+			"Only available <when above [0] [Resource Stockpile]>",
+			"Remove [Industry Stockpiles] [Capital]  <upon turn end> <when below [1] [Resource Stockpile]>",
+			],
+		"requiredTech": "Mathematics"
+    },
+	{
+        "name": "Food Stockpiles",
+		"uniqueTo": "Cult of the Eternal End",
+		"cost": 0,
+		"uniques": [
+			"Instantly consumes [1] [Resource Stockpile] <when above [0] [Resource Stockpile]> <upon turn start>",
+			"[+20 Food] <(modified by game speed)> <when above [0] [Resource Stockpile]> <for every [Era number]>",
+			"Destroyed when the city is captured",
+			"Only available <when above [0] [Resource Stockpile]>",
+			"Remove [Food Stockpiles] [Capital]  <upon turn end> <when below [1] [Resource Stockpile]>",
+			],
+		"requiredTech": "Agriculture"
+    },
+	{
+        "name": "Science Stockpiles",
+		"uniqueTo": "Cult of the Eternal End",
+		"cost": 0,
+		"uniques": [
+			"Instantly consumes [1] [Resource Stockpile] <when above [0] [Resource Stockpile]> <upon turn start>",
+			"[+30 Science] <(modified by game speed)> <when above [0] [Resource Stockpile]> <for every [Era number]>",
+			"Destroyed when the city is captured",
+			"Only available <when above [0] [Resource Stockpile]>",
+			"Remove [Science Stockpiles] [Capital]  <upon turn end> <when below [1] [Resource Stockpile]>",
+			],
+		"requiredTech": "Education"
+    },
+
 		// Forgotten
 	{
 		"name": "Caudata Sanctuary",
