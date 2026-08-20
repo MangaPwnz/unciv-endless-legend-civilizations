@@ -5,8 +5,6 @@ An Endless Legend inspired Unciv mod.
 ### Plays like basegame nations
 Wild Walkers: Iroquois alternative
 
-Rowing Clans: Arabia alternative
-
 Drakken: Mixture of Greece and Siam
 
 Morgawr: Naval Empire
@@ -23,13 +21,15 @@ Allayi: Two sets of National Unique that they can switch between
 Kapaku: Workers can teraform land tiles for higher yields
 
 ### Unique mechanic forcing different play style
+Roving Clans: Pacifist expansionists who get bonuses to trade routes for engaging in diplomacy.
+
 Broken Lords: Doesn't generate food at all. Creates population by buying them.
 
 Cultists: Single City Civ with barbarian conversion and increasing great improvements yields per puppet city
 
 Forgotten: Doesn't generate science at all. Buys new techs or steals from other nations
 
-Mykare: Single City Civ who gets bonuses for engaging in diplomacy and their puppets don't have culture/science penalty
+Mykara: Single City Civ which expands by growing Fungal Blooms on neutral terrain
 
 # Credits
 - Faction icons and Setseke icon come from Endless Legend
@@ -168,7 +168,7 @@ Wild Walkers:
 - Replaced Jungle's +1 Food with +1 Production
 
 Vaulters:
-- Cities can now designate one "Holy Resource" which increases selected strategic resource quantity and its tile yields. 
+- Cities can now designate one "Holy Resource" which increases selected strategic resource quantity and its tile yields.
 - Science from Luxury and Bonus resource removed
 
 Ardent Mages:
@@ -205,7 +205,7 @@ Mykara:
 ### v0.7 One City to rule them all
 This update revamps two "single city" nations
 
-Liberty is blocked for both nations so no more free settler for them. (sidenote, mod can work with other extension mods changong stuff or even with some rulesets like Rekmod but there will be conflicts and problems) Players can probably get extra cities by snatching enemy settlers. Also both of them have their personality with high Warmongering so they shouldn't be a sitting duck whole game. 
+Liberty is blocked for both nations so no more free settler for them. (sidenote, mod can work with other extension mods changong stuff or even with some rulesets like Rekmod but there will be conflicts and problems) Players can probably get extra cities by snatching enemy settlers. Also both of them have their personality with high Warmongering so they shouldn't be a sitting duck whole game.
 
 Despite both of them being stacked with uniques, other AI's can beat them. Left unchecked, they will just build wonders and go for a cultural victory quiet easily. But their lack of control on puppets mean when forced to war, they can get stuck on producing military units and never get a chance to finish Utopia Project
 
@@ -282,7 +282,7 @@ Necrophages have a new unique resource, Cadavers, which is only available to the
 Necrodrone is replaced with Proliferator, as a ranged unit synergizes with the Cadaver units better. As with the previous update AI has no idea how to use the Cadavers (I've seen him sit on 70+ cadavers on a winning game) but afaik it doesn't kill all its cities with Demanding Gods too so faction uniques are player oriented with this one too.
 
 - We now have a Preview image!
-  
+
 Necrophages:
 - New unique resource called Cadavers, only available and visible for Necrophages
 - Gain Cadavers by killing military units
@@ -295,13 +295,13 @@ Necrophages:
 - Feeding Pits also has Culture cost reduction natural border growth now.
 - Necrodrones removed.
 - Made Proliferators a replacement for Composite Bowman.
-  
+
 Vaulters:
 - Dawn Officer rejects being French and becoems Vaulter instead.
 
 
 ### v0.3 "Broken" Lords
-Main change in this version is the implementation of Broken Lords "buy your population" mechanic. 
+Main change in this version is the implementation of Broken Lords "buy your population" mechanic.
 
 Broken Lords no longer gain any food at all. They won't have any natural growth or starvation. Instead, every source of food (execpt for maritime city-states) have been turned into gold with nation unique. They have buildings that gives 1 pop to the city they are build. These buildings have increasing cost based on existing population of the city and autodelete themself so any source of pop loss (nukes or conquered city) is taken into account.
 
@@ -321,16 +321,16 @@ Necrophage:
 - Increased Necrophage at war bonus to 15%.
 - Removed annexed city restriction form Feeding Pits.
 - Made Necrodrone a replacement for Pikemen instead of Scout.
-  
+
 Ardent Mages:
 - Gains 3 great persons when entering different eras now.
 - 10% strength within 2 tiles of great improvement added.
 - Added Ateshi Zealot as Canon replacement.
 - Nonmechanical changes to reduce pillar related stuff showing up on nation screen.
-  
+
 Roving Clans:
 - Setseke slightly cheaper and gives 1 pop to random city.
-  
+
 Kapaku:
 - Added Geomancer as Gatling Gun replacement.
 
@@ -339,7 +339,7 @@ mod returns after 2 years!
 
 Unique Abilities, Units and Buildings are changed a bit.
 
-### v0.1.1	
+### v0.1.1
 fixed Vaulter UA name
 
 city names match official map now

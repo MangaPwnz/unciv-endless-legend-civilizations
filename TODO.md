@@ -1,23 +1,19 @@
-Roving Clans
+# General
 
-Split up effect by letting the player construct mutally exclusive buildings in their capital:
-One improves their Setseke
-
-The other is Make Trade - Not War.
+- Disable unused or bugged civilizations
+- Rename civs with (original)
+- Rename mod?
+- Upload mod so it's visible
+- Make a forum thread
+- Update change log
+# Roving Clans (Good for now)
 
 ## Make Trade - Not War
-- Removes % gold modifiers from gold producing buildings.
-- gold producing buildings instead give bonus to gold to ALL trade routes (also called city connections), which disappear for 20 turns upon declaring war, scaling with game speed.
-- Extra unhappiness from annexed and puppeted cities
-- Also converts (or gives extra buildings) which provide science, culture and maybe even production from trade routes.
+- Done for now
 
-
-## Test
-- Add a building which gives bonus to gold to ALL trade routes, the bonus disappears for 20 turns upon declaring war, scaling with game speed. (I could easily make it work only during peace, but I would like to avoid disabling it because an AI or human declares war on you from the other side of the map and refuses a peace agreement)
-
-## Mykara
+# Mykara (Good for now)
 Add great general thing? Adds incentive to go to war. but cumbersome, and maybe impossible.
-Too much micro late?
+Too much micro late? **SOLVED - Settlers are more expensive but gains more charges late game**
     - Seems hard to make them automate **SCRAPPED**
     - Maybe make aoe? **IMPOSSIBLE**
     - Maybe give workers ability to build it? Might not work either though since they give negative resources. **Unsure**
@@ -26,10 +22,16 @@ Too much micro late?
 Make giga buildings which improve yields?
 But might not be needed, since there's actually a pseudo-viable route of taking cities
 
-Mykara summary
-
-Terrain-by-Terrain Fungal Bloom Yield Reference:
-
-
-
-- Natural Wonder: +4 Faith
+# Cultists
+Buffs:
+- Add custom Stockpile resource
+- Give it on razing cities
+- Add use Food/Industry/Science stockpile buildings for 0 which can be use in capital.
+- Stronger replacement?
+    - Auto build it?
+Nerfs:
+- Extra upkeep for each puppeted city
+    - (flat or increasing?)
+    - non-capital only or all?
+    -
+- Remove buying capabilities in puppeted cities? Or not?
