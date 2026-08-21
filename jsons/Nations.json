@@ -488,12 +488,12 @@
 
 			// Religion stuff
 				"[15]% Strength <in cities following our religion>",
-				"[+3 Faith] <for every [Owned [Shrine of the Eternal End] Tiles]> <hidden from users>",
+				"[+2 Faith] <for every [Owned [Shrine of the Eternal End] Tiles]> <hidden from users>",
 				"[+10 Faith] <for every [[{Holy} {Puppeted}] Cities]>",
 				//"[+1 Faith] per [2] population [in capital]",
 				//"May buy [{Military} {Melee} {non-[Conscript]}] units with [Faith] for [3] times their normal Production cost",
 				"May choose [1] additional [Founder] beliefs when [enhancing] a religion",
-			 	"May choose [1] additional [Follower] beliefs when [enhancing] a religion",
+			 	//"May choose [1] additional [Follower] beliefs when [enhancing] a religion",
 
 			"[Military] units gain the [Fanaticism] promotion",
 			//"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit",
