@@ -379,6 +379,7 @@
 		"rangedStrength": 5,
 		"uniqueTo": "Cult of the Eternal End",
 		"uniques": [
+			"Unbuildable",
 			"[+1] Strength <for every [1.5*[Era number] + 4*[Era number]]>",
 			"Can instantly construct a [Shrine of the Eternal End] improvement <once>",
 			"Free [Brute] appears <costs [30] [Willing Converts]> <before discovering [Iron Working]>",

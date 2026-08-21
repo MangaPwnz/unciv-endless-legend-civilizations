@@ -281,8 +281,8 @@
 				"Gives a defensive bonus of [100]%",
 				"Can be built outside your borders",
 				//"Only available <for [Worker] units> <in [City ruins] tiles>",
-				"Unavailable <for [Worker] units>",
 				"Provides [1] [Willing Converts] <every [1] turns>",
+				"Unavailable <for [Worker] units>",
 				"Instantly gain [20] [Willing Converts]",
 				"Comment [+2 [Faith]]"
 			//"[+2 Food] per [1] population [in capital] <for every adjacent [Grassland]>",
