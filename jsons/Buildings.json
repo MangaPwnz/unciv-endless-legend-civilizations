@@ -566,22 +566,7 @@
 	    "requiredTech": "Agriculture"
 	},
 
-		{
-	    "name": "Research mycelial network",
-	    "uniqueTo": "Mykara2",
-	    "cost": 100,
-	    "uniques": [
-	        "Only available <in [Capital] cities>",
-	        "Destroyed when the city is captured",
-			"Unbuildable",
-			"Can be purchased for [1500] [Science] [in capital]",
-			//"All newly-trained [non-[Air]] units [in this city] receive the [Mycelial network] promotion",
-			//"[all] units gain the [Mycelial network] promotion",
-	    ],
-	    "requiredTech": "Astronomy"
-	},
-
-		{
+	{
 	    "name": "Research mycelial network",
 	    "uniqueTo": "Mykara2",
 	    "cost": 100,
