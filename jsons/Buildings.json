@@ -401,6 +401,186 @@
 			],
 		"requiredTech": "Education"
     },
+// Cult City Test
+
+	{
+	    "name": "CultCities",
+	    "uniqueTo": "Cult of the Eternal End",
+	    "cost": 0,
+	    "uniques": [
+	        "Only available <if [CultShrines] is not constructed>",
+	        "Only available <in [Capital] cities>",
+			"May buy items in puppet cities",
+	        "Destroyed when the city is captured",
+			"Unsellable",
+
+			//"Provides [1] [Willing Converts] <every [1] turns> <for every [[non-[Capital]] Cities]>",
+			"[+2 Faith] <for every [[non-[Capital]] Cities]>",
+			"Gain a free [GainConverts] [non-[Capital]]",
+			"May not annex cities",
+			"[Military] units gain the [Fanaticism2] promotion",
+			// "[-150]% [Food] [non-[Capital]]",
+			// "[-1000]% [Production] [non-[Capital]]",
+			// "[-100]% [Gold] [non-[Capital]]",
+			// "[-100]% [Science] [non-[Capital]]",
+			// "[-100]% [Culture] [non-[Capital]]",
+			// "[-100]% [Faith] [non-[Capital]]"
+	    ],
+	    "requiredTech": "Agriculture"
+	},
+	{
+	    "name": "GainConverts",
+	    "uniqueTo": "Cult of the Eternal End",
+	    "cost": 0,
+	    "uniques": [
+	        "Unbuildable",
+	        "Destroyed when the city is captured",
+			"Unsellable",
+			"Instantly gain [20] [Willing Converts]",
+			"Provides [1] [Willing Converts] <every [1] turns>",
+
+			"[+2 Happiness]",
+			"Nullifies [Food] [in this city]",
+			"[-1000]% [Production] [in this city]",
+			"Nullifies [Gold] [in this city]",
+			"Nullifies [Science] [in this city]",
+			"Nullifies [Culture] [in this city]",
+			"Nullifies [Faith] [in this city]"
+	    ],
+	    "requiredTech": "Agriculture"
+	},
+
+	{
+	    "name": "CultShrines",
+	    "uniqueTo": "Cult of the Eternal End",
+	    "cost": 0,
+	    "uniques": [
+	        "Only available <if [CultCities] is not constructed>",
+	        "Only available <in [Capital] cities>",
+	        "Destroyed when the city is captured",
+			"Unsellable",
+
+			"[+2 Faith] <for every [Owned [Shrine of the Eternal End] Tiles]>",
+			"May not annex cities",
+			"[Military] units gain the [Fanaticism] promotion",
+	    ],
+	    "requiredTech": "Agriculture"
+	},
+
+
+	{
+		"name": "Willing Convert - Brute",
+		"uniqueTo": "Cult of the Eternal End",
+		"cost": 0,
+		"uniques": [
+			"Costs [30] [Willing Converts]",
+			"Unavailable <if [CultCities] is not constructed>",
+			"Free [Brute] appears",
+			"Remove [Willing Convert - Brute] [in this city]",
+			"Only available <before discovering [Civil Service]>"
+		]
+	},
+	{
+		"name": "Willing Convert - Pikeman",
+		"uniqueTo": "Cult of the Eternal End",
+		"cost": 0,
+		"uniques": [
+			"Costs [30] [Willing Converts]",
+			"Unavailable <if [CultCities] is not constructed>",
+			"Free [Pikeman] appears",
+			"Remove [Willing Convert - Pikeman] [in this city]",
+			"Only available <after discovering [Civil Service]> <before discovering [Gunpowder]>"
+		]
+	},
+	{
+		"name": "Willing Convert - Swordsman",
+		"uniqueTo": "Cult of the Eternal End",
+		"cost": 0,
+		"uniques": [
+			"Costs [30] [Willing Converts]",
+			"Only available <with [Iron]>",
+			"Unavailable <if [CultCities] is not constructed>",
+			"Free [Swordsman] appears",
+			"Remove [Willing Convert - Swordsman] [in this city]",
+			"Only available <after discovering [Iron Working]> <before discovering [Steel]>"
+		]
+	},
+	{
+		"name": "Willing Convert - Longswordsman",
+		"uniqueTo": "Cult of the Eternal End",
+		"cost": 0,
+		"uniques": [
+			"Costs [30] [Willing Converts]",
+			"Only available <with [Iron]>",
+			"Unavailable <if [CultCities] is not constructed>",
+			"Free [Longswordsman] appears",
+			"Remove [Willing Convert - Longswordsman] [in this city]",
+			"Only available <after discovering [Steel]> <before discovering [Gunpowder]>"
+		]
+	},
+	{
+		"name": "Willing Convert - Musketman",
+		"uniqueTo": "Cult of the Eternal End",
+		"cost": 0,
+		"uniques": [
+			"Costs [30] [Willing Converts]",
+			"Unavailable <if [CultCities] is not constructed>",
+			"Free [Musketman] appears",
+			"Remove [Willing Convert - Musketman] [in this city]",
+			"Only available <after discovering [Gunpowder]> <before discovering [Rifling]>"
+		]
+	},
+	{
+		"name": "Willing Convert - Rifleman",
+		"uniqueTo": "Cult of the Eternal End",
+		"cost": 0,
+		"uniques": [
+			"Costs [30] [Willing Converts]",
+			"Unavailable <if [CultCities] is not constructed>",
+			"Free [Rifleman] appears",
+			"Remove [Willing Convert - Rifleman] [in this city]",
+			"Only available <after discovering [Rifling]> <before discovering [Replaceable Parts]>"
+		]
+	},
+	{
+		"name": "Willing Convert - Great War Infantry",
+		"uniqueTo": "Cult of the Eternal End",
+		"cost": 0,
+		"uniques": [
+			"Costs [30] [Willing Converts]",
+			"Unavailable <if [CultCities] is not constructed>",
+			"Free [Great War Infantry] appears",
+			"Remove [Willing Convert - Great War Infantry] [in this city]",
+			"Only available <after discovering [Replaceable Parts]> <before discovering [Plastics]>"
+		]
+	},
+	{
+		"name": "Willing Convert - Infantry",
+		"uniqueTo": "Cult of the Eternal End",
+		"cost": 0,
+		"uniques": [
+			"Costs [30] [Willing Converts]",
+			"Unavailable <if [CultCities] is not constructed>",
+			"Free [Infantry] appears",
+			"Remove [Willing Convert - Infantry] [in this city]",
+			"Only available <after discovering [Plastics]> <before discovering [Mobile Tactics]>"
+		]
+	},
+	{
+		"name": "Willing Convert - Mechanized Infantry",
+		"uniqueTo": "Cult of the Eternal End",
+		"cost": 0,
+		"uniques": [
+			"Costs [30] [Willing Converts]",
+			"Unavailable <if [CultCities] is not constructed>",
+			"Free [Mechanized Infantry] appears",
+			"Remove [Willing Convert - Mechanized Infantry] [in this city]",
+			"Only available <after discovering [Mobile Tactics]>"
+		]
+	},
+
+
+// Cult City Test end
 
 		// Forgotten
 	{

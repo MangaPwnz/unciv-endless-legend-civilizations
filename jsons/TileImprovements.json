@@ -282,6 +282,7 @@
 				"Can be built outside your borders",
 				//"Only available <for [Worker] units> <in [City ruins] tiles>",
 				"Provides [1] [Willing Converts] <every [1] turns>",
+				"[-2 Happiness]",
 				"Unavailable <for [Worker] units>",
 				"Instantly gain [20] [Willing Converts]",
 				"Comment [+2 [Faith]]"

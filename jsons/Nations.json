@@ -478,29 +478,32 @@
 		"uniques": [
 			// One city stuff
 				"Cannot build [Settler] units",
-				"May not annex cities",
 				//"May buy items in puppet cities",
 				"[+20]% Strength decreasing with distance from the capital",
 				"[10] Unit Supply",
 
-			"Instantly gain [4] [Resource Stockpile] <upon turn end> <for every [[in cities being razed] Cities]>", // Added by me
+			"Instantly gain [3] [Resource Stockpile] <upon turn end> <for every [[in cities being razed] Cities]>", // Added by me
 			"Cities are razed [2] times as fast",
 
 			// Religion stuff
-				"[15]% Strength <in cities following our religion>",
-				"[+2 Faith] <for every [Owned [Shrine of the Eternal End] Tiles]> <hidden from users>",
-				"[+10 Faith] <for every [[{Holy} {Puppeted}] Cities]>",
-				//"[+1 Faith] per [2] population [in capital]",
-				//"May buy [{Military} {Melee} {non-[Conscript]}] units with [Faith] for [3] times their normal Production cost",
-				"May choose [1] additional [Founder] beliefs when [enhancing] a religion",
-			 	//"May choose [1] additional [Follower] beliefs when [enhancing] a religion",
+			"[15]% Strength <in cities following our religion>",
+			"[+10 Faith] <for every [[{Holy} {Puppeted}] Cities]>",
+			//"[+1 Faith] per [2] population [in capital]",
+			//"May buy [{Military} {Melee} {non-[Conscript]}] units with [Faith] for [3] times their normal Production cost",
+			"May choose [1] additional [Founder] beliefs when [enhancing] a religion",
+			//"May choose [1] additional [Follower] beliefs when [enhancing] a religion",
 
-			"[Military] units gain the [Fanaticism] promotion",
+			//Shrine version
+				// "May not annex cities",
+				// "[+2 Faith] <for every [Owned [Shrine of the Eternal End] Tiles]> <hidden from users>",
+				// "[Military] units gain the [Fanaticism] promotion",
 			//"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit",
 			//"May buy [Building] buildings with [Faith] [in all cities]",
 			//"May buy [Building] buildings with [Faith] for [3] times their normal Production cost",
 			//"May buy [Building] buildings with [Gold] for [3] times their normal Production cost",
 			//"[+1 Food] per [2] population [in capital] <for every adjacent [Shrine of the Eternal End]>",
+			// Sterile City version
+
 		],
 		"cities": ["Queen's Tomb", "Amenvar", "Undand", "Endigir", "Whiechsul", "Dallan", "Aldineche", "Vareis", "Ganli", "Herkuf", "Yaeg", "Yerow", "Jurgador", "Taim", "Manyur", "Gildrin", "Worimer", "Ashrusk", "Ndortara", "Doreis", "Tin'en", "Achq", "Jalastil", "Almed", "Danin", "Salimar"]
 	},

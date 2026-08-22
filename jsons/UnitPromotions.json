@@ -13,9 +13,36 @@
 		"uniques": ["[+20]% Strength <vs [Wounded] units> <when attacking>","[+100]% Strength <vs cities> <when attacking>"]
 	},
 
-	{
+	{ //OBSOLETE
 		"name": "Convert",
 		"uniques": ["May capture killed [Barbarian] units","[+25]% Strength <vs [Barbarian] units>"]
+	},
+	{
+		"name": "Fanaticism2",
+		"uniques": [
+			"Founds a new puppet city <in [City ruins] tiles>",
+			"[This Unit] gains the [Ascendancy2] promotion <upon entering a [Barbarian encampment] tile>",
+		]
+	},
+	{
+		"name": "Ascendancy2",
+		"uniques": [
+			"Founds a new puppet city",
+			"[This Unit] loses the [Ascendancy2] promotion <for [0] movement>",
+			"Can move after attacking",
+			"[This Unit] loses the [Ascendancy2] promotion <upon turn start>",
+			"[This Unit] gains the [Ascendancy3] promotion <upon turn end>",
+			"Cannot move"
+		]
+	},
+		{
+		"name": "Ascendancy3",
+		"uniques": [
+			"Founds a new puppet city",
+			"[This Unit] loses the [Ascendancy3] promotion <for [0] movement>",
+			"[This Unit] loses the [Ascendancy3] promotion <upon turn end>",
+			"Cannot move"
+		]
 	},
 	{
 		"name": "Fanaticism",
