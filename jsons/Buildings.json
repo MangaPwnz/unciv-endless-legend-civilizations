@@ -460,6 +460,7 @@
 	        "Destroyed when the city is captured",
 			"Unsellable",
 
+			"[-2 Happiness] <for every [Owned [Shrine of the Eternal End] Tiles]>",
 			"[+2 Faith] <for every [Owned [Shrine of the Eternal End] Tiles]>",
 			"May not annex cities",
 			"[Military] units gain the [Fanaticism] promotion",
