@@ -438,10 +438,11 @@
 			"Unsellable",
 			"Instantly gain [20] [Willing Converts]",
 			"Provides [1] [Willing Converts] <every [1] turns>",
-
+			"Cannot build [{non-[Barracks]} {non-[Armory]} {non-[Walls]} {non-[Castle]}] buildings",
 			"[+2 Happiness]",
 			"Nullifies [Food] [in this city]",
 			"[-1000]% [Production] [in this city]",
+			"Nullifies [Happiness] [in this city]",
 			"Nullifies [Gold] [in this city]",
 			"Nullifies [Science] [in this city]",
 			"Nullifies [Culture] [in this city]",
@@ -460,6 +461,7 @@
 	        "Destroyed when the city is captured",
 			"Unsellable",
 
+			"[-2 Happiness] <for every [Owned [Shrine of the Eternal End] Tiles]>",
 			"[+2 Faith] <for every [Owned [Shrine of the Eternal End] Tiles]>",
 			"May not annex cities",
 			"[Military] units gain the [Fanaticism] promotion",
