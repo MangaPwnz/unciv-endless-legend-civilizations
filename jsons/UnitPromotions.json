@@ -44,22 +44,6 @@
 			"Cannot move"
 		]
 	},
-	{
-		"name": "Fanaticism",
-		"uniques": [
-			"Can transform to [Preacher] <requires [0] movement> <in [City ruins] tiles>",
-			"[This Unit] gains the [Ascendancy] promotion <upon entering a [Barbarian encampment] tile>"
-		]
-	},
-	{
-		"name": "Ascendancy",
-		"uniques": [
-			"Can transform to [Preacher] <requires [0] movement>",
-			"[This Unit] loses the [Ascendancy] promotion <for [0] movement>",
-			"[This Unit] loses the [Ascendancy] promotion <upon turn start>",
-			"Cannot move"
-		]
-	},
 
 	{
 		"name": "From the Shadows",

@@ -372,28 +372,6 @@
 	// 	"movement": 4,
 	// 	"religiousStrength": 1000
 	// },
-	{
-		"name": "Preacher",
-		"unitType": "Archery",
-		"strength": 8,
-		"rangedStrength": 5,
-		"uniqueTo": "Cult of the Eternal End",
-		"uniques": [
-			"Unbuildable",
-			"[+1] Strength <for every [1.5*[Era number] + 4*[Era number]]>",
-			"Can instantly construct a [Shrine of the Eternal End] improvement <once>",
-			"Free [Brute] appears <costs [30] [Willing Converts]> <before discovering [Iron Working]>",
-			"Free [Swordsman] appears <costs [30] [Willing Converts]> <after discovering [Iron Working]> <before discovering [Steel]>",
-			"Free [Longswordsman] appears <costs [30] [Willing Converts]> <after discovering [Steel]> <before discovering [Gunpowder]>",
-			"Free [Musketman] appears <costs [30] [Willing Converts]> <after discovering [Gunpowder]> <before discovering [Rifling]>",
-			"Free [Rifleman] appears <costs [30] [Willing Converts]> <after discovering [Rifling]> <before discovering [Replaceable Parts]>",
-			"Free [Great War Infantry] appears <costs [30] [Willing Converts]> <after discovering [Replaceable Parts]> <before discovering [Plastics]>",
-			"Free [Infantry] appears <costs [30] [Willing Converts]> <after discovering [Plastics]> <before discovering [Mobile Tactics]>",
-			"Free [Mechanized Infantry] appears <costs [30] [Willing Converts]> <after discovering [Mobile Tactics]>",
-			"Cannot move",
-		],
-		"movement": 0
-	},
 
 	// Forgotten
 	{

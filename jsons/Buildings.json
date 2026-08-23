@@ -407,24 +407,6 @@
 // Cult City Test
 
 	{
-	    "name": "CultCities",
-	    "uniqueTo": "Cult of the Eternal End",
-	    "cost": 0,
-	    "uniques": [
-	        "Only available <if [CultShrines] is not constructed>",
-	        "Only available <in [Capital] cities>",
-			"May buy items in puppet cities",
-	        "Destroyed when the city is captured",
-			"Unsellable",
-
-			"[+2 Faith] <for every [[non-[Capital]] Cities]>",
-			"Gain a free [Converted village] [non-[Capital]]",
-			"May not annex cities",
-			"[Military] units gain the [Fanaticism2] promotion",
-	    ],
-	    "requiredTech": "Agriculture"
-	},
-	{
 	"name": "Converted village",
 	"uniqueTo": "Cult of the Eternal End",
 	"cost": 0,
@@ -452,25 +434,6 @@
 	},
 
 	{
-	    "name": "CultShrines",
-	    "uniqueTo": "Cult of the Eternal End",
-	    "cost": 0,
-	    "uniques": [
-	        "Only available <if [CultCities] is not constructed>",
-	        "Only available <in [Capital] cities>",
-	        "Destroyed when the city is captured",
-			"Unsellable",
-
-			"[-2 Happiness] <for every [Owned [Shrine of the Eternal End] Tiles]>",
-			"[+2 Faith] <for every [Owned [Shrine of the Eternal End] Tiles]>",
-			"May not annex cities",
-			"[Military] units gain the [Fanaticism] promotion",
-	    ],
-	    "requiredTech": "Agriculture"
-	},
-
-
-	{
 		"name": "Willing Convert - Warrior",
 		"uniqueTo": "Cult of the Eternal End",
 		"cost": 0,
@@ -484,7 +447,6 @@
 			"Shown while unbuilable",
 			"Will not be displayed in Civilopedia",
 			"ConvertFilter <hidden from users>",
-			"Unavailable <if [CultCities] is not constructed> <hidden from users>",
 			"Remove [Willing Convert - Warrior] [in this city] <hidden from users>",
 		]
 	},
@@ -502,7 +464,6 @@
 			"Shown while unbuilable",
 			"Will not be displayed in Civilopedia",
 			"ConvertFilter <hidden from users>",
-			"Unavailable <if [CultCities] is not constructed> <hidden from users>",
 			"Remove [Willing Convert - Pikeman] [in this city] <hidden from users>"
 		]
 	},
@@ -521,7 +482,6 @@
 			"Will not be displayed in Civilopedia",
 			"ConvertFilter <hidden from users>",
 			"Only available <with [Iron]> <hidden from users>",
-			"Unavailable <if [CultCities] is not constructed> <hidden from users>",
 			"Remove [Willing Convert - Swordsman] [in this city] <hidden from users>"
 		]
 	},
@@ -540,7 +500,6 @@
 			"Will not be displayed in Civilopedia",
 			"ConvertFilter <hidden from users>",
 			"Only available <with [Iron]> <hidden from users>",
-			"Unavailable <if [CultCities] is not constructed> <hidden from users>",
 			"Remove [Willing Convert - Longswordsman] [in this city] <hidden from users>"
 		]
 	},
@@ -558,7 +517,6 @@
 			"Shown while unbuilable",
 			"Will not be displayed in Civilopedia",
 			"ConvertFilter <hidden from users>",
-			"Unavailable <if [CultCities] is not constructed> <hidden from users>",
 			"Remove [Willing Convert - Musketman] [in this city] <hidden from users>"
 		]
 	},
@@ -576,7 +534,6 @@
 			"Shown while unbuilable",
 			"Will not be displayed in Civilopedia",
 			"ConvertFilter <hidden from users>",
-			"Unavailable <if [CultCities] is not constructed> <hidden from users>",
 			"Remove [Willing Convert - Rifleman] [in this city] <hidden from users>"
 		]
 	},
@@ -594,7 +551,6 @@
 			"Shown while unbuilable",
 			"Will not be displayed in Civilopedia",
 			"ConvertFilter <hidden from users>",
-			"Unavailable <if [CultCities] is not constructed> <hidden from users>",
 			"Remove [Willing Convert - Great War Infantry] [in this city] <hidden from users>"
 		]
 	},
@@ -612,7 +568,6 @@
 			"Shown while unbuilable",
 			"Will not be displayed in Civilopedia",
 			"ConvertFilter <hidden from users>",
-			"Unavailable <if [CultCities] is not constructed> <hidden from users>",
 			"Remove [Willing Convert - Infantry] [in this city] <hidden from users>"
 		]
 	},
@@ -630,7 +585,6 @@
 			"Shown while unbuilable",
 			"Will not be displayed in Civilopedia",
 			"ConvertFilter <hidden from users>",
-			"Unavailable <if [CultCities] is not constructed> <hidden from users>",
 			"Remove [Willing Convert - Mechanized Infantry] [in this city] <hidden from users>"
 		]
 	},

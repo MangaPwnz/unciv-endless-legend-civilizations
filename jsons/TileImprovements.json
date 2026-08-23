@@ -269,31 +269,5 @@
 		],
 		"shortcutKey": "B"
 	},
-	{
-		"name": "Shrine of the Eternal End",
-		"terrainsCanBeBuiltOn": ["Land"], //, "Tundra", "Flood plains","Barren Soil","Ash Drifts","Basalt Plains","Lava Swirl","Badlands","Scorched Wilds"],
-		"uniqueTo": "Cult of the Eternal End",
-		"turnsToBuild": 3,
-		"techRequired": "Agriculture",
-		"uniques": [
-				"Gain control over [all] tiles in a [1]-tile radius <hidden from users>",
-				"Gain control over [Unowned] tiles in a [2]-tile radius <starting from the [Industrial era]>",
-				"Gives a defensive bonus of [100]%",
-				"Can be built outside your borders",
-				//"Only available <for [Worker] units> <in [City ruins] tiles>",
-				"Provides [1] [Willing Converts] <every [1] turns>",
-				"Does not need removal of [Forest]",
-				"Does not need removal of [Jungle]",
-				"Removes removable features when built",
-				"Pillaging this improvement yields approximately [+20 Gold]",
-				"Destroyed when pillaged",
-				"[-2 Happiness]", //TODO Cosmetic only, actual effect is in ...
-				"Unavailable <for [Worker] units>",
-				"Instantly gain [20] [Willing Converts]",
-				"Comment [+2 [Faith]]"
-			//"[+2 Food] per [1] population [in capital] <for every adjacent [Grassland]>",
-				//"[+2 Food] per [1] population [Capital]",
-		],
-		"shortcutKey": "S"
-	}
+
 ]

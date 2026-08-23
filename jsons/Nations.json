@@ -482,6 +482,13 @@
 				"[+20]% Strength decreasing with distance from the capital",
 				"[10] Unit Supply",
 
+
+			"May buy items in puppet cities",
+			"[+2 Faith] <for every [[non-[Capital]] Cities]>",
+			"Gain a free [Converted village] [non-[Capital]]",
+			"May not annex cities",
+			"[Military] units gain the [Fanaticism2] promotion",
+
 			"Instantly gain [3] [Resource Stockpile] <upon turn end> <for every [[in cities being razed] Cities]>", // Added by me
 			"Cities are razed [2] times as fast",
 
