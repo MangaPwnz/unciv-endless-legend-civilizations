@@ -367,11 +367,12 @@
 		"uniqueTo": "Cult of the Eternal End",
 		"cost": 0,
 		"uniques": [
-			"Instantly consumes [1] [Resource Stockpile] <when above [0] [Resource Stockpile]> <upon turn start>",
-			"[+15 Production] <(modified by game speed)> <when above [0] [Resource Stockpile]> <for every [Era number]>",
-			"Destroyed when the city is captured",
-			"Only available <when above [0] [Resource Stockpile]>",
-			"Remove [Industry Stockpiles] [Capital]  <upon turn end> <when below [1] [Resource Stockpile]>",
+			"Comment [[+15 Production] × Era (modified by game speed). Consumes 1 [Resource Stockpile] per turn; automatically removed when depleted.]",
+			"Instantly consumes [1] [Resource Stockpile] <when above [0] [Resource Stockpile]> <upon turn start> <hidden from users>",
+			"[+15 Production] <(modified by game speed)> <when above [0] [Resource Stockpile]> <for every [Era number]> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
+			"Only available <when above [0] [Resource Stockpile]> <hidden from users>",
+			"Remove [Industry Stockpiles] [Capital]  <upon turn end> <when below [1] [Resource Stockpile]> <hidden from users>",
 			],
 		"requiredTech": "Mathematics"
     },
@@ -380,11 +381,12 @@
 		"uniqueTo": "Cult of the Eternal End",
 		"cost": 0,
 		"uniques": [
-			"Instantly consumes [1] [Resource Stockpile] <when above [0] [Resource Stockpile]> <upon turn start>",
-			"[+20 Food] <(modified by game speed)> <when above [0] [Resource Stockpile]> <for every [Era number]>",
-			"Destroyed when the city is captured",
-			"Only available <when above [0] [Resource Stockpile]>",
-			"Remove [Food Stockpiles] [Capital]  <upon turn end> <when below [1] [Resource Stockpile]>",
+			"Comment [[+20 Food] × Era (modified by game speed). Consumes 1 [Resource Stockpile] per turn; automatically removed when depleted.]",
+			"Instantly consumes [1] [Resource Stockpile] <when above [0] [Resource Stockpile]> <upon turn start> <hidden from users>",
+			"[+20 Food] <(modified by game speed)> <when above [0] [Resource Stockpile]> <for every [Era number]> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
+			"Only available <when above [0] [Resource Stockpile]> <hidden from users>",
+			"Remove [Food Stockpiles] [Capital]  <upon turn end> <when below [1] [Resource Stockpile]> <hidden from users>",
 			],
 		"requiredTech": "Agriculture"
     },
@@ -393,11 +395,12 @@
 		"uniqueTo": "Cult of the Eternal End",
 		"cost": 0,
 		"uniques": [
-			"Instantly consumes [1] [Resource Stockpile] <when above [0] [Resource Stockpile]> <upon turn start>",
-			"[+30 Science] <(modified by game speed)> <when above [0] [Resource Stockpile]> <for every [Era number]>",
-			"Destroyed when the city is captured",
-			"Only available <when above [0] [Resource Stockpile]>",
-			"Remove [Science Stockpiles] [Capital]  <upon turn end> <when below [1] [Resource Stockpile]>",
+			"Comment [[+30 Science] × Era (modified by game speed). Consumes 1 [Resource Stockpile] per turn; automatically removed when depleted.]",
+			"Instantly consumes [1] [Resource Stockpile] <when above [0] [Resource Stockpile]> <upon turn start> <hidden from users>",
+			"[+30 Science] <(modified by game speed)> <when above [0] [Resource Stockpile]> <for every [Era number]> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
+			"Only available <when above [0] [Resource Stockpile]> <hidden from users>",
+			"Remove [Science Stockpiles] [Capital]  <upon turn end> <when below [1] [Resource Stockpile]> <hidden from users>",
 			],
 		"requiredTech": "Education"
     },
@@ -414,41 +417,38 @@
 	        "Destroyed when the city is captured",
 			"Unsellable",
 
-			//"Provides [1] [Willing Converts] <every [1] turns> <for every [[non-[Capital]] Cities]>",
 			"[+2 Faith] <for every [[non-[Capital]] Cities]>",
-			"Gain a free [GainConverts] [non-[Capital]]",
+			"Gain a free [Converted village] [non-[Capital]]",
 			"May not annex cities",
 			"[Military] units gain the [Fanaticism2] promotion",
-			// "[-150]% [Food] [non-[Capital]]",
-			// "[-1000]% [Production] [non-[Capital]]",
-			// "[-100]% [Gold] [non-[Capital]]",
-			// "[-100]% [Science] [non-[Capital]]",
-			// "[-100]% [Culture] [non-[Capital]]",
-			// "[-100]% [Faith] [non-[Capital]]"
 	    ],
 	    "requiredTech": "Agriculture"
 	},
 	{
-	    "name": "GainConverts",
-	    "uniqueTo": "Cult of the Eternal End",
-	    "cost": 0,
-	    "uniques": [
-	        "Unbuildable",
-	        "Destroyed when the city is captured",
-			"Unsellable",
-			"Instantly gain [20] [Willing Converts]",
-			"Provides [1] [Willing Converts] <every [1] turns>",
-			"Cannot build [{non-[Barracks]} {non-[Armory]} {non-[Walls]} {non-[Castle]}] buildings",
-			"[+2 Happiness]",
-			"Nullifies [Food] [in this city]",
-			"[-1000]% [Production] [in this city]",
-			"Nullifies [Happiness] [in this city]",
-			"Nullifies [Gold] [in this city]",
-			"Nullifies [Science] [in this city]",
-			"Nullifies [Culture] [in this city]",
-			"Nullifies [Faith] [in this city]"
-	    ],
-	    "requiredTech": "Agriculture"
+	"name": "Converted village",
+	"uniqueTo": "Cult of the Eternal End",
+	"cost": 0,
+	"uniques": [
+		"Provides [1] [Willing Converts] <every [1] turns>",
+		"[+2 Happiness]",
+		"Destroyed when the city is captured",
+
+		"Comment [This city can only build Military and Defensive buildings]",
+			"Cannot build [{non-[Barracks]} {non-[Armory]} {non-[Walls]} {non-[Castle]} {non-[ConvertFilter]}] buildings <in [Puppeted] cities> <hidden from users>",
+		"Comment [Nullifies all local city yields, quickly starving the citizens]",
+			"[-100]% [Food] [in this city] <hidden from users>",
+			"[-1000]% [Production] [in this city] <hidden from users>",
+			"Nullifies [Happiness] [in this city] <hidden from users>",
+			"Nullifies [Gold] [in this city] <hidden from users>",
+			"Nullifies [Science] [in this city] <hidden from users>",
+			"Nullifies [Culture] [in this city] <hidden from users>",
+			"Nullifies [Faith] [in this city] <hidden from users>",
+
+		"Instantly gain [20] [Willing Converts] <hidden from users>",
+		"Unbuildable <hidden from users>",
+		"Unsellable <hidden from users>",
+	],
+	"requiredTech": "Agriculture"
 	},
 
 	{
@@ -471,15 +471,21 @@
 
 
 	{
-		"name": "Willing Convert - Brute",
+		"name": "Willing Convert - Warrior",
 		"uniqueTo": "Cult of the Eternal End",
 		"cost": 0,
 		"uniques": [
 			"Costs [30] [Willing Converts]",
-			"Unavailable <if [CultCities] is not constructed>",
-			"Free [Brute] appears",
-			"Remove [Willing Convert - Brute] [in this city]",
-			"Only available <before discovering [Civil Service]>"
+			"Can be purchased for [8] [Faith] [in capital]",
+			"Free [Warrior] appears",
+			"Only available <before discovering [Civil Service]>",
+
+			"Unbuildable <hidden from users>",
+			"Shown while unbuilable",
+			"Will not be displayed in Civilopedia",
+			"ConvertFilter <hidden from users>",
+			"Unavailable <if [CultCities] is not constructed> <hidden from users>",
+			"Remove [Willing Convert - Warrior] [in this city] <hidden from users>",
 		]
 	},
 	{
@@ -487,11 +493,17 @@
 		"uniqueTo": "Cult of the Eternal End",
 		"cost": 0,
 		"uniques": [
-			"Costs [30] [Willing Converts]",
-			"Unavailable <if [CultCities] is not constructed>",
+			"Costs [35] [Willing Converts]",
+			"Can be purchased for [10] [Faith] [in capital]",
 			"Free [Pikeman] appears",
-			"Remove [Willing Convert - Pikeman] [in this city]",
-			"Only available <after discovering [Civil Service]> <before discovering [Gunpowder]>"
+			"Only available <after discovering [Civil Service]> <before discovering [Gunpowder]>",
+
+			"Unbuildable <hidden from users>",
+			"Shown while unbuilable",
+			"Will not be displayed in Civilopedia",
+			"ConvertFilter <hidden from users>",
+			"Unavailable <if [CultCities] is not constructed> <hidden from users>",
+			"Remove [Willing Convert - Pikeman] [in this city] <hidden from users>"
 		]
 	},
 	{
@@ -499,12 +511,18 @@
 		"uniqueTo": "Cult of the Eternal End",
 		"cost": 0,
 		"uniques": [
-			"Costs [30] [Willing Converts]",
-			"Only available <with [Iron]>",
-			"Unavailable <if [CultCities] is not constructed>",
+			"Costs [35] [Willing Converts]",
+			"Can be purchased for [10] [Faith] [in capital]",
 			"Free [Swordsman] appears",
-			"Remove [Willing Convert - Swordsman] [in this city]",
-			"Only available <after discovering [Iron Working]> <before discovering [Steel]>"
+			"Only available <after discovering [Iron Working]> <before discovering [Steel]>",
+
+			"Unbuildable <hidden from users>",
+			"Shown while unbuilable",
+			"Will not be displayed in Civilopedia",
+			"ConvertFilter <hidden from users>",
+			"Only available <with [Iron]> <hidden from users>",
+			"Unavailable <if [CultCities] is not constructed> <hidden from users>",
+			"Remove [Willing Convert - Swordsman] [in this city] <hidden from users>"
 		]
 	},
 	{
@@ -512,12 +530,18 @@
 		"uniqueTo": "Cult of the Eternal End",
 		"cost": 0,
 		"uniques": [
-			"Costs [30] [Willing Converts]",
-			"Only available <with [Iron]>",
-			"Unavailable <if [CultCities] is not constructed>",
+			"Costs [40] [Willing Converts]",
+			"Can be purchased for [12] [Faith] [in capital]",
 			"Free [Longswordsman] appears",
-			"Remove [Willing Convert - Longswordsman] [in this city]",
-			"Only available <after discovering [Steel]> <before discovering [Gunpowder]>"
+			"Only available <after discovering [Steel]> <before discovering [Gunpowder]>",
+
+			"Unbuildable <hidden from users>",
+			"Shown while unbuilable",
+			"Will not be displayed in Civilopedia",
+			"ConvertFilter <hidden from users>",
+			"Only available <with [Iron]> <hidden from users>",
+			"Unavailable <if [CultCities] is not constructed> <hidden from users>",
+			"Remove [Willing Convert - Longswordsman] [in this city] <hidden from users>"
 		]
 	},
 	{
@@ -525,11 +549,17 @@
 		"uniqueTo": "Cult of the Eternal End",
 		"cost": 0,
 		"uniques": [
-			"Costs [30] [Willing Converts]",
-			"Unavailable <if [CultCities] is not constructed>",
+			"Costs [45] [Willing Converts]",
+			"Can be purchased for [14] [Faith] [in capital]",
 			"Free [Musketman] appears",
-			"Remove [Willing Convert - Musketman] [in this city]",
-			"Only available <after discovering [Gunpowder]> <before discovering [Rifling]>"
+			"Only available <after discovering [Gunpowder]> <before discovering [Rifling]>",
+
+			"Unbuildable <hidden from users>",
+			"Shown while unbuilable",
+			"Will not be displayed in Civilopedia",
+			"ConvertFilter <hidden from users>",
+			"Unavailable <if [CultCities] is not constructed> <hidden from users>",
+			"Remove [Willing Convert - Musketman] [in this city] <hidden from users>"
 		]
 	},
 	{
@@ -537,11 +567,17 @@
 		"uniqueTo": "Cult of the Eternal End",
 		"cost": 0,
 		"uniques": [
-			"Costs [30] [Willing Converts]",
-			"Unavailable <if [CultCities] is not constructed>",
+			"Costs [52] [Willing Converts]",
+			"Can be purchased for [16] [Faith] [in capital]",
 			"Free [Rifleman] appears",
-			"Remove [Willing Convert - Rifleman] [in this city]",
-			"Only available <after discovering [Rifling]> <before discovering [Replaceable Parts]>"
+			"Only available <after discovering [Rifling]> <before discovering [Replaceable Parts]>",
+
+			"Unbuildable <hidden from users>",
+			"Shown while unbuilable",
+			"Will not be displayed in Civilopedia",
+			"ConvertFilter <hidden from users>",
+			"Unavailable <if [CultCities] is not constructed> <hidden from users>",
+			"Remove [Willing Convert - Rifleman] [in this city] <hidden from users>"
 		]
 	},
 	{
@@ -549,11 +585,17 @@
 		"uniqueTo": "Cult of the Eternal End",
 		"cost": 0,
 		"uniques": [
-			"Costs [30] [Willing Converts]",
-			"Unavailable <if [CultCities] is not constructed>",
+			"Costs [60] [Willing Converts]",
+			"Can be purchased for [18] [Faith] [in capital]",
 			"Free [Great War Infantry] appears",
-			"Remove [Willing Convert - Great War Infantry] [in this city]",
-			"Only available <after discovering [Replaceable Parts]> <before discovering [Plastics]>"
+			"Only available <after discovering [Replaceable Parts]> <before discovering [Plastics]>",
+
+			"Unbuildable <hidden from users>",
+			"Shown while unbuilable",
+			"Will not be displayed in Civilopedia",
+			"ConvertFilter <hidden from users>",
+			"Unavailable <if [CultCities] is not constructed> <hidden from users>",
+			"Remove [Willing Convert - Great War Infantry] [in this city] <hidden from users>"
 		]
 	},
 	{
@@ -561,11 +603,17 @@
 		"uniqueTo": "Cult of the Eternal End",
 		"cost": 0,
 		"uniques": [
-			"Costs [30] [Willing Converts]",
-			"Unavailable <if [CultCities] is not constructed>",
+			"Costs [70] [Willing Converts]",
+			"Can be purchased for [20] [Faith] [in capital]",
 			"Free [Infantry] appears",
-			"Remove [Willing Convert - Infantry] [in this city]",
-			"Only available <after discovering [Plastics]> <before discovering [Mobile Tactics]>"
+			"Only available <after discovering [Plastics]> <before discovering [Mobile Tactics]>",
+
+			"Unbuildable <hidden from users>",
+			"Shown while unbuilable",
+			"Will not be displayed in Civilopedia",
+			"ConvertFilter <hidden from users>",
+			"Unavailable <if [CultCities] is not constructed> <hidden from users>",
+			"Remove [Willing Convert - Infantry] [in this city] <hidden from users>"
 		]
 	},
 	{
@@ -573,11 +621,17 @@
 		"uniqueTo": "Cult of the Eternal End",
 		"cost": 0,
 		"uniques": [
-			"Costs [30] [Willing Converts]",
-			"Unavailable <if [CultCities] is not constructed>",
+			"Costs [80] [Willing Converts]",
+			"Can be purchased for [25] [Faith] [in capital]",
 			"Free [Mechanized Infantry] appears",
-			"Remove [Willing Convert - Mechanized Infantry] [in this city]",
-			"Only available <after discovering [Mobile Tactics]>"
+			"Only available <after discovering [Mobile Tactics]>",
+
+			"Unbuildable <hidden from users>",
+			"Shown while unbuilable",
+			"Will not be displayed in Civilopedia",
+			"ConvertFilter <hidden from users>",
+			"Unavailable <if [CultCities] is not constructed> <hidden from users>",
+			"Remove [Willing Convert - Mechanized Infantry] [in this city] <hidden from users>"
 		]
 	},
 
