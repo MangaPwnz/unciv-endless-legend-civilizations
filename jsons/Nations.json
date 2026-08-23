@@ -477,27 +477,31 @@
 		"uniqueName": "High Seat of the Queen",
 		"uniques": [
 			// One city stuff
-				"Cannot build [Settler] units",
-				//"May buy items in puppet cities",
-				"[+20]% Strength decreasing with distance from the capital",
-				"[10] Unit Supply",
-
-
+			"Comment [Cannot gain settlers nor annex cities]",
+				"Cannot build [Settler] units <hidden from users>",
+				"May not annex cities <hidden from users>",
 			"May buy items in puppet cities",
-			"[+2 Faith] <for every [[non-[Capital]] Cities]>",
-			"Gain a free [Converted village] [non-[Capital]]",
-			"May not annex cities",
-			"[Military] units gain the [Fanaticism] promotion",
+			//	"[+20]% Strength decreasing with distance from the capital",
+			//	"[10] Unit Supply",
 
-			"Instantly gain [3] [Resource Stockpile] <upon turn end> <for every [[in cities being razed] Cities]>", // Added by me
-			"Cities are razed [2] times as fast",
+			// Converted villages
+			//"[+2 Faith] <for every [[Puppeted] Cities]>",
+			"Comment [All puppeted cities become Converted villages. Removing all yields but giving free [Willing Converts]]",
+				"Gain a free [Converted village] [non-[Capital]] <hidden from users>",
+			"Comment [[Willing Converts] and [Faith] can be spent to buy Melee units]",
 
-			// Religion stuff
-			"[15]% Strength <in cities following our religion>",
-			"[+10 Faith] <for every [[{Holy} {Puppeted}] Cities]>",
-			//"[+1 Faith] per [2] population [in capital]",
+			"Comment [Military units can found Puppet cities on [Barbarian encampments] and [City ruins]]",
+				"[Military] units gain the [Fanaticism] promotion <hidden from users>",
+			"Comment [Cities are razed twice as fast and yield 3 [Resource Stockpile] per turn.]",
+				"Instantly gain [3] [Resource Stockpile] <upon turn end> <for every [[in cities being razed] Cities]> <hidden from users>",
+				"Cities are razed [2] times as fast <hidden from users>",
+
+				// Religion stuff
+				//"[15]% Strength <in cities following our religion>",
+				//	"May choose [1] additional [Founder] beliefs when [enhancing] a religion",
+				"[+10]% [Faith] <for every [[{Holy} {Puppeted}] Cities]>",
+				"[+4 Faith] per [4] population [in capital]",
 			//"May buy [{Military} {Melee} {non-[Conscript]}] units with [Faith] for [3] times their normal Production cost",
-			"May choose [1] additional [Founder] beliefs when [enhancing] a religion",
 			//"May choose [1] additional [Follower] beliefs when [enhancing] a religion",
 
 			//Shrine version

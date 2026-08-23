@@ -413,6 +413,7 @@
 	"uniques": [
 		"Provides [1] [Willing Converts] <every [1] turns>",
 		"[+2 Happiness]",
+		"Instantly gain [20] [Willing Converts] <(modified by game speed)>",
 		"Destroyed when the city is captured",
 
 		"Comment [This city can only build Military and Defensive buildings]",
@@ -426,7 +427,6 @@
 			"Nullifies [Culture] [in this city] <hidden from users>",
 			"Nullifies [Faith] [in this city] <hidden from users>",
 
-		"Instantly gain [20] [Willing Converts] <(modified by game speed)> <hidden from users>",
 		"Unbuildable <hidden from users>",
 		"Unsellable <hidden from users>",
 	],
@@ -525,7 +525,7 @@
 		"uniqueTo": "Cult of the Eternal End",
 		"cost": 0,
 		"uniques": [
-			"Costs [52] [Willing Converts] <(modified by game speed)>",
+			"Costs [50] [Willing Converts] <(modified by game speed)>",
 			"Can be purchased for [16] [Faith] [in capital]",
 			"Free [Rifleman] appears",
 			"Only available <after discovering [Rifling]> <before discovering [Replaceable Parts]>",
@@ -542,7 +542,7 @@
 		"uniqueTo": "Cult of the Eternal End",
 		"cost": 0,
 		"uniques": [
-			"Costs [60] [Willing Converts] <(modified by game speed)>",
+			"Costs [55] [Willing Converts] <(modified by game speed)>",
 			"Can be purchased for [18] [Faith] [in capital]",
 			"Free [Great War Infantry] appears",
 			"Only available <after discovering [Replaceable Parts]> <before discovering [Plastics]>",
@@ -559,7 +559,7 @@
 		"uniqueTo": "Cult of the Eternal End",
 		"cost": 0,
 		"uniques": [
-			"Costs [70] [Willing Converts] <(modified by game speed)>",
+			"Costs [60] [Willing Converts] <(modified by game speed)>",
 			"Can be purchased for [20] [Faith] [in capital]",
 			"Free [Infantry] appears",
 			"Only available <after discovering [Plastics]> <before discovering [Mobile Tactics]>",
@@ -576,7 +576,7 @@
 		"uniqueTo": "Cult of the Eternal End",
 		"cost": 0,
 		"uniques": [
-			"Costs [80] [Willing Converts] <(modified by game speed)>",
+			"Costs [75] [Willing Converts] <(modified by game speed)>",
 			"Can be purchased for [25] [Faith] [in capital]",
 			"Free [Mechanized Infantry] appears",
 			"Only available <after discovering [Mobile Tactics]>",

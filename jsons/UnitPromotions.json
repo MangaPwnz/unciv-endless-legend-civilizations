@@ -20,8 +20,7 @@
 	{
 		"name": "Fanaticism",
 		"uniques": [
-			"Comment [Founds a new Puppet City and gains 20 [Willing Converts] (modified by game speed)]",
-			"Founds a new puppet city <in [City ruins] tiles> <hidden from users>",
+			"Founds a new puppet city <in [City ruins] tiles>",
 			"[This Unit] gains the [Ascendancy] promotion <upon entering a [Barbarian encampment] tile>",
 		]
 	},
@@ -29,8 +28,7 @@
 	{
 		"name": "Ascendancy",
 		"uniques": [
-			"Comment [Founds a new Puppet City and gains 20 [Willing Converts] (modified by game speed)]",
-			"Founds a new puppet city <hidden from users>",
+			"Founds a new puppet city",
 			"[This Unit] loses the [Ascendancy] promotion <for [0] movement>",
 			"Cannot move"
 		]
