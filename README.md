@@ -58,7 +58,7 @@ Mykara: Single City Civ which expands by growing Fungal Blooms on neutral terrai
 - Drakkenling - https://thenounproject.com/icon/dragon-5301363/
 - Wyvern - https://thenounproject.com/icon/dragon-6217857/
 - Ancient - https://thenounproject.com/icon/dragon-6217860/
-- Preacher - https://thenounproject.com/icon/mask-6855814/
+- Preacher (original) - https://thenounproject.com/icon/mask-6855814/
 - Fanatic - https://thenounproject.com/icon/horse-cart-rental-5166239/
 - Nameless Guard - https://thenounproject.com/icon/longbow-5299634/
 - Assassin - https://thenounproject.com/icon/assassin-4730114/
@@ -106,7 +106,7 @@ Roving Clans:
 - Added +10% gold when not at war. Make trade not war!
 
 Cultists
-- Fanatic is renamed to Preacher
+- Fanatic is renamed to Preacher (original)
 
 Forgotten:
 - Scout units now get "From the Shadows" promotion
@@ -180,7 +180,7 @@ Drakken:
 
 Cultists:
 - Wall of Faith removed
-- Preacher added as Missionary replacement
+- Preacher (original) added as Missionary replacement
 
 Allayi:
 - Assigned new "Tall" personality with Tradition and Freedom priorty

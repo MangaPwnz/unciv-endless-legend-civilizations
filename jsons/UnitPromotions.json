@@ -18,29 +18,20 @@
 		"uniques": ["May capture killed [Barbarian] units","[+25]% Strength <vs [Barbarian] units>"]
 	},
 	{
-		"name": "Fanaticism2",
+		"name": "Fanaticism",
 		"uniques": [
-			"Founds a new puppet city <in [City ruins] tiles>",
-			"[This Unit] gains the [Ascendancy2] promotion <upon entering a [Barbarian encampment] tile>",
+			"Comment [Founds a new Puppet City and gains 20 [Willing Converts] (modified by game speed)]",
+			"Founds a new puppet city <in [City ruins] tiles> <hidden from users>",
+			"[This Unit] gains the [Ascendancy] promotion <upon entering a [Barbarian encampment] tile>",
 		]
 	},
+
 	{
-		"name": "Ascendancy2",
+		"name": "Ascendancy",
 		"uniques": [
-			"Founds a new puppet city",
-			"[This Unit] loses the [Ascendancy2] promotion <for [0] movement>",
-			"Can move after attacking",
-			"[This Unit] loses the [Ascendancy2] promotion <upon turn start>",
-			"[This Unit] gains the [Ascendancy3] promotion <upon turn end>",
-			"Cannot move"
-		]
-	},
-		{
-		"name": "Ascendancy3",
-		"uniques": [
-			"Founds a new puppet city",
-			"[This Unit] loses the [Ascendancy3] promotion <for [0] movement>",
-			"[This Unit] loses the [Ascendancy3] promotion <upon turn end>",
+			"Comment [Founds a new Puppet City and gains 20 [Willing Converts] (modified by game speed)]",
+			"Founds a new puppet city <hidden from users>",
+			"[This Unit] loses the [Ascendancy] promotion <for [0] movement>",
 			"Cannot move"
 		]
 	},

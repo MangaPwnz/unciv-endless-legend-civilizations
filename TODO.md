@@ -2,10 +2,14 @@
 
 - Disable unused or bugged civilizations
 - Rename civs with (original)
+- Add icons
+
+Upload:
 - Rename mod?
 - Upload mod so it's visible
 - Make a forum thread
 - Update change log
+- Update descriptions
 # Roving Clans (Good for now)
 
 ## Make Trade - Not War
@@ -33,5 +37,6 @@ Nerfs:
 - Extra upkeep for each puppeted city
     - (flat or increasing?)
     - non-capital only or all?
+    - Remove religion bonuses?
     -
 - Remove buying capabilities in puppeted cities? Or not?

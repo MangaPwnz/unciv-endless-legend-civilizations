@@ -31,3 +31,6 @@ Rebalance Mykara2.
     - Mykara units gain increase movement speed from Fungal bloom, and can research teleport (paradrop).
 - Spore bearers now gain 5 charges and extra cost starting from Industrial era
 - Clean up and simply formatting for all of Mykara's abilities
+
+## V1.0.5
+Rebalance Roving
