@@ -476,12 +476,12 @@
 			"Can be purchased for [10] [Faith] [in capital]",
 			"Free [Swordsman] appears",
 			"Only available <after discovering [Iron Working]> <before discovering [Steel]>",
+			"Only available <with [Iron]>",
 
 			"Unbuildable <hidden from users>",
 			"Shown while unbuilable",
 			"Will not be displayed in Civilopedia",
 			"ConvertFilter <hidden from users>",
-			"Only available <with [Iron]> <hidden from users>",
 			"Remove [Willing Convert - Swordsman] [in this city] <hidden from users>"
 		]
 	},
@@ -494,12 +494,12 @@
 			"Can be purchased for [12] [Faith] [in capital]",
 			"Free [Longswordsman] appears",
 			"Only available <after discovering [Steel]> <before discovering [Gunpowder]>",
+			"Only available <with [Iron]>",
 
 			"Unbuildable <hidden from users>",
 			"Shown while unbuilable",
 			"Will not be displayed in Civilopedia",
 			"ConvertFilter <hidden from users>",
-			"Only available <with [Iron]> <hidden from users>",
 			"Remove [Willing Convert - Longswordsman] [in this city] <hidden from users>"
 		]
 	},
