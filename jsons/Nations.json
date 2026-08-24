@@ -486,6 +486,7 @@
 
 			// Converted villages
 			//"[+2 Faith] <for every [[Puppeted] Cities]>",
+			"Provides [3] [Willing Converts] <every [1] turns>",
 			"Comment [All puppeted cities become Converted villages. Removing all yields but giving free [Willing Converts]]",
 				"Gain a free [Converted village] [non-[Capital]] <hidden from users>",
 			"Comment [[Willing Converts] and [Faith] can be spent to buy Melee units]",
