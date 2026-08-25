@@ -447,6 +447,18 @@
 		]
 	},
 	{
+		"name": "cultist_founder_bool",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Cannot be traded",
+			"Doesn't generate naturally",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia",
+			"Not shown on world screen",
+		]
+	},
+	{
 		"name": "Resource Stockpile",
 		"resourceType": "Strategic",
 		"uniques": [

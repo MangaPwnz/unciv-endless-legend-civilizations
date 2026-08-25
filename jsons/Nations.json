@@ -486,7 +486,7 @@
 
 			// Converted villages
 			//"[+2 Faith] <for every [[Puppeted] Cities]>",
-			"Provides [3] [Willing Converts] <every [1] turns>",
+			//"Provides [3] [Willing Converts] <every [1] turns>",
 			"Comment [All puppeted cities become Converted villages. Removing all yields but giving free [Willing Converts]]",
 				"Gain a free [Converted village] [non-[Capital]] <hidden from users>",
 			"Comment [[Willing Converts] and [Faith] can be spent to buy Melee units]",
@@ -501,7 +501,10 @@
 				//"[15]% Strength <in cities following our religion>",
 				//	"May choose [1] additional [Founder] beliefs when [enhancing] a religion",
 				"[+10]% [Faith] <for every [[{Holy} {Puppeted}] Cities]>",
-				"[+4 Faith] per [4] population [in capital]",
+				"[+1 Faith] per [2] population [in capital]",
+				"[+1 Faith] per [1] population [in capital] <if [Fanatic Converts] is constructed in at least [4] of [Puppeted] cities>",
+				"Gain a free [Founder] belief <if [Fanatic Converts] is constructed in at least [8] of [Puppeted] cities> <upon turn end> <when between [0] and [0] [cultist_founder_bool]> ",
+				"Instantly gain [1] [cultist_founder_bool] <if [Fanatic Converts] is constructed in at least [8] of [Puppeted] cities> <upon turn start> <when between [0] and [0] [cultist_founder_bool]> ",
 			//"May buy [{Military} {Melee} {non-[Conscript]}] units with [Faith] for [3] times their normal Production cost",
 			//"May choose [1] additional [Follower] beliefs when [enhancing] a religion",
 

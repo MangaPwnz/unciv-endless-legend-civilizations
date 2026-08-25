@@ -367,9 +367,9 @@
 		"uniqueTo": "Cult of the Eternal End",
 		"cost": 0,
 		"uniques": [
-			"Comment [[+15 Production] × Era (modified by game speed). Consumes 1 [Resource Stockpile] per turn; automatically removed when depleted.]",
+			"Comment [[+12 Production] × Era (modified by game speed). Consumes 1 [Resource Stockpile] per turn; automatically removed when depleted.]",
 			"Instantly consumes [1] [Resource Stockpile] <when above [0] [Resource Stockpile]> <upon turn start> <hidden from users>",
-			"[+15 Production] <(modified by game speed)> <when above [0] [Resource Stockpile]> <for every [Era number]> <hidden from users>",
+			"[+12 Production] <(modified by game speed)> <when above [0] [Resource Stockpile]> <for every [Era number]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"Only available <when above [0] [Resource Stockpile]> <hidden from users>",
 			"Remove [Industry Stockpiles] [Capital]  <upon turn end> <when below [1] [Resource Stockpile]> <hidden from users>",
@@ -381,9 +381,9 @@
 		"uniqueTo": "Cult of the Eternal End",
 		"cost": 0,
 		"uniques": [
-			"Comment [[+20 Food] × Era (modified by game speed). Consumes 1 [Resource Stockpile] per turn; automatically removed when depleted.]",
+			"Comment [[+16 Food] × Era (modified by game speed). Consumes 1 [Resource Stockpile] per turn; automatically removed when depleted.]",
 			"Instantly consumes [1] [Resource Stockpile] <when above [0] [Resource Stockpile]> <upon turn start> <hidden from users>",
-			"[+20 Food] <(modified by game speed)> <when above [0] [Resource Stockpile]> <for every [Era number]> <hidden from users>",
+			"[+16 Food] <(modified by game speed)> <when above [0] [Resource Stockpile]> <for every [Era number]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"Only available <when above [0] [Resource Stockpile]> <hidden from users>",
 			"Remove [Food Stockpiles] [Capital]  <upon turn end> <when below [1] [Resource Stockpile]> <hidden from users>",
@@ -395,9 +395,9 @@
 		"uniqueTo": "Cult of the Eternal End",
 		"cost": 0,
 		"uniques": [
-			"Comment [[+30 Science] × Era (modified by game speed). Consumes 1 [Resource Stockpile] per turn; automatically removed when depleted.]",
+			"Comment [[+25 Science] × Era (modified by game speed). Consumes 1 [Resource Stockpile] per turn; automatically removed when depleted.]",
 			"Instantly consumes [1] [Resource Stockpile] <when above [0] [Resource Stockpile]> <upon turn start> <hidden from users>",
-			"[+30 Science] <(modified by game speed)> <when above [0] [Resource Stockpile]> <for every [Era number]> <hidden from users>",
+			"[+25 Science] <(modified by game speed)> <when above [0] [Resource Stockpile]> <for every [Era number]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"Only available <when above [0] [Resource Stockpile]> <hidden from users>",
 			"Remove [Science Stockpiles] [Capital]  <upon turn end> <when below [1] [Resource Stockpile]> <hidden from users>",
@@ -407,13 +407,46 @@
 // Cult City Test
 
 	{
+	"name": "\"Willing\" Converts",
+	"uniqueTo": "Cult of the Eternal End",
+	"requiredBuilding": "Converted village",
+	"cost": 50,
+	"uniques": [
+		"Provides [3] [Willing Converts] <every [1] turns>",
+		//"Provides [1] [Willing Converts] <every [1] turns> <starting from the [Modern era]>",
+		"[-4 Happiness]",
+		"ConvertFilter",
+		"Destroyed when the city is captured",
+	],
+	"requiredTech": "Theology"
+	},
+
+	{
+		"name": "Fanatic Converts",
+		"uniqueTo": "Cult of the Eternal End",
+		"requiredBuilding": "Converted village",
+		"cost": 100,
+		"uniques": [
+			"Comment [upon building 4, gain 1 Faith per pop in the capital]",
+			"Comment [upon building 8, Gain 1 additional Founder Belief]",
+			//"Provides [3] [Willing Converts] <every [1] turns>",
+			//"Provides [1] [Willing Converts] <every [1] turns> <starting from the [Modern era]>",
+			//"[-4 Happiness] ",
+			"ConvertFilter",
+			"Destroyed when the city is captured",
+		],
+		"requiredTech": "Theology"
+	},
+
+	{
 	"name": "Converted village",
 	"uniqueTo": "Cult of the Eternal End",
 	"cost": 0,
+	"culture": 1,
 	"uniques": [
-		"Provides [1] [Willing Converts] <every [1] turns>",
-		"Provides [1] [Willing Converts] <every [1] turns> <starting from the [Modern era]>",
-		"[+2 Happiness] <before the [Modern era]>",
+		"Provides [3] [Willing Converts] <every [1] turns>",
+		//"Provides [1] [Willing Converts] <every [1] turns> <starting from the [Modern era]>",
+		//"[+2 Happiness] <before the [Modern era]>",
 		"Instantly gain [20] [Willing Converts] <(modified by game speed)>",
 		"Destroyed when the city is captured",
 
@@ -425,7 +458,7 @@
 			"Nullifies [Happiness] [in this city] <hidden from users>",
 			"Nullifies [Gold] [in this city] <hidden from users>",
 			"Nullifies [Science] [in this city] <hidden from users>",
-			"Nullifies [Culture] [in this city] <hidden from users>",
+			//"Nullifies [Culture] [in this city] <hidden from users>",
 			"Nullifies [Faith] [in this city] <hidden from users>",
 
 		"Unbuildable <hidden from users>",
@@ -440,12 +473,12 @@
         "cost": 10,
         "uniques": [
             "Costs [90] [Willing Converts] <(modified by game speed)>",
-            "Can be purchased for [8] [Faith] [in capital]",
+            "Can be purchased for [0] [Gold] [in all cities]",
             "Free [Warrior] appears",
             "Only available <before discovering [Civil Service]>",
 
             "Unbuildable <hidden from users>",
-            "Shown while unbuilable",
+            "Shown while unbuilable <before discovering [Civil Service]>",
             "Will not be displayed in Civilopedia",
             "ConvertFilter <hidden from users>",
             "Remove [Willing Convert - Warrior] [in this city] <hidden from users>"
@@ -457,7 +490,7 @@
         "cost": 0,
         "uniques": [
             "Costs [105] [Willing Converts] <(modified by game speed)>",
-            "Can be purchased for [10] [Faith] [in capital]",
+            "Can be purchased for [0] [Gold] [in all cities]",
             "Free [Pikeman] appears",
             "Only available <after discovering [Civil Service]> <before discovering [Gunpowder]>",
 
@@ -474,7 +507,7 @@
         "cost": 0,
         "uniques": [
             "Costs [105] [Willing Converts] <(modified by game speed)>",
-            "Can be purchased for [10] [Faith] [in capital]",
+            "Can be purchased for [0] [Gold] [in all cities]",
             "Free [Swordsman] appears",
             "Only available <after discovering [Iron Working]> <before discovering [Steel]>",
             "Only available <with [Iron]>",
@@ -492,7 +525,7 @@
         "cost": 0,
         "uniques": [
             "Costs [120] [Willing Converts] <(modified by game speed)>",
-            "Can be purchased for [12] [Faith] [in capital]",
+            "Can be purchased for [0] [Gold] [in all cities]",
             "Free [Longswordsman] appears",
             "Only available <after discovering [Steel]> <before discovering [Gunpowder]>",
             "Only available <with [Iron]>",
@@ -510,7 +543,7 @@
         "cost": 0,
         "uniques": [
             "Costs [135] [Willing Converts] <(modified by game speed)>",
-            "Can be purchased for [14] [Faith] [in capital]",
+            "Can be purchased for [0] [Gold] [in all cities]",
             "Free [Musketman] appears",
             "Only available <after discovering [Gunpowder]> <before discovering [Rifling]>",
 
@@ -527,7 +560,7 @@
         "cost": 0,
         "uniques": [
             "Costs [150] [Willing Converts] <(modified by game speed)>",
-            "Can be purchased for [16] [Faith] [in capital]",
+            "Can be purchased for [0] [Gold] [in all cities]",
             "Free [Rifleman] appears",
             "Only available <after discovering [Rifling]> <before discovering [Replaceable Parts]>",
 
@@ -544,7 +577,7 @@
         "cost": 0,
         "uniques": [
             "Costs [330] [Willing Converts] <(modified by game speed)>",
-            "Can be purchased for [18] [Faith] [in capital]",
+            "Can be purchased for [0] [Gold] [in all cities]",
             "Free [Great War Infantry] appears",
             "Only available <after discovering [Replaceable Parts]> <before discovering [Plastics]>",
 
@@ -561,7 +594,7 @@
         "cost": 0,
         "uniques": [
             "Costs [360] [Willing Converts] <(modified by game speed)>",
-            "Can be purchased for [20] [Faith] [in capital]",
+            "Can be purchased for [0] [Gold] [in all cities]",
             "Free [Infantry] appears",
             "Only available <after discovering [Plastics]> <before discovering [Mobile Tactics]>",
 
@@ -578,7 +611,7 @@
         "cost": 0,
         "uniques": [
             "Costs [450] [Willing Converts] <(modified by game speed)>",
-            "Can be purchased for [25] [Faith] [in capital]",
+            "Can be purchased for [0] [Gold] [in all cities]",
             "Free [Mechanized Infantry] appears",
             "Only available <after discovering [Mobile Tactics]>",
 
