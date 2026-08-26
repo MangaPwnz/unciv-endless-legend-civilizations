@@ -746,6 +746,8 @@
 			//"Unsellable",
 			"Indicates the capital city",
 			"Destroyed when the city is captured <hidden from users>",
+
+			"[-5]% Culture cost of natural border growth [in this city] <for every [(9+ [Owned [Fungal bloom] Tiles])^(0.34 + min(0.22, 0.015*[Owned [Fungal bloom] Tiles]))]>",
 		// Forest
 			"[+1 Production] <for every [Owned [{Fungal bloom} {Forest} {non-[Hill]}] Tiles]> <after discovering [Construction]> <hidden from users>",
 		//Hills

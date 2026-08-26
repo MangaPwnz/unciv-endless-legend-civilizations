@@ -238,7 +238,7 @@
 	},
 	{
 		"name": "Fungal bloom",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Hill","Forest","Jungle"], //, "Tundra", "Flood plains","Barren Soil","Ash Drifts","Basalt Plains","Lava Swirl","Badlands","Scorched Wilds"],
+		"terrainsCanBeBuiltOn": ["Land"], //, "Tundra", "Flood plains","Barren Soil","Ash Drifts","Basalt Plains","Lava Swirl","Badlands","Scorched Wilds"],
 		"uniqueTo": "Mykara2",
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
