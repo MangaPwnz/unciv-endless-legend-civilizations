@@ -447,7 +447,7 @@
 		"Provides [3] [Willing Converts] <every [1] turns>",
 		//"Provides [1] [Willing Converts] <every [1] turns> <starting from the [Modern era]>",
 		//"[+2 Happiness] <before the [Modern era]>",
-		"Instantly gain [20] [Willing Converts] <(modified by game speed)>",
+		"Instantly gain [60] [Willing Converts] <(modified by game speed)>",
 		"Destroyed when the city is captured",
 
 		"Comment [This city can only build Military and Defensive buildings]",
