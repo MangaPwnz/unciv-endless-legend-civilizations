@@ -29,7 +29,8 @@
 		"name": "Ascendancy",
 		"uniques": [
 			"Founds a new puppet city",
-			"[This Unit] loses the [Ascendancy] promotion <for [0] movement>",
+			//"[This Unit] loses the [Ascendancy] promotion <for [0] movement>", //<upon losing the [promotion] status> unittriggercondition
+			"Instantly gain [1] [Resource Stockpile] <for [0] movement> <removing the [Ascendancy] promotion/status>", // Not a cost <removing the [promotion] promotion/status>
 			"Cannot move"
 		]
 	},
