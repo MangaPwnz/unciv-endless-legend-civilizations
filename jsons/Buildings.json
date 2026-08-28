@@ -748,6 +748,16 @@
 			"Destroyed when the city is captured <hidden from users>",
 
 			"[-5]% Culture cost of natural border growth [in this city] <for every [(9+ [Owned [Fungal bloom] Tiles])^(0.34 + min(0.22, 0.015*[Owned [Fungal bloom] Tiles]))]>",
+			"[+10]% Culture cost of adopting new Policies <when number of [[Owned [Fungal bloom] Tiles]] is between [11] and [20]> <hidden from users>",
+			"[+20]% Culture cost of adopting new Policies <when number of [[Owned [Fungal bloom] Tiles]] is between [21] and [30]> <hidden from users>",
+			"[+30]% Culture cost of adopting new Policies <when number of [[Owned [Fungal bloom] Tiles]] is between [31] and [40]> <hidden from users>",
+			"[+40]% Culture cost of adopting new Policies <when number of [[Owned [Fungal bloom] Tiles]] is between [41] and [50]> <hidden from users>",
+			"[+50]% Culture cost of adopting new Policies <when number of [[Owned [Fungal bloom] Tiles]] is between [51] and [60]> <hidden from users>",
+			"[+60]% Culture cost of adopting new Policies <when number of [[Owned [Fungal bloom] Tiles]] is between [61] and [70]> <hidden from users>",
+			"[+70]% Culture cost of adopting new Policies <when number of [[Owned [Fungal bloom] Tiles]] is between [71] and [80]> <hidden from users>",
+			"[+80]% Culture cost of adopting new Policies <when number of [[Owned [Fungal bloom] Tiles]] is between [81] and [90]> <hidden from users>",
+			"[+90]% Culture cost of adopting new Policies <when number of [[Owned [Fungal bloom] Tiles]] is between [91] and [100]> <hidden from users>",
+			"[+100]% Culture cost of adopting new Policies <when number of [[Owned [Fungal bloom] Tiles]] is between [101] and [1000]> <hidden from users>",
 		// Forest
 			"[+1 Production] <for every [Owned [{Fungal bloom} {Forest} {non-[Hill]}] Tiles]> <after discovering [Construction]> <hidden from users>",
 		//Hills
