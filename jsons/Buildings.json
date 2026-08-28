@@ -374,7 +374,7 @@
 			"Only available <when above [0] [Resource Stockpile]> <hidden from users>",
 			"Remove [Industry Stockpiles] [Capital]  <upon turn end> <when below [1] [Resource Stockpile]> <hidden from users>",
 			],
-		"requiredTech": "Mathematics"
+		"requiredTech": "Agriculture"
     },
 	{
         "name": "Food Stockpiles",
@@ -402,7 +402,7 @@
 			"Only available <when above [0] [Resource Stockpile]> <hidden from users>",
 			"Remove [Science Stockpiles] [Capital]  <upon turn end> <when below [1] [Resource Stockpile]> <hidden from users>",
 			],
-		"requiredTech": "Education"
+		"requiredTech": "Agriculture"
     },
 // Cult City Test
 
@@ -442,7 +442,7 @@
 	"name": "Converted village",
 	"uniqueTo": "Cult of the Eternal End",
 	"cost": 0,
-	"culture": 1,
+	"culture": 1.5,
 	"uniques": [
 		"Provides [3] [Willing Converts] <every [1] turns>",
 		//"Provides [1] [Willing Converts] <every [1] turns> <starting from the [Modern era]>",
