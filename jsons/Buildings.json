@@ -767,7 +767,7 @@
 			"[+2 Science] <for every [Owned [{Fungal bloom} {Tundra}] Tiles]> <after discovering [Scientific Theory]> <hidden from users>",
 		// Techs
 			"[+1 Food] <for every [Owned [{Fungal bloom} {Fresh Water}] Tiles]> <after discovering [Civil Service]> <hidden from users>",
-			"[+1 Food] <for every [Owned [{Fungal bloom} {non-fresh water}] Tiles]> <after discovering [Fertilizer]> <hidden from users>",
+			"[+1 Food] <for every [Owned [{Fungal bloom} {non-[Fresh Water]}] Tiles]> <after discovering [Fertilizer]> <hidden from users>",
 
 		// Bonus resource
 			"[+1 Food] <for every [Owned [{Fungal bloom} {Bonus resource}] Tiles]> <hidden from users>",
