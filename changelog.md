@@ -41,3 +41,6 @@ Lots of stuff
 - Add icons for most things
 - Other minor changes
 - Disable a few civilizations with bugs
+
+## V1.1.1
+Add Roving Traders as an alternative version of the Roving Clans.

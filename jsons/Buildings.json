@@ -185,7 +185,7 @@
 		// Roving clans
 
 
-		// Roving Clans (wide)
+		// Roving Traders
 //   {
 //     "name": "Make Trade - Not War",
 //     "cost": 1,
@@ -205,7 +205,7 @@
 	// {
 	// 	"name": "Highways",
 	// 	"replaces": "Market",
-	// 	"uniqueTo": "Roving Clans (wide)",
+	// 	"uniqueTo": "Roving Traders",
 	// 	//"cost": 1,
 	// 	"gold": 1,
 	// 	"uniques": [
@@ -217,7 +217,7 @@
     {
         "name": "Caravanserai",
         "replaces": "Market",
-        "uniqueTo": "Roving Clans (wide)",
+        "uniqueTo": "Roving Traders",
         "requiredTech": "Currency",
         // "cost": 11,
         "gold": 0,
@@ -230,7 +230,7 @@
         "name": "Grand Exchange",
         "replaces": "Bank",
 		"requiredBuilding": "Market",
-        "uniqueTo": "Roving Clans (wide)",
+        "uniqueTo": "Roving Traders",
         "requiredTech": "Banking",
         // "cost": 11,
         "uniques": [
@@ -241,7 +241,7 @@
     {
         "name": "Sponsor Troubadours",
         "replaces": "Amphitheater",
-        "uniqueTo": "Roving Clans (wide)",
+        "uniqueTo": "Roving Traders",
         "requiredTech": "Drama and Poetry",
         "cost": 75,
         "maintenance": 2,
@@ -255,7 +255,7 @@
 	{
         "name": "Bardic Schools", //TODO change name
         "replaces": "Opera House",
-        "uniqueTo": "Roving Clans (wide)",
+        "uniqueTo": "Roving Traders",
 		"requiredBuilding": "Amphitheater",
         "requiredTech": "Acoustics",
         // "cost": 11,
@@ -268,7 +268,7 @@
     {
         "name": "Caravan School",
         "replaces": "Library",
-        "uniqueTo": "Roving Clans (wide)",
+        "uniqueTo": "Roving Traders",
         "requiredTech": "Writing",
         "maintenance": 1,
         // "cost": 11,
@@ -281,7 +281,7 @@
     {
         "name": "Network Academy",
         "replaces": "University",
-        "uniqueTo": "Roving Clans (wide)",
+        "uniqueTo": "Roving Traders",
         "requiredTech": "Education",
 		"maintenance": 4,
         // "cost": 11,
@@ -294,7 +294,7 @@
 // Guilds
 	{
 		"name": "The Innovators' Guild",
-		"uniqueTo": "Roving Clans (wide)",
+		"uniqueTo": "Roving Traders",
 		"isNationalWonder": true,
 		"requiredTech": "Guilds",
 		"replaces": "National Treasury",
@@ -307,7 +307,7 @@
 	},
 	{
 		"name": "The Merchants' Guild",
-		"uniqueTo": "Roving Clans (wide)",
+		"uniqueTo": "Roving Traders",
 		"isNationalWonder": true,
 		"requiredTech": "Guilds",
 		"replaces": "National Treasury",
@@ -320,7 +320,7 @@
 	},
 	{
 		"name": "The Artisans' Guild",
-		"uniqueTo": "Roving Clans (wide)",
+		"uniqueTo": "Roving Traders",
 		"isNationalWonder": true,
 		"replaces": "National Treasury",
 		"requiredTech": "Guilds",
