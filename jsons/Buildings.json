@@ -787,7 +787,6 @@
 			"[+2 Culture] <for every [Owned [{Fungal Bloom} {Luxury resource}] Tiles]> <after adopting [Representation]> <hidden from users>",
 		// Other
 			//"[+1 Culture] per [3] population [in capital] <after adopting [Representation]>",
-			"[+4 Faith] <for every [Owned [Natural Wonder] Tiles]>",
 			"[-1 Happiness] <for every [3] [Owned [Fungal Bloom] Tiles]>",
 			"[+1 Happiness] <after adopting [Meritocracy]> <for every [12] [Owned [Fungal Bloom] Tiles]>",
 
@@ -807,7 +806,7 @@
 	        "Only available <in [Capital] cities>",
 	        "Destroyed when the city is captured",
 			"Unbuildable",
-			"Can be purchased for [1500] [Science] [in capital]",
+			"Can be purchased for [1200] [Science] [in capital]",
 			//"All newly-trained [non-[Air]] units [in this city] receive the [Mycelial network] promotion",
 			//"[all] units gain the [Mycelial network] promotion",
 	    ],
