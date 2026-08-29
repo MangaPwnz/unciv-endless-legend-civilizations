@@ -261,7 +261,7 @@
 
 			"Comment [- [Bonus Resource]: +1 [Food] | +1 [Food] from [Civil Service]]",
 			"Comment [- [Luxury Resource]: +1 [Culture] | +1 [Culture] from [Drama and Poetry] | +2 [Culture] after adopting [Meritocracy]]",
-			//"Comment [- [Strategic Resource]:  +1 [Science] | +2 [Science] from [Scientific Theory]]",
+			"Comment [- [Strategic Resource]:  +2 [Science] | +2 [Science] from [Scientific Theory]]",
 			"Comment [- All tiles: +1 [Food] from [Civil Service] (if Fresh Water) | +1 [Food] from [Fertilizer] (if non-Fresh Water)]",
 			"Comment [- [Jungle]: +2 [Science] after building [University]]",
 

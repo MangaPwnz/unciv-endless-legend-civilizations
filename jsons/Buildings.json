@@ -747,7 +747,7 @@
 			"Indicates the capital city",
 			"Destroyed when the city is captured <hidden from users>",
 
-			"[-5]% Culture cost of natural border growth [in this city] <for every [(9+ [Owned [Fungal bloom] Tiles])^(0.34 + min(0.22, 0.015*[Owned [Fungal bloom] Tiles]))]>",
+			"[-5]% Culture cost of natural border growth [in this city] <for every [(9+ [Owned [Fungal bloom] Tiles])^(0.34 + min(0.22, 0.015*[Owned [Fungal bloom] Tiles]))]> <hidden from users>",
 			"[+10]% Culture cost of adopting new Policies <when number of [[Owned [Fungal bloom] Tiles]] is between [11] and [20]> <hidden from users>",
 			"[+20]% Culture cost of adopting new Policies <when number of [[Owned [Fungal bloom] Tiles]] is between [21] and [30]> <hidden from users>",
 			"[+30]% Culture cost of adopting new Policies <when number of [[Owned [Fungal bloom] Tiles]] is between [31] and [40]> <hidden from users>",
@@ -784,15 +784,17 @@
 			"[+1 Food] <for every [Owned [{Fungal bloom} {Bonus resource}] Tiles]> <after discovering [Civil Service]> <hidden from users>",
 		// Strategic Resource
 			"[+2 Science] <for every [Owned [{Fungal bloom} {Strategic resource}] Tiles]> <hidden from users>",
+			"[+2 Science] <for every [Owned [{Fungal bloom} {Strategic resource}] Tiles]> <hidden from users> <after discovering [Scientific Theory]>",
 
 		// Luxury
 			"[+1 Culture] <for every [Owned [{Fungal bloom} {Luxury resource}] Tiles]> <hidden from users>",
 			"[+1 Culture] <for every [Owned [{Fungal bloom} {Luxury resource}] Tiles]> <after discovering [Drama and Poetry]> <hidden from users>",
-			"[+2 Culture] <for every [Owned [{Fungal bloom} {Luxury resource}] Tiles]> <after adopting [Meritocracy]> <hidden from users>",
+			"[+2 Culture] <for every [Owned [{Fungal bloom} {Luxury resource}] Tiles]> <after adopting [Representation]> <hidden from users>",
 		// Other
-			"[+1 Culture] per [3] population [in capital] <after adopting [Representation]>",
+			//"[+1 Culture] per [3] population [in capital] <after adopting [Representation]>",
 			"[+4 Faith] <for every [Owned [Natural Wonder] Tiles]>",
 			"[-1 Happiness] <for every [3] [Owned [Fungal bloom] Tiles]>",
+			"[+1 Happiness] <after adopting [Meritocracy]> <for every [12] [Owned [Fungal bloom] Tiles]>",
 
 			//"[+1 Food] <for every [Owned [{Fungal bloom} {Grassland}] Tiles]> <after discovering [Civil Service]>",
 			//"[-1 Food, +1 Production] <for every [Owned [{Fungal bloom} {Forest}] Tiles]>",
