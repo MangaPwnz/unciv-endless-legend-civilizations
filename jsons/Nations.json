@@ -838,9 +838,8 @@
 			"Cannot build [Settler] units",
 			"May not annex cities",
 			"May buy items in puppet cities",
-			//"[+20]% Strength decreasing with distance from the capital",
+			"[+20]% Strength decreasing with distance from the capital",
 			"[10] Unit Supply",
-			//"Will not be chosen for new games <for [AI player] Civilizations>",
 
 			"When declaring friendship, both parties gain a [+10]% boost to great person generation",
 			"Retain [+25]% of the happiness from a luxury after the last copy has been traded away",
@@ -850,6 +849,11 @@
 
 			"[+15]% [Food] [in capital]",
 			"[+2 Production] from all [Food] buildings",
+
+			"Upon capturing a city, receive [3] times its [Culture] production as [Culture] immediately",
+			"Upon capturing a city, receive [3] times its [Science] production as [Science] immediately",
+			"[+25]% [Culture] [in puppeted cities]",
+			"[+25]% [Science] [in puppeted cities]"
 			],
 		"cities": ["Manita Gari", "Agai", "Mulladien", "Yerurnqua", "Radalta", "Marebond", "Yiggodra", "Madirod", "Omgar", "Ver'kal", "Anm", "Utharan", "Inelle", "Naquakic", "Dutharad", "Tyd", "Byldwan", "Marreyn", "Indorand", "Goulji", "Lodera", "Amund", "Ishimlor", "Edyno"]
 	},

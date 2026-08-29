@@ -711,25 +711,20 @@
 		// Myykara (original)
 	{
         "name": "Kernel of Plentitude",
-		"uniqueTo": "Mykara",
+		"uniqueTo": "Myykara (original)",
 		"replaces": "Courthouse",
 		"hurryCostModifier": 50,
 		"uniques": [
-			"[+5 Food] <in [in capital] cities>",
-			"[+5 Gold] <in [in capital] cities>",
-			"[+5 Science] <in [in capital] cities>",
-			"[+5 Culture] <in [in capital] cities>",
-			"[-3 Food]",
-			"[-3 Gold]",
-			"[-3 Science]",
-			"[-3 Culture]",
+			"[+2 Food] <in [in capital] cities>",
+			"[+2 Gold] <in [in capital] cities>",
+			"[+2 Science] <in [in capital] cities>",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Mathematics"
     },
 
 
-		{
+	{
 	    "name": "Mykara2 Palace",
 	    "uniqueTo": "Mykara2",
 		"replaces": "Palace",
@@ -817,43 +812,6 @@
 			//"[all] units gain the [Mycelial network] promotion",
 	    ],
 	    "requiredTech": "Astronomy"
-	},
-
-	{
-	    "name": "Overgrowth",
-	    "uniqueTo": "Mykara",
-	    "cost": 10,
-	    "uniques": [
-	        "Only available <if [Mycelial Network] is not constructed>",
-			//Unique building
-			"Only available <in [Capital] cities>",
-	        "Destroyed when the city is captured",
-			"Unsellable",
-	    ],
-	    "specialistSlots": {
-	        "Scientist": 10,
-	        "Artist": 10,
-	        "Merchant": 3,
-	        "Engineer": 3
-	    },
-	    "requiredTech": "Agriculture"
-	},
-
-	{
-	    "name": "Mycelial Network",
-	    "uniqueTo": "Myykara (original)",
-	    "cost": 10,
-	    "uniques": [
-	        "Only available <if [Overgrowth] is not constructed>",
-	        "Only available <in [Capital] cities>",
-	        "Destroyed when the city is captured",
-			"Unsellable",
-			"Upon capturing a city, receive [3] times its [Culture] production as [Culture] immediately",
-			"Upon capturing a city, receive [3] times its [Science] production as [Science] immediately",
-			"[+25]% [Culture] [in puppeted cities]",
-			"[+25]% [Science] [in puppeted cities]"
-	    ],
-	    "requiredTech": "Mathematics"
 	},
 
 	//
