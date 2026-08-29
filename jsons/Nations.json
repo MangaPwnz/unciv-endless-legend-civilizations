@@ -80,6 +80,7 @@
 		"innerColor": [102,178,255],
 		"uniqueName": "Appetite for Dust",
 		"uniques": [
+			"Will not be chosen for new games", //TODO remove
 			"Comment [No natural growth in all cities]",
 			"Comment [Population grows by building or buying them in cities]",
 			"Comment [Sources of Food gives Gold instead]",
@@ -565,6 +566,7 @@
 		"innerColor": [230,230,230],
 		"uniqueName": "Science Phobic",
 		"uniques": [
+			"Will not be chosen for new games", //TODO remove
 			"Comment [No Science is produced]",
 			"Comment [Technologies can be bought out with Gold]",
 			"Comment [Sources of Science gives Gold instead]",
@@ -840,7 +842,7 @@
 			"May buy items in puppet cities",
 			"[+20]% Strength decreasing with distance from the capital",
 			"[10] Unit Supply",
-
+			"Will not be chosen for new games", //TODO remove
 			"When declaring friendship, both parties gain a [+10]% boost to great person generation",
 			"Retain [+25]% of the happiness from a luxury after the last copy has been traded away",
 			"Science gained from research agreements [+25]%",
