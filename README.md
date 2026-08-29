@@ -1,5 +1,5 @@
 # Endless Legend Civilizations
-An Endless Legend inspired Unciv mod.
+An Endless Legend inspired Unciv mod. You may want to disable Mykara and Cult of the Eternal End since the AI can't play them: Start new game -> Advanced Settings -> Set available nations for random pool -> click Select nations (note: everything starts banned)
 
 # New Nations Guide
 ### Plays like basegame nations
@@ -25,28 +25,23 @@ Roving Clans: Pacifist expansionists who get bonuses to trade routes for engagin
 
 Broken Lords: Doesn't generate food at all. Creates population by buying them.
 
-Cultists: Single City Civ with barbarian conversion and increasing great improvements yields per puppet city
+Cultists: One City Civ with founds Converted Villages (puppet cities) on barbarian camps and city ruins instead of normal cities.
 
 Forgotten: Doesn't generate science at all. Buys new techs or steals from other nations
 
-Mykara: Single City Civ which expands by growing Fungal Blooms on neutral terrain
+Mykara: One City Civ which expands by growing Fungal Blooms on neutral terrain
 
 # Credits (Mangapwnz)
 Trade Embargo - cancel by Gregor Cresnar from https://thenounproject.com/browse/icons/term/cancel/ (CC BY 3.0)
 Each Roving clans building - unciv
-Resource Stockpile - stockpile by Ahmad Roaayala from <a href="https://thenounproject.com/browse/icons/term/stockpile/" target="_blank" title="stockpile Icons">Noun Project</a> (CC BY 3.0)
+Resource Stockpile - stockpile by Ahmad Roaayala from https://thenounproject.com/browse/icons/term/stockpile/ (CC BY 3.0)
 Each Stockpile building - resources from unciv
-Converts -
-"Willing" Converts -
-Fanatic Converts -
-Converted Village -
 Each Convert building - unciv
-Promotions
 
 Fungal Bloom - Endless Legend
 Mykara Palace - unciv (normal palace)
-Spore Bearer - Mold Spore by Clockwise from <a href="https://thenounproject.com/browse/icons/term/mold-spore/" target="_blank" title="Mold Spore Icons">Noun Project</a> (CC BY 3.0)
-Research Mycelial Network - 
+Spore Bearer - Mold Spore by Clockwise from https://thenounproject.com/browse/icons/term/mold-spore/ (CC BY 3.0)
+
 
 # Credits
 - Faction icons and Setseke icon come from Endless Legend

@@ -1,1 +1,0 @@
-- triggerable unique "add [amount] influence to city-state"
