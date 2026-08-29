@@ -413,10 +413,12 @@
 	"cost": 50,
 	"uniques": [
 		"Provides [3] [Converts] <every [1] turns>",
-		//"Provides [1] [Converts] <every [1] turns> <starting from the [Modern era]>",
 		"[-4 Happiness]",
-		"ConvertFilter",
 		"Destroyed when the city is captured",
+
+		"ConvertFilter <hidden from users>",
+		"Unavailable <in [Capital] cities> <hidden from users>",
+		"Suppress warning [unique \"ConvertFilter]",
 	],
 	"requiredTech": "Theology"
 	},
@@ -427,13 +429,15 @@
 		"requiredBuilding": "Converted village",
 		"cost": 100,
 		"uniques": [
-			"Comment [upon building 4, gain 1 Faith per pop in the capital]",
-			"Comment [upon building 8, Gain 1 additional Founder Belief]",
-			//"Provides [3] [Converts] <every [1] turns>",
-			//"Provides [1] [Converts] <every [1] turns> <starting from the [Modern era]>",
-			//"[-4 Happiness] ",
-			"ConvertFilter",
+			"Comment [Gain +1 [Faith] per population in the capital after building 4 [Fanatic Converts]]", // Real effect in nations.json
+			"Comment [Gain 1 additional Founder belief after building 8 [Fanatic Converts] (once)]", // Real effect in nations.json
+
+			"Unavailable <in cities with a [\"Willing\" Converts]>",
 			"Destroyed when the city is captured",
+
+			"Unavailable <in [Capital] cities> <hidden from users>",
+			"ConvertFilter <hidden from users>", //<Suppress warning [(Building) Fanatic Converts's unique \"ConvertFilter <hidden from users>]>\"
+			"Suppress warning [unique \"ConvertFilter]",
 		],
 		"requiredTech": "Theology"
 	},
@@ -452,7 +456,7 @@
 
 		"Comment [This city can only build Military and Defensive buildings]",
 			"Cannot build [{non-[Barracks]} {non-[Armory]} {non-[Walls]} {non-[Castle]} {non-[ConvertFilter]}] buildings <in [Puppeted] cities> <hidden from users>",
-		"Comment [Nullifies all local city yields, quickly starving the citizens]",
+		"Comment [Nullifies all local city yields except culture, quickly starving the citizens]",
 			"[-100]% [Food] [in this city] <hidden from users>",
 			"[-1000]% [Production] [in this city] <hidden from users>",
 			"Nullifies [Happiness] [in this city] <hidden from users>",
@@ -481,6 +485,8 @@
             "Shown while unbuilable <before discovering [Civil Service]>",
             "Will not be displayed in Civilopedia",
             "ConvertFilter <hidden from users>",
+            "Suppress warning [unique \"ConvertFilter]",
+
             "Remove [Willing Convert - Warrior] [in this city] <hidden from users>"
         ]
     },
@@ -495,9 +501,11 @@
             "Only available <after discovering [Civil Service]> <before discovering [Gunpowder]>",
 
             "Unbuildable <hidden from users>",
-            "Shown while unbuilable",
+            "Shown while unbuilable <before discovering [Gunpowder]>",
             "Will not be displayed in Civilopedia",
             "ConvertFilter <hidden from users>",
+            "Suppress warning [unique \"ConvertFilter]",
+
             "Remove [Willing Convert - Pikeman] [in this city] <hidden from users>"
         ]
     },
@@ -513,9 +521,11 @@
             "Only available <with [Iron]>",
 
             "Unbuildable <hidden from users>",
-            "Shown while unbuilable",
+            "Shown while unbuilable <before discovering [Steel]>",
             "Will not be displayed in Civilopedia",
             "ConvertFilter <hidden from users>",
+            "Suppress warning [unique \"ConvertFilter]",
+
             "Remove [Willing Convert - Swordsman] [in this city] <hidden from users>"
         ]
     },
@@ -531,9 +541,11 @@
             "Only available <with [Iron]>",
 
             "Unbuildable <hidden from users>",
-            "Shown while unbuilable",
+            "Shown while unbuilable <before discovering [Gunpowder]>",
             "Will not be displayed in Civilopedia",
             "ConvertFilter <hidden from users>",
+            "Suppress warning [unique \"ConvertFilter]",
+
             "Remove [Willing Convert - Longswordsman] [in this city] <hidden from users>"
         ]
     },
@@ -548,9 +560,11 @@
             "Only available <after discovering [Gunpowder]> <before discovering [Rifling]>",
 
             "Unbuildable <hidden from users>",
-            "Shown while unbuilable",
+            "Shown while unbuilable <before discovering [Rifling]>",
             "Will not be displayed in Civilopedia",
             "ConvertFilter <hidden from users>",
+            "Suppress warning [unique \"ConvertFilter]",
+
             "Remove [Willing Convert - Musketman] [in this city] <hidden from users>"
         ]
     },
@@ -565,9 +579,11 @@
             "Only available <after discovering [Rifling]> <before discovering [Replaceable Parts]>",
 
             "Unbuildable <hidden from users>",
-            "Shown while unbuilable",
+            "Shown while unbuilable <before discovering [Replaceable Parts]>",
             "Will not be displayed in Civilopedia",
             "ConvertFilter <hidden from users>",
+            "Suppress warning [unique \"ConvertFilter]",
+
             "Remove [Willing Convert - Rifleman] [in this city] <hidden from users>"
         ]
     },
@@ -582,9 +598,11 @@
             "Only available <after discovering [Replaceable Parts]> <before discovering [Plastics]>",
 
             "Unbuildable <hidden from users>",
-            "Shown while unbuilable",
+            "Shown while unbuilable <before discovering [Plastics]>",
             "Will not be displayed in Civilopedia",
             "ConvertFilter <hidden from users>",
+            "Suppress warning [unique \"ConvertFilter]",
+
             "Remove [Willing Convert - Great War Infantry] [in this city] <hidden from users>"
         ]
     },
@@ -599,9 +617,11 @@
             "Only available <after discovering [Plastics]> <before discovering [Mobile Tactics]>",
 
             "Unbuildable <hidden from users>",
-            "Shown while unbuilable",
+            "Shown while unbuilable <before discovering [Mobile Tactics]>",
             "Will not be displayed in Civilopedia",
             "ConvertFilter <hidden from users>",
+            "Suppress warning [unique \"ConvertFilter]",
+
             "Remove [Willing Convert - Infantry] [in this city] <hidden from users>"
         ]
     },
@@ -619,6 +639,8 @@
             "Shown while unbuilable",
             "Will not be displayed in Civilopedia",
             "ConvertFilter <hidden from users>",
+            "Suppress warning [unique \"ConvertFilter]",
+
             "Remove [Willing Convert - Mechanized Infantry] [in this city] <hidden from users>"
         ]
     },

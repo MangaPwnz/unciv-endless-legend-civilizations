@@ -503,10 +503,10 @@
 				//	"May choose [1] additional [Founder] beliefs when [enhancing] a religion",
 				"[+10]% [Faith] <for every [[{Holy} {Puppeted}] Cities]>",
 				"[+1 Faith] per [2] population [in capital]",
-				"[+1 Faith] per [1] population [in capital] <if [Fanatic Converts] is constructed in at least [4] of [Puppeted] cities>",
-				"Comment [Gain a free [Founder] belief after constructing [Fanatic Converts] in at least 8 Puppeted cities]",
-					"Gain a free [Founder] belief <if [Fanatic Converts] is constructed in at least [8] of [Puppeted] cities> <upon turn end> <when between [0] and [0] [cultist_founder_bool]> <hidden from users>",
-					"Instantly gain [1] [cultist_founder_bool] <if [Fanatic Converts] is constructed in at least [8] of [Puppeted] cities> <upon turn start> <when between [0] and [0] [cultist_founder_bool]> <hidden from users>",
+
+				"[+1 Faith] per [1] population [in capital] <if [Fanatic Converts] is constructed in at least [4] of [Puppeted] cities> <hidden from users>",
+				"Gain a free [Founder] belief <if [Fanatic Converts] is constructed in at least [8] of [Puppeted] cities> <upon turn end> <when between [0] and [0] [cultist_founder_bool]> <hidden from users>",
+				"Instantly gain [1] [cultist_founder_bool] <if [Fanatic Converts] is constructed in at least [8] of [Puppeted] cities> <upon turn start> <when between [0] and [0] [cultist_founder_bool]> <hidden from users>",
 			//"May buy [{Military} {Melee} {non-[Conscript]}] units with [Faith] for [3] times their normal Production cost",
 			//"May choose [1] additional [Follower] beliefs when [enhancing] a religion",
 
