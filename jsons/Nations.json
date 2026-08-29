@@ -886,7 +886,7 @@
 		"uniques": [
 
 			"Comment [May only found one city. Therafter Settlers can only be used to build Fungal Bloom]",
-			"All newly-trained [Spore bearer] units [in capital] receive the [Accelerated Growth] promotion <starting from the [Industrial era]> <hidden from users>", // Comment explains this on the Spreader unit
+			"All newly-trained [Spore Bearer] units [in capital] receive the [Accelerated Growth] promotion <starting from the [Industrial era]> <hidden from users>", // Comment explains this on the Spreader unit
 			"Comment [-50% Luxury and Strategic resource production]",
 				"[-50]% [Strategic] resource production",
 				"[-50]% [Luxury] resource production <hidden from users>",

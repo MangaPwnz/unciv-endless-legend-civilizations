@@ -46,49 +46,42 @@ BuildingIcons/Demanding Gods
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Fanatic Converts
-  rotate: false
-  xy: 320, 759
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Food Stockpiles
-  rotate: false
-  xy: 320, 759
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Industry Stockpiles
-  rotate: false
-  xy: 320, 759
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Science Stockpiles
-  rotate: false
-  xy: 320, 759
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Resource Stockpile
-  rotate: false
-  xy: 320, 759
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Feeding Pits
+  rotate: false
+  xy: 320, 759
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Feeding the Hive
   rotate: false
   xy: 428, 759
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Feeding the Hive
+BuildingIcons/Food Stockpiles
+  rotate: false
+  xy: 536, 759
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Industry Stockpiles
+  rotate: false
+  xy: 536, 759
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Science Stockpiles
+  rotate: false
+  xy: 536, 759
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource Stockpile
   rotate: false
   xy: 536, 759
   size: 100, 100
@@ -270,7 +263,7 @@ ImprovementIcons/Science Pillar
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Fungal bloom
+ImprovementIcons/Fungal Bloom
   rotate: false
   xy: 860, 759
   size: 100, 100
@@ -627,7 +620,7 @@ UnitIcons/Skyfin
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Spore bearer
+UnitIcons/Spore Bearer
   rotate: false
   xy: 436, 543
   size: 100, 100

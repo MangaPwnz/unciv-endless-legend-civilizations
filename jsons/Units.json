@@ -476,7 +476,7 @@
 
 		// Mykara
 	{
-		"name": "Spore bearer",
+		"name": "Spore Bearer",
 		"unitType": "Civilian",
 		"uniqueTo": "Mykara",
 		"replaces": "Settler",
@@ -510,7 +510,7 @@
 			//	"[+233]% production cost <during the [Information era]> <hidden from users>",
 			//	"[+237]% production cost <during the [Future era]> <hidden from users>",
 
-			"Suppress warning [Spore bearer can place improvement Fungal Bloom which has no stats, preventing unit automation!]",
+			"Suppress warning [Spore Bearer can place improvement Fungal Bloom which has no stats, preventing unit automation!]",
 			"Suppress warning [Due to performance considerations, this unique is cached on the unit, and the conditional may not always limit the unique correctly.]"
 		]
 
