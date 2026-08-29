@@ -342,6 +342,26 @@
 		"promotions": ["Besiege"],
 		"attackSound": "horse"
 	},
+
+	// Roving Clans (wide)
+	{
+		"name": "Kassai",
+		"unitType": "Archery",
+		"replaces": "Horseman",
+		"uniqueTo": "Roving Clans (wide)",
+		"movement": 4,
+		"strength": 8,
+		"rangedStrength": 12,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Knight",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking <in tiles adjacent to [Friendly] tiles>","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Rough terrain penalty"],
+		"promotions": [],
+		"attackSound": "horse"
+	},
+
 	// Drakken
 	{
 		"name": "Wyvern",
