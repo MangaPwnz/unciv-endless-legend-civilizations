@@ -412,8 +412,8 @@
 	"requiredBuilding": "Converted village",
 	"cost": 50,
 	"uniques": [
-		"Provides [3] [Willing Converts] <every [1] turns>",
-		//"Provides [1] [Willing Converts] <every [1] turns> <starting from the [Modern era]>",
+		"Provides [3] [Converts] <every [1] turns>",
+		//"Provides [1] [Converts] <every [1] turns> <starting from the [Modern era]>",
 		"[-4 Happiness]",
 		"ConvertFilter",
 		"Destroyed when the city is captured",
@@ -429,8 +429,8 @@
 		"uniques": [
 			"Comment [upon building 4, gain 1 Faith per pop in the capital]",
 			"Comment [upon building 8, Gain 1 additional Founder Belief]",
-			//"Provides [3] [Willing Converts] <every [1] turns>",
-			//"Provides [1] [Willing Converts] <every [1] turns> <starting from the [Modern era]>",
+			//"Provides [3] [Converts] <every [1] turns>",
+			//"Provides [1] [Converts] <every [1] turns> <starting from the [Modern era]>",
 			//"[-4 Happiness] ",
 			"ConvertFilter",
 			"Destroyed when the city is captured",
@@ -444,10 +444,10 @@
 	"cost": 0,
 	"culture": 1.5,
 	"uniques": [
-		"Provides [3] [Willing Converts] <every [1] turns>",
-		//"Provides [1] [Willing Converts] <every [1] turns> <starting from the [Modern era]>",
+		"Provides [3] [Converts] <every [1] turns>",
+		//"Provides [1] [Converts] <every [1] turns> <starting from the [Modern era]>",
 		//"[+2 Happiness] <before the [Modern era]>",
-		"Instantly gain [60] [Willing Converts] <(modified by game speed)>",
+		"Instantly gain [60] [Converts] <(modified by game speed)>",
 		"Destroyed when the city is captured",
 
 		"Comment [This city can only build Military and Defensive buildings]",
@@ -472,7 +472,7 @@
         "uniqueTo": "Cult of the Eternal End",
         "cost": 10,
         "uniques": [
-            "Costs [90] [Willing Converts] <(modified by game speed)>",
+            "Costs [90] [Converts] <(modified by game speed)>",
             "Can be purchased for [0] [Gold] [in all cities]",
             "Free [Warrior] appears",
             "Only available <before discovering [Civil Service]>",
@@ -489,7 +489,7 @@
         "uniqueTo": "Cult of the Eternal End",
         "cost": 0,
         "uniques": [
-            "Costs [105] [Willing Converts] <(modified by game speed)>",
+            "Costs [105] [Converts] <(modified by game speed)>",
             "Can be purchased for [0] [Gold] [in all cities]",
             "Free [Pikeman] appears",
             "Only available <after discovering [Civil Service]> <before discovering [Gunpowder]>",
@@ -506,7 +506,7 @@
         "uniqueTo": "Cult of the Eternal End",
         "cost": 0,
         "uniques": [
-            "Costs [105] [Willing Converts] <(modified by game speed)>",
+            "Costs [105] [Converts] <(modified by game speed)>",
             "Can be purchased for [0] [Gold] [in all cities]",
             "Free [Swordsman] appears",
             "Only available <after discovering [Iron Working]> <before discovering [Steel]>",
@@ -524,7 +524,7 @@
         "uniqueTo": "Cult of the Eternal End",
         "cost": 0,
         "uniques": [
-            "Costs [120] [Willing Converts] <(modified by game speed)>",
+            "Costs [120] [Converts] <(modified by game speed)>",
             "Can be purchased for [0] [Gold] [in all cities]",
             "Free [Longswordsman] appears",
             "Only available <after discovering [Steel]> <before discovering [Gunpowder]>",
@@ -542,7 +542,7 @@
         "uniqueTo": "Cult of the Eternal End",
         "cost": 0,
         "uniques": [
-            "Costs [135] [Willing Converts] <(modified by game speed)>",
+            "Costs [135] [Converts] <(modified by game speed)>",
             "Can be purchased for [0] [Gold] [in all cities]",
             "Free [Musketman] appears",
             "Only available <after discovering [Gunpowder]> <before discovering [Rifling]>",
@@ -559,7 +559,7 @@
         "uniqueTo": "Cult of the Eternal End",
         "cost": 0,
         "uniques": [
-            "Costs [150] [Willing Converts] <(modified by game speed)>",
+            "Costs [150] [Converts] <(modified by game speed)>",
             "Can be purchased for [0] [Gold] [in all cities]",
             "Free [Rifleman] appears",
             "Only available <after discovering [Rifling]> <before discovering [Replaceable Parts]>",
@@ -576,7 +576,7 @@
         "uniqueTo": "Cult of the Eternal End",
         "cost": 0,
         "uniques": [
-            "Costs [330] [Willing Converts] <(modified by game speed)>",
+            "Costs [330] [Converts] <(modified by game speed)>",
             "Can be purchased for [0] [Gold] [in all cities]",
             "Free [Great War Infantry] appears",
             "Only available <after discovering [Replaceable Parts]> <before discovering [Plastics]>",
@@ -593,7 +593,7 @@
         "uniqueTo": "Cult of the Eternal End",
         "cost": 0,
         "uniques": [
-            "Costs [360] [Willing Converts] <(modified by game speed)>",
+            "Costs [360] [Converts] <(modified by game speed)>",
             "Can be purchased for [0] [Gold] [in all cities]",
             "Free [Infantry] appears",
             "Only available <after discovering [Plastics]> <before discovering [Mobile Tactics]>",
@@ -610,7 +610,7 @@
         "uniqueTo": "Cult of the Eternal End",
         "cost": 0,
         "uniques": [
-            "Costs [450] [Willing Converts] <(modified by game speed)>",
+            "Costs [450] [Converts] <(modified by game speed)>",
             "Can be purchased for [0] [Gold] [in all cities]",
             "Free [Mechanized Infantry] appears",
             "Only available <after discovering [Mobile Tactics]>",

@@ -471,7 +471,7 @@
 		]
 	},
 	{
-		"name": "Willing Converts",
+		"name": "Converts",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Stockpiled",

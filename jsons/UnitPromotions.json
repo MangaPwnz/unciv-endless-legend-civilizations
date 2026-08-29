@@ -13,10 +13,6 @@
 		"uniques": ["[+20]% Strength <vs [Wounded] units> <when attacking>","[+100]% Strength <vs cities> <when attacking>"]
 	},
 
-	{ //OBSOLETE
-		"name": "Convert",
-		"uniques": ["May capture killed [Barbarian] units","[+25]% Strength <vs [Barbarian] units>"]
-	},
 	{
 		"name": "Zealot",
 		"uniques": [

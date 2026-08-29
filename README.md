@@ -36,7 +36,7 @@ Trade Embargo - cancel by Gregor Cresnar from https://thenounproject.com/browse/
 Each Roving clans building - unciv
 Resource Stockpile - stockpile by Ahmad Roaayala from <a href="https://thenounproject.com/browse/icons/term/stockpile/" target="_blank" title="stockpile Icons">Noun Project</a> (CC BY 3.0)
 Each Stockpile building - resources from unciv
-Willing Converts -
+Converts -
 "Willing" Converts -
 Fanatic Converts -
 Converted Village -
