@@ -2,7 +2,7 @@
     {
         "name": "Liberty",
         "era": "Ancient era",
-        "uniques": ["[+1 Culture] [in all cities]","Unavailable <for [Cult of the Eternal End] Civilizations>","Unavailable <for [Mykara] Civilizations>"],
+        "uniques": ["[+1 Culture] [in all cities]","Unavailable <for [Cult of the Eternal End] Civilizations>","Unavailable <for [Myykara (original)] Civilizations>"],
         "policies": [
             {
                 "name": "Republic",

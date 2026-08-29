@@ -708,7 +708,7 @@
 		"requiredTech": "Metal Casting"
 	},
 
-		// Mykara
+		// Myykara (original)
 	{
         "name": "Kernel of Plentitude",
 		"uniqueTo": "Mykara",
@@ -841,7 +841,7 @@
 
 	{
 	    "name": "Mycelial Network",
-	    "uniqueTo": "Mykara",
+	    "uniqueTo": "Myykara (original)",
 	    "cost": 10,
 	    "uniques": [
 	        "Only available <if [Overgrowth] is not constructed>",

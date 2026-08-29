@@ -457,11 +457,11 @@
 		"attackSound": "metalhit"
 	},
 
-	// Mykara
+	// Myykara (original)
 	{
 		"name": "Ipotane",
 		"unitType": "Archery",
-		"uniqueTo": "Mykara",
+		"uniqueTo": "Myykara (original)",
 		"replaces": "Crossbowman",
 		"movement": 2,
 		"strength": 16,

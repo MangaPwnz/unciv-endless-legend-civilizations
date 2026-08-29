@@ -6,7 +6,7 @@
             "Liberty": 0,
             "Honor": 10,
             "Piety": 20,
-            "Autocracy": 90 
+            "Autocracy": 90
         },
         "warMongering": 10
     },
@@ -20,6 +20,18 @@
             "Freedom": 90
         },
         "warMongering": 8
+    },
+
+        {
+        "name": "Myykara (original)",
+        "priorities": {
+            "Tradition": 30,
+            "Liberty": 10,
+            "Honor": 0,
+            "Order": 0,
+            "Freedom": 90
+        },
+        "warMongering": 3
     },
 
     {

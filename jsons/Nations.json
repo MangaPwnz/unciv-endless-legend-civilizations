@@ -812,12 +812,12 @@
 		// shambler: era 2 infantry. meatshield due to low base attacksnare:  reduces battle movement on target.
 
 	{
-		"name": "Mykara",
+		"name": "Myykara (original)",
 		"leaderName": "Toth Agnes",
 		"adjective": ["Mykara"],
 		"startBias":["Jungle"],
 		"preferredVictoryType": "Scientific",
-		"personality": "Mykara",
+		"personality": "Myykara (original)",
 
 
 		"startIntroPart1": "The Mykara are a race of sentient plant matter and fungi, a single organism spanning thousands of semi-autonomous agents and time immemorial, ever adapting to survive and thrive. They spread all over Auriga as a massive underground root system, sprouting on the edges of the map, clinging to the regions other factions leave unattended.",
