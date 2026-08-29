@@ -31,6 +31,23 @@ Forgotten: Doesn't generate science at all. Buys new techs or steals from other 
 
 Mykara: Single City Civ which expands by growing Fungal Blooms on neutral terrain
 
+# Credits (Mangapwnz)
+Trade Embargo - cancel by Gregor Cresnar from https://thenounproject.com/browse/icons/term/cancel/ (CC BY 3.0)
+Each Roving clans building - unciv
+Resource Stockpile - stockpile by Ahmad Roaayala from <a href="https://thenounproject.com/browse/icons/term/stockpile/" target="_blank" title="stockpile Icons">Noun Project</a> (CC BY 3.0)
+Each Stockpile building - resources from unciv
+Willing Converts -
+"Willing" Converts -
+Fanatic Converts -
+Converted Village -
+Each Convert building - unciv
+Promotions
+
+Fungal bloom - Endless Legend
+Mykara Palace - unciv (normal palace)
+Spore Bearer - Mold Spore by Clockwise from <a href="https://thenounproject.com/browse/icons/term/mold-spore/" target="_blank" title="Mold Spore Icons">Noun Project</a> (CC BY 3.0)
+Research Mycelial Network - 
+
 # Credits
 - Faction icons and Setseke icon come from Endless Legend
 - Scorched Wilds icon - https://thenounproject.com/icon/bare-trees-264528/

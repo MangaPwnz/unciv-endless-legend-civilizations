@@ -1,8 +1,9 @@
 # General
 
-- Disable unused or bugged civilizations
-- Rename civs with (original)
+- Disable unused or bugged civilizations (done)
+- Rename civs with (original) (done)
 - Add icons
+
 
 Upload:
 - Rename mod?
