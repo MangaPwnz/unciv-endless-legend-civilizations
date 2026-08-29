@@ -35,6 +35,9 @@ Lots of stuff
 - Rebalance Mykara
     - Fungal Blooms now increase policy cost
     - Spore Bearers also gain extra movement speed starting from the Industrial era
+    - Remove faith from Natural Wonders
     - Other minor tweaks
     - bug fix: Science from strategic resources works properly now
 - Add icons for most things
+- Other minor changes
+- Disable a few civilizations with bugs
