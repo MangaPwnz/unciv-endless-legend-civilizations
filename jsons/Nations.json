@@ -885,7 +885,7 @@
 		"uniqueName": "Creeping Presence",
 		"uniques": [
 
-			"Comment [May only found one city. Therafter Settlers can only be used to build Fungal bloom]",
+			"Comment [May only found one city. Therafter Settlers can only be used to build Fungal Bloom]",
 			"All newly-trained [Spore bearer] units [in capital] receive the [Accelerated Growth] promotion <starting from the [Industrial era]> <hidden from users>", // Comment explains this on the Spreader unit
 			"Comment [-50% Luxury and Strategic resource production]",
 				"[-50]% [Strategic] resource production",
@@ -901,7 +901,7 @@
 			//"[-10]% Production when constructing [All] wonders [in all cities]",
 			"Comment [--- Mycelial Network --- Specializes in blooms in favor of traditional transportation networks]",
 				"All newly-trained [Land] units [in all cities] receive the [Mycelial network] promotion",
-				"[+300]% maintenance on road & railroads <in [Fungal bloom] tiles>",
+				"[+300]% maintenance on road & railroads <in [Fungal Bloom] tiles>",
 			],
 		"cities": ["Manita Gari", "Agai", "Mulladien", "Yerurnqua", "Radalta", "Marebond", "Yiggodra", "Madirod", "Omgar", "Ver'kal", "Anm", "Utharan", "Inelle", "Naquakic", "Dutharad", "Tyd", "Byldwan", "Marreyn", "Indorand", "Goulji", "Lodera", "Amund", "Ishimlor", "Edyno"]
 	}

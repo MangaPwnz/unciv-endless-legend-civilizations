@@ -237,7 +237,7 @@
 		"shortcutKey": "T"
 	},
 	{
-		"name": "Fungal bloom",
+		"name": "Fungal Bloom",
 		"terrainsCanBeBuiltOn": ["Land", "Jungle", "Forest"], //, "Tundra", "Flood plains","Barren Soil","Ash Drifts","Basalt Plains","Lava Swirl","Badlands","Scorched Wilds"],
 		"uniqueTo": "Mykara",
 		"turnsToBuild": 7,
@@ -248,7 +248,7 @@
 				"Can be built outside your borders <hidden from users>",
 			"Unavailable <for [Worker] units> <hidden from users>",
 
-			"Comment [10% cost of adopting new Policies for every 10 [Fungal bloom] (stacks additively)]",
+			"Comment [10% cost of adopting new Policies for every 10 [Fungal Bloom] (stacks additively)]",
 			"Improves [all] resource in this tile",
 			"[-5 Food, -5 Production, -5 Science, -5 Culture, -5 Faith]",
 
