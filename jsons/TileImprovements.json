@@ -239,11 +239,11 @@
 	{
 		"name": "Fungal bloom",
 		"terrainsCanBeBuiltOn": ["Land", "Jungle", "Forest"], //, "Tundra", "Flood plains","Barren Soil","Ash Drifts","Basalt Plains","Lava Swirl","Badlands","Scorched Wilds"],
-		"uniqueTo": "Mykara2",
+		"uniqueTo": "Mykara",
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
 		"uniques": [
-			"Comment [Can be built outside your borders, gaining control of the tile and increasing the stats gained from Mykara2 Palace]",
+			"Comment [Can be built outside your borders, gaining control of the tile and increasing the stats gained from Mykara Palace]",
 				"Gain control over [Unowned] tiles in a [0]-tile radius <hidden from users>",
 				"Can be built outside your borders <hidden from users>",
 			"Unavailable <for [Worker] units> <hidden from users>",
@@ -252,7 +252,7 @@
 			"Improves [all] resource in this tile",
 			"[-5 Food, -5 Production, -5 Science, -5 Culture, -5 Faith]",
 
-			"Comment [--- Provides extra yield to Mykara2 Palace ---]",
+			"Comment [--- Provides extra yield to Mykara Palace ---]",
 			"Comment [- [Grassland]: +1 [Food]]",
 			"Comment [- [Plains]: +1 [Food] | +1 [Production] from [Metal Casting]]",
 			"Comment [- [Hills]: -1 [Food], +1 [Production] | +1 [Production] from [Chemistry]]",

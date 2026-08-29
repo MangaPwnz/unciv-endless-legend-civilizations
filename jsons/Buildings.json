@@ -725,8 +725,8 @@
 
 
 	{
-	    "name": "Mykara2 Palace",
-	    "uniqueTo": "Mykara2",
+	    "name": "Mykara Palace",
+	    "uniqueTo": "Mykara",
 		"replaces": "Palace",
 	    "cost": 0,
 		"production": 3,
@@ -801,7 +801,7 @@
 
 	{
 	    "name": "Research mycelial network",
-	    "uniqueTo": "Mykara2",
+	    "uniqueTo": "Mykara",
 	    "cost": 100,
 	    "uniques": [
 	        "Only available <in [Capital] cities>",

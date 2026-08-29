@@ -474,11 +474,11 @@
 		"attackSound": "crossbow"
 	},
 
-		// Mykara2
+		// Mykara
 	{
 		"name": "Spore bearer",
 		"unitType": "Civilian",
-		"uniqueTo": "Mykara2",
+		"uniqueTo": "Mykara",
 		"replaces": "Settler",
 		"movement": 2,
 		"cost": 106,
@@ -486,14 +486,14 @@
 		"hurryCostModifier": 35,
 		"uniques": [
 		// Normal Settler stuff
-			"Founds a new city <by consuming this unit> <if [Mykara2 Palace] is not constructed> <hidden from users>",
+			"Founds a new city <by consuming this unit> <if [Mykara Palace] is not constructed> <hidden from users>",
 			"Requires at least [2] population",
 			"Excess Food converted to Production when under construction",
 		// Unique
 		"Cost increases by [10] when built",
 
 		"Comment [Can instantly construct a Fungal bloom improvement for 2 movement 3 times, after which this unit is consumed]",
-		"Can instantly construct a [Fungal bloom] improvement <for [2] movement> <[3] times> <after which this unit is consumed> <if [Mykara2 Palace] is constructed> <hidden from users>",
+		"Can instantly construct a [Fungal bloom] improvement <for [2] movement> <[3] times> <after which this unit is consumed> <if [Mykara Palace] is constructed> <hidden from users>",
 
 		"Comment [Costs 167% more production but gains +2 movement and +5 spreads starting from the Industrial era]",
 			"[+167]% production cost <starting from the [Industrial era]> <hidden from users>",
