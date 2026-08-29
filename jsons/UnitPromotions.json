@@ -33,6 +33,11 @@
 	},
 
 	{
+		"name": "Chosen One",
+		"uniques": ["[+50]% XP gained from combat", "[This Unit] heals [5] HP <upon losing at least [20] HP in a single attack>", "[+1] Movement"]
+	},
+
+	{
 		"name": "From the Shadows",
 		"uniques": ["Invisible to non-adjacent units","May enter foreign tiles without open borders"]
 	},

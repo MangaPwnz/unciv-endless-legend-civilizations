@@ -510,23 +510,22 @@
         ]
     },
     {
-        "name": "Willing Convert - Swordsman",
+        "name": "Willing Convert - Fanatic",
         "uniqueTo": "Cult of the Eternal End",
         "cost": 0,
         "uniques": [
             "Costs [105] [Converts] <(modified by game speed)>",
             "Can be purchased for [0] [Gold] [in all cities]",
-            "Free [Swordsman] appears",
-            "Only available <after discovering [Iron Working]> <before discovering [Steel]>",
-            "Only available <with [Iron]>",
+            "Free [Fanatic] appears",
+            "Only available <after discovering [Iron Working]> <before discovering [Gunpowder]>",
 
             "Unbuildable <hidden from users>",
-            "Shown while unbuilable <before discovering [Steel]>",
+            "Shown while unbuilable <before discovering [Gunpowder]>",
             "Will not be displayed in Civilopedia",
             "ConvertFilter <hidden from users>",
             "Suppress warning [unique \"ConvertFilter]",
 
-            "Remove [Willing Convert - Swordsman] [in this city] <hidden from users>"
+            "Remove [Willing Convert - Fanatic] [in this city] <hidden from users>"
         ]
     },
     {
