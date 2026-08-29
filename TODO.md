@@ -2,15 +2,15 @@
 
 - Disable unused or bugged civilizations (done)
 - Rename civs with (original) (done)
-- Add icons
+- Add icons (half-done)
 
 
 Upload:
 - Rename mod?
-- Upload mod so it's visible
-- Make a forum thread
 - Update change log
 - Update descriptions
+- Upload mod so it's visible
+- Make a forum thread
 # Roving Clans (Good for now)
 
 ## Make Trade - Not War
@@ -22,7 +22,7 @@ Too much micro late? **SOLVED - Settlers are more expensive but gains more charg
     - Seems hard to make them automate **SCRAPPED**
     - Maybe make aoe? **IMPOSSIBLE**
     - Maybe give workers ability to build it? Might not work either though since they give negative resources. **Unsure**
-    - Reduce number of spreads but give more support for increasing yields instead? **NOT YET**
+    - Reduce number of spreads but give more support for increasing yields instead? **NOT YET**§
 
 Make giga buildings which improve yields?
 But might not be needed, since there's actually a pseudo-viable route of taking cities

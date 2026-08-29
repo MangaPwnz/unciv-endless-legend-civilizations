@@ -43,7 +43,7 @@ Converted Village -
 Each Convert building - unciv
 Promotions
 
-Fungal bloom - Endless Legend
+Fungal Bloom - Endless Legend
 Mykara Palace - unciv (normal palace)
 Spore Bearer - Mold Spore by Clockwise from <a href="https://thenounproject.com/browse/icons/term/mold-spore/" target="_blank" title="Mold Spore Icons">Noun Project</a> (CC BY 3.0)
 Research Mycelial Network - 

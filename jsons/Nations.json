@@ -889,13 +889,15 @@
 			"Comment [May only found one city. Therafter Settlers can only be used to build Fungal Bloom]",
 			"All newly-trained [Spore Bearer] units [in capital] receive the [Accelerated Growth] promotion <starting from the [Industrial era]> <hidden from users>", // Comment explains this on the Spreader unit
 			"Comment [-50% Luxury and Strategic resource production]",
-				"[-50]% [Strategic] resource production",
+				"[-50]% [Strategic] resource production <hidden from users>",
 				"[-50]% [Luxury] resource production <hidden from users>",
+
+			"Comment [10% cost of adopting new Policies for every 10 [Fungal Bloom] (stacks additively)]",
 			"May not annex cities",
 
 			"Comment [--- Thriving Capital --- ]",
 				"[10] Unit Supply",
-				"[-75]% Food consumption by [Unemployed] [in capital] <after discovering [Biology]>",
+				"[-100]% Food consumption by [Unemployed] [in capital] <after discovering [Biology]>",
 				"[+15]% [Food] [in capital]",
 			//"[+20]% Strength decreasing with distance from the capital",
 
