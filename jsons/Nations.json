@@ -481,51 +481,31 @@
 			"Comment [Cannot gain settlers nor annex cities]",
 				"Cannot build [Settler] units <hidden from users>",
 				"May not annex cities <hidden from users>",
-			"May buy items in puppet cities",
-			//	"[+20]% Strength decreasing with distance from the capital",
-			//	"[10] Unit Supply",
-
-			// Converted villages
-			//"[+2 Faith] <for every [[Puppeted] Cities]>",
-			//"Provides [3] [Converts] <every [1] turns>",
-			"Comment [All puppeted cities become Converted villages. Removing all yields but giving free [Converts]]",
-				"Gain a free [Converted village] [non-[Capital]] <hidden from users>",
-			"Comment [[Converts] can be spent to buy Melee units from the Warrior path]",
-
 			"Comment [Cannot adopt [Liberty]]",
 				"Remove [Liberty] and refund [100]% of its cost <upon adopting [Liberty]> <when below [10] [prevent_ai_liberty_loop]> <hidden from users>",
 				"Instantly gain [1] [prevent_ai_liberty_loop] <upon adopting [Liberty]> <for [AI player] Civilizations> <hidden from users>",
+			"May buy items in puppet cities",
 
-			"Comment [Military units can found Puppet cities on [Barbarian encampments] and [City ruins]]",
-				"[Military] units gain the [Zealot] promotion <hidden from users>",
+			"[+10]% [Faith] <for every [[{Holy} {Puppeted}] Cities]>",
 			"Comment [Cities are razed twice as fast and yield 3 [Resource Stockpile] per turn.]",
 				"Instantly gain [3] [Resource Stockpile] <upon turn end> <for every [[in cities being razed] Cities]> <hidden from users>",
 				"Cities are razed [2] times as fast <hidden from users>",
 
-				// Religion stuff
-				//"[15]% Strength <in cities following our religion>",
-				//	"May choose [1] additional [Founder] beliefs when [enhancing] a religion",
-				"[+10]% [Faith] <for every [[{Holy} {Puppeted}] Cities]>",
-				//"[+1 Faith] per [2] population [in capital]",
-
+			"Comment [ ]",
+			"Comment [Military units can found Puppet cities on [Barbarian encampments] and [City ruins]]",
+				"[Military] units gain the [Zealot] promotion <hidden from users>",
+			//"[+1 Faith] per [2] population [in capital]",
+			//"Comment [Any puppeted city becomes a [Converted village]. Removing all yields but giving free [Converts]]",
+				"Gain a free [Converted village] [in puppeted cities]",
+			"Comment [Can use [Converts] to buy units from the [Warrior] path]",
+			// Hidden
+				"[-15]% Strength for cities <in cities with a [Converted village]> <hidden from users>",
 				"[+1 Faith] per [2] population [in capital] <if [Fanatic Converts] is constructed in at least [2] of [Puppeted] cities> <hidden from users>",
 				"[+1 Faith] per [2] population [in capital] <if [Fanatic Converts] is constructed in at least [4] of [Puppeted] cities> <hidden from users>",
 				"[+1 Faith] per [2] population [in capital] <if [Fanatic Converts] is constructed in at least [6] of [Puppeted] cities> <hidden from users>",
 				"Gain a free [Founder] belief <if [Fanatic Converts] is constructed in at least [8] of [Puppeted] cities> <upon turn end> <when between [0] and [0] [cultist_founder_bool]> <hidden from users>",
 				"Instantly gain [1] [cultist_founder_bool] <if [Fanatic Converts] is constructed in at least [8] of [Puppeted] cities> <upon turn start> <when between [0] and [0] [cultist_founder_bool]> <hidden from users>",
-			//"May buy [{Military} {Melee} {non-[Conscript]}] units with [Faith] for [3] times their normal Production cost",
-			//"May choose [1] additional [Follower] beliefs when [enhancing] a religion",
 
-			//Shrine version
-				// "May not annex cities",
-				// "[+2 Faith] <for every [Owned [Shrine of the Eternal End] Tiles]> <hidden from users>",
-				// "[Military] units gain the [Zealot] promotion",
-			//"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit",
-			//"May buy [Building] buildings with [Faith] [in all cities]",
-			//"May buy [Building] buildings with [Faith] for [3] times their normal Production cost",
-			//"May buy [Building] buildings with [Gold] for [3] times their normal Production cost",
-			//"[+1 Food] per [2] population [in capital] <for every adjacent [Shrine of the Eternal End]>",
-			// Sterile City version
 
 		],
 		"cities": ["Queen's Tomb", "Amenvar", "Undand", "Endigir", "Whiechsul", "Dallan", "Aldineche", "Vareis", "Ganli", "Herkuf", "Yaeg", "Yerow", "Jurgador", "Taim", "Manyur", "Gildrin", "Worimer", "Ashrusk", "Ndortara", "Doreis", "Tin'en", "Achq", "Jalastil", "Almed", "Danin", "Salimar"]

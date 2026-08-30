@@ -362,6 +362,73 @@
 	// 	"requiredTech": "Mathematics"
     // },
 
+	{
+	"name": "Converted village",
+	"uniqueTo": "Cult of the Eternal End",
+	"cost": 0,
+	"culture": 1.5,
+	"uniques": [
+		"Provides [3] [Converts] <every [1] turns>",
+		//"Provides [1] [Converts] <every [1] turns> <starting from the [Modern era]>",
+		//"[+2 Happiness] <before the [Modern era]>",
+		"Comment [-15% City Strength]",
+		"Instantly gain [60] [Converts] <(modified by game speed)>",
+
+		"Comment [Can only build Military, Defensive, and Convert buildings]",
+			"Cannot build [{non-[Barracks]} {non-[Armory]} {non-[Walls]} {non-[Castle]} {non-[ConvertFilter]}] buildings <in [Puppeted] cities> <hidden from users>",
+		"Comment [City yields nullified, except [Culture]]",
+			"[-100]% [Food] [in this city] <hidden from users>",
+			"[-1000]% [Production] [in this city] <hidden from users>",
+			"Nullifies [Happiness] [in this city] <hidden from users>",
+			"Nullifies [Gold] [in this city] <hidden from users>",
+			"Nullifies [Science] [in this city] <hidden from users>",
+			//"Nullifies [Culture] [in this city] <hidden from users>",
+			"Nullifies [Faith] [in this city] <hidden from users>",
+
+		"Destroyed when the city is captured",
+		"Unbuildable <hidden from users>",
+		"Unsellable <hidden from users>",
+	],
+	"requiredTech": "Agriculture"
+	},
+
+	{
+	"name": "\"Willing\" Converts",
+	"uniqueTo": "Cult of the Eternal End",
+	"requiredBuilding": "Converted village",
+	"cost": 100,
+	"uniques": [
+		"Provides [3] [Converts] <every [1] turns>",
+		"[-4 Happiness]",
+		"Unavailable <in cities with a [Fanatic Converts]>",
+		"Destroyed when the city is captured",
+
+		"ConvertFilter <hidden from users>",
+		"Unavailable <in [Capital] cities> <hidden from users>",
+		"Suppress warning [unique \"ConvertFilter]",
+	],
+	"requiredTech": "Theology"
+	},
+
+	{
+		"name": "Fanatic Converts",
+		"uniqueTo": "Cult of the Eternal End",
+		"requiredBuilding": "Converted village",
+		"cost": 100,
+		"uniques": [
+			"Comment [Gain +1/+2/+3 [Faith] per 2 population in the capital after building 2/4/6 [Fanatic Converts]]", // Real effect in nations.json
+			"Comment [Gain 1 additional Founder belief after building 8 [Fanatic Converts] (once)]", // Real effect in nations.json
+
+			"Unavailable <in cities with a [\"Willing\" Converts]>",
+			"Destroyed when the city is captured",
+
+			"Unavailable <in [Capital] cities> <hidden from users>",
+			"ConvertFilter <hidden from users>", //<Suppress warning [(Building) Fanatic Converts's unique \"ConvertFilter <hidden from users>]>\"
+			"Suppress warning [unique \"ConvertFilter]",
+		],
+		"requiredTech": "Theology"
+	},
+
     {
         "name": "Industry Stockpiles",
         "uniqueTo": "Cult of the Eternal End",
@@ -413,73 +480,6 @@
         ],
         "requiredTech": "Agriculture"
     },
-
-// Cult City Test
-
-	{
-	"name": "\"Willing\" Converts",
-	"uniqueTo": "Cult of the Eternal End",
-	"requiredBuilding": "Converted village",
-	"cost": 100,
-	"uniques": [
-		"Provides [3] [Converts] <every [1] turns>",
-		"[-4 Happiness]",
-		"Destroyed when the city is captured",
-
-		"ConvertFilter <hidden from users>",
-		"Unavailable <in [Capital] cities> <hidden from users>",
-		"Suppress warning [unique \"ConvertFilter]",
-	],
-	"requiredTech": "Theology"
-	},
-
-	{
-		"name": "Fanatic Converts",
-		"uniqueTo": "Cult of the Eternal End",
-		"requiredBuilding": "Converted village",
-		"cost": 100,
-		"uniques": [
-			"Comment [Gain +1/+2/+3 [Faith] per 2 population in the capital after building 2/4/6 [Fanatic Converts]]", // Real effect in nations.json
-			"Comment [Gain 1 additional Founder belief after building 8 [Fanatic Converts] (once)]", // Real effect in nations.json
-
-			"Unavailable <in cities with a [\"Willing\" Converts]>",
-			"Destroyed when the city is captured",
-
-			"Unavailable <in [Capital] cities> <hidden from users>",
-			"ConvertFilter <hidden from users>", //<Suppress warning [(Building) Fanatic Converts's unique \"ConvertFilter <hidden from users>]>\"
-			"Suppress warning [unique \"ConvertFilter]",
-		],
-		"requiredTech": "Theology"
-	},
-
-	{
-	"name": "Converted village",
-	"uniqueTo": "Cult of the Eternal End",
-	"cost": 0,
-	"culture": 1.5,
-	"uniques": [
-		"Provides [3] [Converts] <every [1] turns>",
-		//"Provides [1] [Converts] <every [1] turns> <starting from the [Modern era]>",
-		//"[+2 Happiness] <before the [Modern era]>",
-		"Instantly gain [60] [Converts] <(modified by game speed)>",
-		"Destroyed when the city is captured",
-
-		"Comment [This city can only build Military and Defensive buildings]",
-			"Cannot build [{non-[Barracks]} {non-[Armory]} {non-[Walls]} {non-[Castle]} {non-[ConvertFilter]}] buildings <in [Puppeted] cities> <hidden from users>",
-		"Comment [Nullifies all local city yields except culture, quickly starving the citizens]",
-			"[-100]% [Food] [in this city] <hidden from users>",
-			"[-1000]% [Production] [in this city] <hidden from users>",
-			"Nullifies [Happiness] [in this city] <hidden from users>",
-			"Nullifies [Gold] [in this city] <hidden from users>",
-			"Nullifies [Science] [in this city] <hidden from users>",
-			//"Nullifies [Culture] [in this city] <hidden from users>",
-			"Nullifies [Faith] [in this city] <hidden from users>",
-
-		"Unbuildable <hidden from users>",
-		"Unsellable <hidden from users>",
-	],
-	"requiredTech": "Agriculture"
-	},
 
     {
         "name": "Willing Convert - Warrior",
