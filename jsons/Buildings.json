@@ -830,7 +830,7 @@
 	},
 
 	{
-	    "name": "Research mycelial network",
+	    "name": "Research Mycelial Network",
 	    "uniqueTo": "Mykara",
 	    "cost": 100,
 	    "uniques": [

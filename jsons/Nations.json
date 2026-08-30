@@ -857,7 +857,7 @@
 
 
 		"startIntroPart1": "The Mykara are a race of sentient plant matter and fungi, a single organism spanning thousands of semi-autonomous agents and time immemorial, ever adapting to survive and thrive. They spread all over Auriga as a massive underground root system, sprouting on the edges of the map, clinging to the regions other factions leave unattended.",
-		"startIntroPart2": "The Mykara are a single, vast organism that has spread beneath the surface of Auriga, covering most of the planet. Yet all roots lead to home, their capital serving as a hub for their physical spread and their consciousness. Consequently, the Mykara are focused on a single city and have to exert their control over the world by different means, much like the Cultists of the Eternal End. Unlike their more religious rivals, who have to pacify villages and convert them with Influence, the Mykara do not have to be present near the areas they want to claim. As long as you have had vision on a point of interest before and it is located in a neutral region, you can begin growing a Fungal Bloom on it.",
+		"startIntroPart2": "The Mykara are a single, vast organism that has spread beneath the surface of Auriga, covering most of the planet. Yet all roots lead to home, their capital serving as a hub for their physical spread and their consciousness. Consequently, the Mykara are focused on a single city and have to exert their control over the world by different means; the Fungal Bloom grown by their Spore Bearers.",
 
 		"introduction": "Greetings. We are Mykara, the Custodians of Auriga.",
 		"neutralHello": "With empires like ours, the future of Auriga seems better than it might have been.",
@@ -871,26 +871,21 @@
 		"innerColor": [255,152,255],
 		"uniqueName": "Creeping Presence",
 		"uniques": [
-
-			"Comment [May only found one city. Therafter Settlers can only be used to build Fungal Bloom]",
+			"May not annex cities",
+			//"Comment [May only found one city. Therafter Settlers can only be used to build Fungal Bloom]",
 			"All newly-trained [Spore Bearer] units [in capital] receive the [Accelerated Growth] promotion <starting from the [Industrial era]> <hidden from users>", // Comment explains this on the Spreader unit
-			"Comment [-50% Luxury and Strategic resource production]",
+			"Comment [-50% Luxury & Strategic resource production]",
 				"[-50]% [Strategic] resource production <hidden from users>",
 				"[-50]% [Luxury] resource production <hidden from users>",
 
 			"Comment [10% cost of adopting new Policies for every 10 [Fungal Bloom] (stacks additively)]",
-			"May not annex cities",
 
 			"Comment [--- Thriving Capital --- ]",
 				"[10] Unit Supply",
 				"[-100]% Food consumption by [Unemployed] [in capital] <after discovering [Biology]>",
 				"[+15]% [Food] [in capital]",
-			//"[+20]% Strength decreasing with distance from the capital",
 
-			//"[-10]% Production when constructing [All] wonders [in all cities]",
-			"Comment [--- Mycelial Network --- Specializes in blooms in favor of traditional transportation networks]",
-				"All newly-trained [Land] units [in all cities] receive the [Mycelial network] promotion",
-				"[+300]% maintenance on road & railroads <in [Fungal Bloom] tiles>",
+			"[Land] units gain the [Mycelial network] promotion",
 			],
 		"cities": ["Manita Gari", "Agai", "Mulladien", "Yerurnqua", "Radalta", "Marebond", "Yiggodra", "Madirod", "Omgar", "Ver'kal", "Anm", "Utharan", "Inelle", "Naquakic", "Dutharad", "Tyd", "Byldwan", "Marreyn", "Indorand", "Goulji", "Lodera", "Amund", "Ishimlor", "Edyno"]
 	}

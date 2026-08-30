@@ -74,10 +74,10 @@
 	{
 		"name": "Mycelial network",
 		"uniques": [
-			"[+1] Movement <in [Fungal Bloom] tiles>",
-			"[+1] Movement <in [Fungal Bloom] tiles> <after discovering [Machinery]>",
-			"[+1] Movement <in [Fungal Bloom] tiles> <if [Research mycelial network] is constructed>",
-			"May Paradrop to [Fungal Bloom] tiles up to [10] tiles away <in [Fungal Bloom] tiles> <if [Research mycelial network] is constructed>",
+			"[+1] Movement <in [{Fungal Bloom} {non-[Road]} {non-[Railroad]}] tiles>",
+			"[+1] Movement <after discovering [Machinery]> <in [{Fungal Bloom} {non-[Road]} {non-[Railroad]}] tiles>",
+			"[+1] Movement <if [Research Mycelial Network] is constructed> <in [{Fungal Bloom} {non-[Road]} {non-[Railroad]}] tiles>",
+			"May Paradrop to [{Fungal Bloom} {non-[Road]} {non-[Railroad]}] tiles up to [10] tiles away <if [Research Mycelial Network] is constructed> <in [{Fungal Bloom} {non-[Road]} {non-[Railroad]}] tiles>",
 		]
 	},
 	{
