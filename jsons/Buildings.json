@@ -791,7 +791,7 @@
 			"[+1 Production] <for every [Owned [{Fungal Bloom} {Hill}] Tiles]> <after discovering [Chemistry]> <hidden from users>",
 		// Plains
 			"[+1 Food] <for every [Owned [{Fungal Bloom} {Plains}] Tiles]> <hidden from users>",
-			"[+1 Production] <for every [Owned [{Fungal Bloom} {Plains}] Tiles]> <after discovering [Metal Casting]> <hidden from users>",
+			//"[+1 Production] <for every [Owned [{Fungal Bloom} {Plains}] Tiles]> <after discovering [Metal Casting]> <hidden from users>",
 		// Jungle
 			"[+2 Science] <for every [Owned [{Fungal Bloom} {Jungle}] Tiles]> <if [University] is constructed> <hidden from users>",
 		// Grassland

@@ -51,3 +51,14 @@ Add Fanatic, a UU for Cult of the Eternal End
 - increase cost of "Willing" Converts to 100.
 - Fanatic Converts now give +1/+2/+3 Faith per 2 pop in capital after building 2/4/6.
 - UA no longer provides +1 Faith per 2 pop in capital
+
+## V1.1.3
+Reimplement the Cultist's inability to adopt the Liberty policy tree. Now it should be compatible with other mods which edit the Liberty tree.
+Cultists:
+- nerf: 15% City strength in Converted villages
+- improve readability in the Civilopedia
+Mykara - Fungal bloom:
+- Remove production from plains (Metal Casting).
+- Makes the tile it's built on unworkable.
+- Can now only be built in unowned tiles to stop players from ruining AI tiles.
+- No longer replaced by automated units for Humans.

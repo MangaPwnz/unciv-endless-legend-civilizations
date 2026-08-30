@@ -236,39 +236,50 @@
 		"uniques": ["[+1 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "T"
 	},
-	{
-		"name": "Fungal Bloom",
-		"terrainsCanBeBuiltOn": ["Land", "Jungle", "Forest"], //, "Tundra", "Flood plains","Barren Soil","Ash Drifts","Basalt Plains","Lava Swirl","Badlands","Scorched Wilds"],
-		"uniqueTo": "Mykara",
-		"turnsToBuild": 7,
-		"techRequired": "Agriculture",
-		"uniques": [
-			"Comment [Can be built outside your borders, gaining control of the tile and increasing the stats gained from Mykara Palace]",
-				"Gain control over [Unowned] tiles in a [0]-tile radius <hidden from users>",
-				"Can be built outside your borders <hidden from users>",
+{
+    "name": "Fungal Bloom",
+    "terrainsCanBeBuiltOn": ["Land"],
+    "uniqueTo": "Mykara",
+    "turnsToBuild": 7,
+    "techRequired": "Agriculture",
+    "uniques": [
+        "Gain control over [Unowned] tiles in a [0]-tile radius <hidden from users>",
+        "Can be built outside your borders <in [Unowned] tiles> <hidden from users>",
+        "[-100 Food, -100 Production, -100 Gold, -100 Science, -100 Culture, -100 Faith] <hidden from users>",
+        "Improves [all] resource in this tile",
+		"Will not be replaced by automated units <for [Human player] Civilizations>",
+		// Hidden
 			"Unavailable <for [Worker] units> <hidden from users>",
+			"Does not need removal of [Forest] <hidden from users>",
+			"Does not need removal of [Jungle] <hidden from users>",
 
-			"Improves [all] resource in this tile",
-			"[-5 Food, -5 Production, -5 Science, -5 Culture, -5 Faith]",
+        "Comment [Claims unowned tile. Disables local tile yields, but transfers unique yields to [Mykara Palace].]",
+        "Comment [--- Base Palace Yields ---]",
+        "Comment [[Grassland]: +1 [Food]]",
+        "Comment [[Plains]: +1 [Food] | [Tundra]: +1 [Science]]",
+        "Comment [[Tundra]: +1 [Science]]",
+        "Comment [[Hills]: -1 [Food], +1 [Production]]",
+        "Comment [[Bonus Resource]: +1 [Food]]",
+        "Comment [[Luxury Resource]: +1 [Culture]]",
+        "Comment [[Strategic Resource]: +2 [Science]]",
 
-			"Comment [--- Provides extra yield to Mykara Palace ---]",
-			"Comment [- [Grassland]: +1 [Food]]",
-			"Comment [- [Plains]: +1 [Food] | +1 [Production] from [Metal Casting]]",
-			"Comment [- [Hills]: -1 [Food], +1 [Production] | +1 [Production] from [Chemistry]]",
-			"Comment [- [Forest] (Flat tiles only): +1 [Production] from [Construction]]",
-			"Comment [- [Tundra]: +1 [Science] | +2 [Science] from [Scientific Theory] ]",
-
-			"Comment [- [Bonus Resource]: +1 [Food] | +1 [Food] from [Civil Service]]",
-			"Comment [- [Luxury Resource]: +1 [Culture] | +1 [Culture] from [Drama and Poetry] | +2 [Culture] after adopting [Meritocracy]]",
-			"Comment [- [Strategic Resource]:  +2 [Science] | +2 [Science] from [Scientific Theory]]",
-			"Comment [- All tiles: +1 [Food] from [Civil Service] (if Fresh Water) | +1 [Food] from [Fertilizer] (if non-Fresh Water)]",
-			"Comment [- [Jungle]: +2 [Science] after building [University]]",
-
-			//"Comment [- Strategic Resource: +2 [Science]]",
-
-			"Comment [- [Desert] (with Petra): +1 [Gold], +1 [Culture]]",
-		],
-		"shortcutKey": "B"
-	},
-
+        "Comment [--- Tech Scaling ---]",
+        "Comment [* See Civilopedia (scroll up) for full table. Yields improve from [University], [Petra], [Construction], [Drama and Poetry], [Civil Service], [Chemistry], [Scientific Theory], & [Fertilizer]. ]"
+    ],
+    "civilopediaText": [
+        {"text": "Complete Yield Breakdown (everything stacks, so a Grassland Hills gives +0 [Food], [+1 Production] before research:"},
+        {"text": "• Fresh Water / non-Fresh Water: +1 [Food] from [Civil Service] / [Fertilizer]"},
+        {"text": "• [Grassland]: +1 [Food]"},
+        {"text": "• [Plains]: +1 [Food]"},
+        {"text": "• [Tundra]: +1 [Science] (+2 [Science] from [Scientific Theory])"},
+        {"text": "• [Forest] (Flat): +1 [Production] from [Construction]"},
+        {"text": "• [Jungle]: +2 [Science] with [University]"},
+        {"text": "• [Hills]: -1 [Food], +1 [Production] (+1 [Production] from [Chemistry])"},
+        {"text": "• [Desert] (with [Petra]): +1 [Gold], +1 [Culture]"},
+        {"text": "• [Bonus Resource]: +1 [Food] (+1 [Food] from [Civil Service])"},
+        {"text": "• [Luxury Resource]: +1 [Culture] (+1 [Culture] from [Drama and Poetry])"},
+        {"text": "• [Strategic Resource]: +2 [Science] (+2 [Science] from [Scientific Theory])"},
+    ],
+    "shortcutKey": "B"
+}
 ]
