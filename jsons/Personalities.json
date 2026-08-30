@@ -2,10 +2,13 @@
     {
         "name": "Cultist",
         "priorities": {
-            "Tradition": 30,
+            "Tradition": 50,
             "Liberty": 0,
-            "Honor": 10,
-            "Piety": 20,
+            "Honor": 50,
+            "Piety": 40,
+            "Commerce": 20,
+            "Rationalism": 70,
+            "Patronage": 50,
             "Autocracy": 90
         },
         "warMongering": 10
