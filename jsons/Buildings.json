@@ -412,7 +412,7 @@
             "Remove [Science Stockpiles] [Capital]  <upon turn end> <when below [1] [Resource Stockpile]> <hidden from users>"
         ],
         "requiredTech": "Agriculture"
-    }
+    },
 
 // Cult City Test
 
@@ -500,25 +500,25 @@
             "Remove [Willing Convert - Warrior] [in this city] <hidden from users>"
         ]
     },
-    {
-        "name": "Willing Convert - Pikeman",
-        "uniqueTo": "Cult of the Eternal End",
-        "cost": 0,
-        "uniques": [
-            "Costs [105] [Converts] <(modified by game speed)>",
-            "Can be purchased for [0] [Gold] [in all cities]",
-            "Free [Pikeman] appears",
-            "Only available <after discovering [Civil Service]> <before discovering [Gunpowder]>",
+    // {
+    //     "name": "Willing Convert - Pikeman",
+    //     "uniqueTo": "Cult of the Eternal End",
+    //     "cost": 0,
+    //     "uniques": [
+    //         "Costs [105] [Converts] <(modified by game speed)>",
+    //         "Can be purchased for [0] [Gold] [in all cities]",
+    //         "Free [Pikeman] appears",
+    //         "Only available <after discovering [Civil Service]> <before discovering [Gunpowder]>",
 
-            "Unbuildable <hidden from users>",
-            "Shown while unbuilable <before discovering [Gunpowder]>",
-            "Will not be displayed in Civilopedia",
-            "ConvertFilter <hidden from users>",
-            "Suppress warning [unique \"ConvertFilter]",
+    //         "Unbuildable <hidden from users>",
+    //         "Shown while unbuilable <before discovering [Gunpowder]>",
+    //         "Will not be displayed in Civilopedia",
+    //         "ConvertFilter <hidden from users>",
+    //         "Suppress warning [unique \"ConvertFilter]",
 
-            "Remove [Willing Convert - Pikeman] [in this city] <hidden from users>"
-        ]
-    },
+    //         "Remove [Willing Convert - Pikeman] [in this city] <hidden from users>"
+    //     ]
+    // },
     {
         "name": "Willing Convert - Fanatic",
         "uniqueTo": "Cult of the Eternal End",

@@ -408,21 +408,21 @@
 		"hurryCostModifier": 0,
 		"attackSound": "metalhit"
 	},
-	{
-		"name": "Exid the Chosen",
-		"unitType": "Sword",
-		"uniqueTo": "Cult of the Eternal End",
-		"movement": 2,
-		"strength": 15,
-		"cost": 75,
-		"requiredTech": "Calendar",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Steel",
-		"uniques": [ "Limited to [1] per Civilization", "Only available <starting from the [Classical era]>"],
-		"promotions": ["Chosen One"],
-		"hurryCostModifier": 0,
-		"attackSound": "metalhit"
-	},
+	// {
+	// 	"name": "Exid the Chosen",
+	// 	"unitType": "Sword",
+	// 	"uniqueTo": "Cult of the Eternal End",
+	// 	"movement": 2,
+	// 	"strength": 15,
+	// 	"cost": 75,
+	// 	"requiredTech": "Calendar",
+	// 	"upgradesTo": "Longswordsman",
+	// 	"obsoleteTech": "Steel",
+	// 	"uniques": [ "Limited to [1] per Civilization", "Only available <starting from the [Classical era]>"],
+	// 	"promotions": ["Chosen One"],
+	// 	"hurryCostModifier": 0,
+	// 	"attackSound": "metalhit"
+	// },
 
 	// Forgotten
 	{

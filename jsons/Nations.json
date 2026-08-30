@@ -490,7 +490,7 @@
 			//"Provides [3] [Converts] <every [1] turns>",
 			"Comment [All puppeted cities become Converted villages. Removing all yields but giving free [Converts]]",
 				"Gain a free [Converted village] [non-[Capital]] <hidden from users>",
-			"Comment [[Converts] and [Faith] can be spent to buy Melee units]",
+			"Comment [[Converts] can be spent to buy Melee units from the Warrior path]",
 
 			"Comment [Military units can found Puppet cities on [Barbarian encampments] and [City ruins]]",
 				"[Military] units gain the [Zealot] promotion <hidden from users>",
