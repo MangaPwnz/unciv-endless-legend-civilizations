@@ -362,48 +362,58 @@
 	// 	"requiredTech": "Mathematics"
     // },
 
-	{
+    {
         "name": "Industry Stockpiles",
-		"uniqueTo": "Cult of the Eternal End",
-		"cost": 0,
-		"uniques": [
-			"Comment [[+12 Production] × Era (modified by game speed). Consumes 1 [Resource Stockpile] per turn; automatically removed when depleted.]",
-			"Instantly consumes [1] [Resource Stockpile] <when above [0] [Resource Stockpile]> <upon turn start> <hidden from users>",
-			"[+12 Production] <(modified by game speed)> <when above [0] [Resource Stockpile]> <for every [Era number]> <hidden from users>",
-			"Destroyed when the city is captured <hidden from users>",
-			"Only available <when above [0] [Resource Stockpile]> <hidden from users>",
-			"Remove [Industry Stockpiles] [Capital]  <upon turn end> <when below [1] [Resource Stockpile]> <hidden from users>",
-			],
-		"requiredTech": "Agriculture"
+        "uniqueTo": "Cult of the Eternal End",
+        "cost": 0,
+        "uniques": [
+            "Comment [[+12 Production] × Era (modified by game speed). Consumes 1 [Resource Stockpile] per turn; automatically removed when depleted.]",
+            "Instantly consumes [1] [Resource Stockpile] <when above [0] [Resource Stockpile]> <upon turn start> <hidden from users>",
+            "[+36 Production] <on [Marathon] game speed> <when above [0] [Resource Stockpile]> <for every [[Era number] + 1]> <hidden from users>",
+            "[+18 Production] <on [Epic] game speed> <when above [0] [Resource Stockpile]> <for every [[Era number] + 1]> <hidden from users>",
+            "[+12 Production] <on [Standard] game speed> <when above [0] [Resource Stockpile]> <for every [[Era number] + 1]> <hidden from users>",
+            "[+8 Production] <on [Quick] game speed> <when above [0] [Resource Stockpile]> <for every [[Era number] + 1]> <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Only available <when above [0] [Resource Stockpile]> <hidden from users>",
+            "Remove [Industry Stockpiles] [Capital]  <upon turn end> <when below [1] [Resource Stockpile]> <hidden from users>"
+        ],
+        "requiredTech": "Agriculture"
     },
-	{
+    {
         "name": "Food Stockpiles",
-		"uniqueTo": "Cult of the Eternal End",
-		"cost": 0,
-		"uniques": [
-			"Comment [[+16 Food] × Era (modified by game speed). Consumes 1 [Resource Stockpile] per turn; automatically removed when depleted.]",
-			"Instantly consumes [1] [Resource Stockpile] <when above [0] [Resource Stockpile]> <upon turn start> <hidden from users>",
-			"[+16 Food] <(modified by game speed)> <when above [0] [Resource Stockpile]> <for every [Era number]> <hidden from users>",
-			"Destroyed when the city is captured <hidden from users>",
-			"Only available <when above [0] [Resource Stockpile]> <hidden from users>",
-			"Remove [Food Stockpiles] [Capital]  <upon turn end> <when below [1] [Resource Stockpile]> <hidden from users>",
-			],
-		"requiredTech": "Agriculture"
+        "uniqueTo": "Cult of the Eternal End",
+        "cost": 0,
+        "uniques": [
+            "Comment [[+16 Food] × Era (modified by game speed). Consumes 1 [Resource Stockpile] per turn; automatically removed when depleted.]",
+            "Instantly consumes [1] [Resource Stockpile] <when above [0] [Resource Stockpile]> <upon turn start> <hidden from users>",
+            "[+48 Food] <on [Marathon] game speed> <when above [0] [Resource Stockpile]> <for every [[Era number] + 1]> <hidden from users>",
+            "[+24 Food] <on [Epic] game speed> <when above [0] [Resource Stockpile]> <for every [[Era number] + 1]> <hidden from users>",
+            "[+16 Food] <on [Standard] game speed> <when above [0] [Resource Stockpile]> <for every [[Era number] + 1]> <hidden from users>",
+            "[+11 Food] <on [Quick] game speed> <when above [0] [Resource Stockpile]> <for every [[Era number] + 1]> <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Only available <when above [0] [Resource Stockpile]> <hidden from users>",
+            "Remove [Food Stockpiles] [Capital]  <upon turn end> <when below [1] [Resource Stockpile]> <hidden from users>"
+        ],
+        "requiredTech": "Agriculture"
     },
-	{
+    {
         "name": "Science Stockpiles",
-		"uniqueTo": "Cult of the Eternal End",
-		"cost": 0,
-		"uniques": [
-			"Comment [[+25 Science] × Era (modified by game speed). Consumes 1 [Resource Stockpile] per turn; automatically removed when depleted.]",
-			"Instantly consumes [1] [Resource Stockpile] <when above [0] [Resource Stockpile]> <upon turn start> <hidden from users>",
-			"[+25 Science] <(modified by game speed)> <when above [0] [Resource Stockpile]> <for every [Era number]> <hidden from users>",
-			"Destroyed when the city is captured <hidden from users>",
-			"Only available <when above [0] [Resource Stockpile]> <hidden from users>",
-			"Remove [Science Stockpiles] [Capital]  <upon turn end> <when below [1] [Resource Stockpile]> <hidden from users>",
-			],
-		"requiredTech": "Agriculture"
-    },
+        "uniqueTo": "Cult of the Eternal End",
+        "cost": 0,
+        "uniques": [
+            "Comment [[+25 Science] × Era (modified by game speed). Consumes 1 [Resource Stockpile] per turn; automatically removed when depleted.]",
+            "Instantly consumes [1] [Resource Stockpile] <when above [0] [Resource Stockpile]> <upon turn start> <hidden from users>",
+            "[+75 Science] <on [Marathon] game speed> <when above [0] [Resource Stockpile]> <for every [[Era number] + 1]> <hidden from users>",
+            "[+38 Science] <on [Epic] game speed> <when above [0] [Resource Stockpile]> <for every [[Era number] + 1]> <hidden from users>",
+            "[+25 Science] <on [Standard] game speed> <when above [0] [Resource Stockpile]> <for every [[Era number] + 1]> <hidden from users>",
+            "[+17 Science] <on [Quick] game speed> <when above [0] [Resource Stockpile]> <for every [[Era number] + 1]> <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Only available <when above [0] [Resource Stockpile]> <hidden from users>",
+            "Remove [Science Stockpiles] [Capital]  <upon turn end> <when below [1] [Resource Stockpile]> <hidden from users>"
+        ],
+        "requiredTech": "Agriculture"
+    }
+
 // Cult City Test
 
 	{
