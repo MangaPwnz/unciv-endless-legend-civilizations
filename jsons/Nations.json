@@ -80,7 +80,6 @@
 		"innerColor": [102,178,255],
 		"uniqueName": "Appetite for Dust",
 		"uniques": [
-			"Will not be chosen for new games", //TODO remove
 			"Comment [No natural growth in all cities]",
 			"Comment [Population grows by building or buying them in cities]",
 			"Comment [Sources of Food gives Gold instead]",
@@ -89,7 +88,8 @@
 			"[+1 Gold] from every [resource] <for [AI player] Civilizations><hidden from users>",
 
 			"Nullifies Growth [in all cities] <for [Human player] Civilizations><hidden from users>",
-			"[-100]% [Food] from every [All] <for [Human player] Civilizations><hidden from users>",
+			"[+1000 Food] [in all cities]",
+			"[-100]% [Food] from every [Terrain] <for [Human player] Civilizations><hidden from users>",
 			"[-100]% [Food] from every [Improvement] <for [Human player] Civilizations><hidden from users>",
 
 			"[+2 Gold] from every [Granary] <for [Human player] Civilizations><hidden from users>",
@@ -806,7 +806,7 @@
 		"adjective": ["Mykara"],
 		"startBias":["Jungle"],
 		"preferredVictoryType": "Scientific",
-		"personality": "Myykara (original)",
+		"personality": "Myykara (original)Personality",
 
 
 		"startIntroPart1": "The Mykara are a race of sentient plant matter and fungi, a single organism spanning thousands of semi-autonomous agents and time immemorial, ever adapting to survive and thrive. They spread all over Auriga as a massive underground root system, sprouting on the edges of the map, clinging to the regions other factions leave unattended.",
@@ -853,7 +853,7 @@
 		"adjective": ["Mykara"],
 		"startBias":["Jungle"],
 		"preferredVictoryType": "Scientific",
-		"personality": "Mykara",
+		"personality": "MykaraPersonality",
 
 
 		"startIntroPart1": "The Mykara are a race of sentient plant matter and fungi, a single organism spanning thousands of semi-autonomous agents and time immemorial, ever adapting to survive and thrive. They spread all over Auriga as a massive underground root system, sprouting on the edges of the map, clinging to the regions other factions leave unattended.",
