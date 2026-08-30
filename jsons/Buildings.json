@@ -420,7 +420,7 @@
 	"name": "\"Willing\" Converts",
 	"uniqueTo": "Cult of the Eternal End",
 	"requiredBuilding": "Converted village",
-	"cost": 50,
+	"cost": 100,
 	"uniques": [
 		"Provides [3] [Converts] <every [1] turns>",
 		"[-4 Happiness]",
@@ -439,7 +439,7 @@
 		"requiredBuilding": "Converted village",
 		"cost": 100,
 		"uniques": [
-			"Comment [Gain +1 [Faith] per population in the capital after building 4 [Fanatic Converts]]", // Real effect in nations.json
+			"Comment [Gain +1/+2/+3 [Faith] per 2 population in the capital after building 2/4/6 [Fanatic Converts]]", // Real effect in nations.json
 			"Comment [Gain 1 additional Founder belief after building 8 [Fanatic Converts] (once)]", // Real effect in nations.json
 
 			"Unavailable <in cities with a [\"Willing\" Converts]>",
