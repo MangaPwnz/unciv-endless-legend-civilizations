@@ -31,7 +31,7 @@ Rebalance Mykara.
 
 ## V1.1.0
 Lots of stuff
-- Overhaul Cult of the Endless
+- Overhaul Cult of the Eternal End
 - Rebalance Mykara
     - Fungal Blooms now increase policy cost
     - Spore Bearers also gain extra movement speed starting from the Industrial era
@@ -44,3 +44,10 @@ Lots of stuff
 
 ## V1.1.1
 Add Roving Traders as an alternative version of the Roving Clans.
+
+## V1.1.2
+Bugfix: Stockpiles now actually scale with game speed
+Add Fanatic, a UU for Cult of the Eternal End
+- increase cost of "Willing" Converts to 100.
+- Fanatic Converts now give +1/+2/+3 Faith per 2 pop in capital after building 2/4/6.
+- UA no longer provides +1 Faith per 2 pop in capital
