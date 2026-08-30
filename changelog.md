@@ -54,11 +54,16 @@ Add Fanatic, a UU for Cult of the Eternal End
 
 ## V1.1.3
 Reimplement the Cultist's inability to adopt the Liberty policy tree. Now it should be compatible with other mods which edit the Liberty tree.
+Fix broken icons
 Cultists:
 - nerf: 15% City strength in Converted villages
 - improve readability in the Civilopedia
-Mykara - Fungal bloom:
-- Remove production from plains (Metal Casting).
-- Makes the tile it's built on unworkable.
-- Can now only be built in unowned tiles to stop players from ruining AI tiles.
-- No longer replaced by automated units for Humans.
+Mykara - Fungal bloom (nerfed):
+- remove production from plains (Metal Casting)
+- makes the tile it's built on unworkable
+- can now only be built in unowned tiles to stop players from ruining AI tiles
+- no longer replaced by automated units for Humans
+- improve readability in the Civilopedia
+Mykara - Mycelial network:
+- now only works on tiles without roads and railroads
+- no longer increases maintenance cost of roads/railroads

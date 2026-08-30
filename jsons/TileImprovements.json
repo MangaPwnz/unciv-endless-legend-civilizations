@@ -253,7 +253,7 @@
 			"Does not need removal of [Forest] <hidden from users>",
 			"Does not need removal of [Jungle] <hidden from users>",
 
-        "Comment [Claims unowned tile. Disables local tile yields, but transfers unique yields to [Mykara Palace].]",
+        "Comment [Can be built in unowned tiles, expanding borders and making it unworkable, but providing yields to [Mykara Palace]]",
         "Comment [--- Base Palace Yields ---]",
         "Comment [[Grassland]: +1 [Food]]",
         "Comment [[Plains]: +1 [Food] | [Tundra]: +1 [Science]]",

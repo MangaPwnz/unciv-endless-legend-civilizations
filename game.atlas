@@ -480,6 +480,13 @@ UnitIcons/Fanatic
   orig: 100, 99
   offset: 0, 0
   index: -1
+BuildingIcons/Willing Convert - Fanatic
+  rotate: false
+  xy: 212, 760
+  size: 100, 99
+  orig: 100, 99
+  offset: 0, 0
+  index: -1
 UnitIcons/Forager
   rotate: false
   xy: 644, 759
