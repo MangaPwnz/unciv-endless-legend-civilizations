@@ -553,7 +553,7 @@
 		"innerColor": [230,230,230],
 		"uniqueName": "Science Phobic",
 		"uniques": [
-			"Will not be chosen for new games", //TODO remove
+			//"Will not be chosen for new games", //TODO remove
 			"Comment [No Science is produced]",
 			"Comment [Technologies can be bought out with Gold]",
 			"Comment [Sources of Science gives Gold instead]",
@@ -562,12 +562,16 @@
 			"No movement cost to pillage <for [Land] units>",
 			"Gain an extra spy <upon discovering [Agriculture] technology>",
 			"All newly-trained [Scout] units [in all cities] receive the [From the Shadows] promotion",
-			"[+1 Gold] per [1] population [in all cities]<hidden from users>",
+			"[+1 Gold] per [1] population [in all cities] <hidden from users>",
 
 			"Nullifies [Science] [in all cities] <for [Human player] Civilizations><hidden from users>",
-			"[-100]% [Science] from every [All] <for [Human player] Civilizations><hidden from users>",
+			"[-100]% [Science] from every [Terrain] <for [Human player] Civilizations><hidden from users>",
 			"[-100]% [Science] from every [Improvement] <for [Human player] Civilizations><hidden from users>",
-			"May buy [Technology Building] buildings with [Gold] [in all cities] <for [Human player] Civilizations><hidden from users>",
+			//"May buy [Technology Building] buildings with [Gold] [in all cities] <for [Human player] Civilizations><hidden from users>",
+
+		//	"May buy [buildingFilter] buildings with [stat] [cityFilter]",
+			//"May buy [Technology Building] buildings with [Faith] for [2] times their normal Production cost",
+
 
 			"[+1 Gold] per [2] population [in all cities] <in cities with a [Library]> <for [Human player] Civilizations><hidden from users>",
 			"[+2 Gold] from every [Jungle]<in cities with a [University]> <for [Human player] Civilizations><hidden from users>",
