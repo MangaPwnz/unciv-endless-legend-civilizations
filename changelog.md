@@ -67,3 +67,8 @@ Mykara - Fungal bloom (nerfed):
 Mykara - Mycelial network:
 - now only works on tiles without roads and railroads
 - no longer increases maintenance cost of roads/railroads
+
+## V1.1.4
+- Fix Personalities overflowing on the starting screen for some civs
+- Fix Broken Lords losing population from starvation every turn
+- Fix all Forgotten techs cost a constant 200 gold

@@ -1586,7 +1586,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 50,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -1604,7 +1604,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 50,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -1623,7 +1623,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 50,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -1641,7 +1641,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 50,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -1661,7 +1661,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 50,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -1680,7 +1680,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 50,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -1698,7 +1698,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 50,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -1716,7 +1716,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 50,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -1735,7 +1735,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 50,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -1754,7 +1754,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 60,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -1773,7 +1773,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 60,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -1793,7 +1793,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 60,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -1811,7 +1811,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 60,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -1831,7 +1831,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 80,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -1850,7 +1850,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 80,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -1869,7 +1869,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 80,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -1888,7 +1888,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 80,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -1907,7 +1907,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 80,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -1925,7 +1925,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 80,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -1944,7 +1944,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 100,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -1963,7 +1963,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 100,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -1981,7 +1981,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 100,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2000,7 +2000,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 100,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2020,7 +2020,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 100,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2040,7 +2040,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 125,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2058,7 +2058,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 125,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2077,7 +2077,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 125,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2096,7 +2096,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 125,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2115,7 +2115,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 125,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2134,7 +2134,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 150,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2153,7 +2153,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 150,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2172,7 +2172,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 150,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2190,7 +2190,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 150,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2209,7 +2209,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 150,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2228,7 +2228,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 150,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2247,7 +2247,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 180,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2266,7 +2266,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 180,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2284,7 +2284,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 180,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2304,7 +2304,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 180,
-        "hurryCostModifier": 50,
+        "hurryCostModifier": 0,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2324,7 +2324,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 250,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2343,7 +2343,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 250,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2361,7 +2361,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 250,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2380,7 +2380,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 250,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2398,7 +2398,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 250,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2418,7 +2418,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 250,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2437,7 +2437,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 250,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2456,7 +2456,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 250,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2474,7 +2474,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 250,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2493,7 +2493,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 250,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2512,7 +2512,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 250,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2531,7 +2531,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 250,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2550,7 +2550,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 250,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2570,7 +2570,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 250,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2589,7 +2589,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 250,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2608,7 +2608,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 250,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2626,7 +2626,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 250,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2646,7 +2646,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 375,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2664,7 +2664,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 375,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2683,7 +2683,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 375,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2702,7 +2702,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 375,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2720,7 +2720,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 375,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2739,7 +2739,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 375,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2758,7 +2758,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 375,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2776,7 +2776,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 375,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2796,7 +2796,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 375,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2816,7 +2816,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 375,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
@@ -2834,7 +2834,7 @@
 		"uniqueTo": "Forgotten",
 		"maintenance": 0,
 		"cost": 375,
-        "hurryCostModifier": 55,
+        "hurryCostModifier": 20,
         "uniques": [
 			"Unsellable", "Unbuildable", "Cannot be purchased<for [AI player] Civilizations>",
 			"Can be purchased with [Gold] [in all cities]",
